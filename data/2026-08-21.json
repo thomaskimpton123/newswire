@@ -1,0 +1,162 @@
+{
+  "date": "2026-08-21",
+  "generated": "2026-08-21T06:45:00+10:00",
+  "vibe": "Zimbra is under active fire, DeepSeek roars back with a $7.4B war chest and a plugin-everything coding harness, and OpenAI hits the brakes on its next model 'for safety.'",
+  "stats": { "scanned": 50, "surfaced": 15, "videos_watched": 3, "sources": 8 },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-zimbra-rce-flaw-now-actively-exploited-in-attacks/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "An unauthenticated SNMP flaw in Zimbra mail servers is being exploited in the wild for remote code execution. Corroborated by The Hacker News. If you run Zimbra anywhere, patch today — this is the day's clearest 'act now.'"
+      },
+      {
+        "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "CISA added an actively-exploited MLflow bug to its must-patch list. Relevant to anyone running ML pipelines or internal model registries — often left internet-facing by accident."
+      },
+      {
+        "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Unauthenticated attackers can upload PHP and run code on sites using the popular Elementor Pro page builder. Corroborated by The Hacker News. Millions of WordPress sites potentially affected."
+      },
+      {
+        "title": "ThreatsDay roundup: Gogs 10.0 RCE, n8n workflow-to-RCE, GLM-5.3 AI exploit, $10M reward",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+        "score": 6,
+        "badge": "skim",
+        "summary": "The weekly grab-bag: a self-hosted Gogs Git RCE, an n8n automation-to-RCE chain, and a State Dept $10M bounty. Worth a scan if you self-host Git or run n8n automations."
+      },
+      {
+        "title": "AI-generated exploit scripts target Siemens S7 PLCs in US critical infrastructure",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Attackers are using AI-written scripts against industrial controllers — an early, real-world look at LLMs lowering the bar for OT/ICS attacks."
+      },
+      {
+        "title": "Citrix urges admins to patch new NetScaler flaws ASAP",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-urges-admins-to-patch-new-netscaler-flaws-as-soon-as-possible/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Fresh NetScaler/ADC vulnerabilities. NetScaler has a long history of being ransomware groups' front door, so admins shouldn't sit on this one."
+      },
+      {
+        "title": "isolated-vm flaw lets sandboxed JavaScript escape to host for RCE",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+        "score": 5,
+        "badge": "skim",
+        "summary": "A sandbox-escape in a widely-used Node library for running untrusted JS. Matters to anyone whose product executes user-supplied code."
+      },
+      {
+        "title": "NASA AIT-GUI flaws could let unauthenticated attackers issue spacecraft commands",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/nasa-ait-gui-flaws-could-let.html",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Niche but eyebrow-raising: bugs in NASA's open-source ground software could let unauthenticated attackers send commands. More curiosity than to-do list, but a fun one."
+      }
+    ],
+    "ai": [
+      {
+        "title": "DeepSeek returns: $7.4B raised at a $50B+ valuation, plus a 'plugin-everything' coding harness",
+        "source": "Reuters",
+        "loc": "Reuters",
+        "url": "https://www.reuters.com/technology/deepseek/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "DeepSeek raised over 50B yuan (~$7.4B) at a $50B+ valuation in its first funding round, and shipped the fastest-starred GitHub repo in history — a new open coding harness where 'everything is a plugin' (model, tools, sandbox, even the loop), alongside V4 Pro. Corroborated by Fireship's teardown. The Chinese open-weight camp is very much back in the race."
+      },
+      {
+        "title": "OpenAI confirms ChatGPT is down as logins and signups fail",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-confirms-chatgpt-is-down-as-logins-and-signups-fail/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "A notable ChatGPT outage hit logins and signups. Now resolved, but a reminder of how much of the AI economy leans on a single provider's uptime."
+      },
+      {
+        "title": "New context-injection attack could let web pages steal Grok chat data",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Researchers show a cryptographic context-injection technique that could let a malicious web page siphon a user's Grok conversation. Part of the growing 'AI assistants as an attack surface' theme."
+      }
+    ],
+    "it": [
+      {
+        "title": "Bun 1.4 released",
+        "source": "Hacker News",
+        "loc": "Hacker News",
+        "url": "https://bun.com/blog/bun-v1.4",
+        "score": 5,
+        "badge": "skim",
+        "summary": "The fast JavaScript runtime/toolkit ships 1.4. Relevant if you touch Node/JS tooling — Bun keeps chipping away at the npm/Node status quo."
+      }
+    ],
+    "videos": [
+      {
+        "title": "DeepSeek is back... and Silicon Valley is terrified",
+        "channel": "Fireship",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=xBByvFrqmWU",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "SKIM — the news is all here in ~4 min; watch the middle only if you want the live coding-agent demo",
+        "summary": "Fireship's take on the day's biggest AI story: OpenAI paused its next-gen training run ('Astra') citing a cyber-capability threshold — which many read as cover for DeepSeek's comeback. DeepSeek's new harness treats everything (model, tools, sandbox, the agent loop) as a hot-swappable plugin — 'Linux for AI agents' — and he one-shots a working app for ~$30 on V4 Pro."
+      },
+      {
+        "title": "AI Agents vs Business Rules: Which Should Make Decisions?",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=i1ZmNUbRGD4",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — solid explainer, no news; the summary captures it",
+        "summary": "Clean breakdown of deterministic rules engines vs probabilistic AI agents, and why real systems use a hybrid: cheap rules handle the clear-cut cases, agents handle messy/unanticipated ones, with deterministic guardrails and a human-in-the-loop on high-stakes calls."
+      }
+    ]
+  },
+  "also": [
+    { "title": "Hackers poison arrayref Rust crate to push infostealer malware (supply-chain)", "source": "BleepingComputer", "loc": "BleepingComputer", "score": 4, "url": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/" },
+    { "title": "New Manic Android malware exfiltrates data through nearby devices", "source": "BleepingComputer", "loc": "BleepingComputer", "score": 3, "url": "https://www.bleepingcomputer.com/news/security/new-manic-android-malware-can-exfiltrate-data-through-nearby-devices/" },
+    { "title": "Rogue ransomware affiliate poses as recovery firm to steal payments", "source": "BleepingComputer", "loc": "BleepingComputer", "score": 4, "url": "https://www.bleepingcomputer.com/news/security/rogue-ransomware-affiliate-ransom-busters-poses-as-recovery-firm/" },
+    { "title": "'Grandoreiro' banking malware resurfaces with Mexico campaign", "source": "Dark Reading", "loc": "Dark Reading", "score": 3, "url": "https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign" },
+    { "title": "Pakistan's Transparent Tribe refreshes toolset for Afghan cyberattacks", "source": "Dark Reading", "loc": "Dark Reading", "score": 2, "url": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks" },
+    { "title": "No-filter 'Kriminal' AI platform raises cybercrime concerns", "source": "Dark Reading", "loc": "Dark Reading", "score": 2, "url": "https://www.darkreading.com/application-security/no-filter-kriminal-ai-platform-cybercrime-concerns" },
+    { "title": "Zombie Card attack can revive expired Visa cards for contactless payments", "source": "The Hacker News", "loc": "The Hacker News", "score": 2, "url": "https://thehackernews.com/2026/08/zombie-card-attack-can-revive-expired.html" },
+    { "title": "CDN Tsunami attack abuses HTTP/3 translation for up to 350x DoS amplification", "source": "The Hacker News", "loc": "The Hacker News", "score": 3, "url": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html" },
+    { "title": "ToxicPanda 2.0 and GoldDigger expand Android banking attacks with on-device fraud", "source": "The Hacker News", "loc": "The Hacker News", "score": 2, "url": "https://thehackernews.com/2026/08/toxicpanda-20-and-golddigger-expand.html" },
+    { "title": "Clean up Claude 5's token vomit with a separate LLM (Show HN)", "source": "Hacker News", "loc": "Hacker News", "score": 4, "url": "https://github.com/zachahn/vomit" },
+    { "title": "TrueForge – the open-source agent harness (Show HN)", "source": "Hacker News", "loc": "Hacker News", "score": 4, "url": "https://github.com/truefoundry/trueforge" },
+    { "title": "Stop Expecting AI Perfection (video, SKIP)", "source": "YouTube", "loc": "YouTube", "score": 3, "url": "https://www.youtube.com/watch?v=GandxSHswYw" },
+    { "title": "How to Learn OSINT for Free — David Bombal (video, SKIP)", "source": "YouTube", "loc": "YouTube", "score": 2, "url": "https://www.youtube.com/watch?v=YAngip_obiA" },
+    { "title": "I Built a Minecraft Mod That Sees Real Internet Data — John Hammond (video, SKIP)", "source": "YouTube", "loc": "YouTube", "score": 1, "url": "https://www.youtube.com/watch?v=Jx0G9IQxc4s" }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-08-19",
+  "generated": "2026-08-19T21:45:00+10:00",
+  "vibe": "Patch-Tuesday energy on a Wednesday — active Windows IKE exploitation leads, Copilot keeps getting jailbroken, and Mojo just went open source.",
+  "stats": { "scanned": 49, "surfaced": 11, "videos_watched": 2, "sources": 8 },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Critical Windows IKE Extension RCE — now actively exploited",
+        "source": "BleepingComputer + The Hacker News (CISA)", "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-critical-windows-ike-extension-flaw-now-exploited-in-attacks/",
+        "score": 9, "badge": "must",
+        "summary": "CISA confirms in-the-wild exploitation of a critical RCE in the Windows IKE extension. Corroborated by a broader alert flagging macOS, SharePoint, and vCenter flaws under active attack too. If you run any Windows infra, this is patch-now."
+      },
+      {
+        "title": "Copilot keeps getting jailbroken — 3 separate disclosures",
+        "source": "Ars Technica + The Hacker News + Dark Reading", "loc": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/08/microsoft-copilot-reveals-secret-input-that-allowed-it-to-be-hacked/",
+        "score": 7, "badge": "worth",
+        "summary": "A cluster: Microsoft Copilot revealed the hidden input that let it be hacked; separate 'CoSnitch' attack tricked Copilot into mapping out internal architecture; and a one-click prompt-injection flaw could exfiltrate data from Copilot Personal. The AI-assistant-as-attack-surface story is now a weekly fixture."
+      },
+      {
+        "title": "MLflow SSRF flaw exploited to steal cloud credentials",
+        "source": "The Hacker News", "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+        "score": 7, "badge": "worth",
+        "summary": "Attackers are abusing an SSRF bug in MLflow (the ML lifecycle platform) to pull cloud credentials and secrets. Notable because it sits right at the AI/ops boundary — your ML tooling is now part of the attack surface."
+      },
+      {
+        "title": "Medusa ransomware hit 500+ critical-infrastructure orgs",
+        "source": "BleepingComputer (CISA advisory)", "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-medusa-ransomware-hit-over-500-critical-infrastructure-orgs/",
+        "score": 6, "badge": "skim",
+        "summary": "CISA puts a number on Medusa's spread: 500+ critical-infra victims. Scale story more than a new-technique story, but the IOCs in the advisory are worth a glance if you're defending."
+      },
+      {
+        "title": "'Ransom Busters' — ransomware crew poses as an incident-recovery service",
+        "source": "The Hacker News + Dark Reading", "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/ransom-busters-claims-it-hacked.html",
+        "score": 6, "badge": "skim",
+        "summary": "A cheeky twist: an actor claims to have hacked other ransomware servers and is shaking down those victims 'to help them recover' for up to a hefty fee. Social-engineering meta-layer on top of the usual extortion."
+      },
+      {
+        "title": "StopAndProtect: ~2,000 hacked WordPress sites spreading malware",
+        "source": "The Hacker News", "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/stopandprotect-uses-nearly-2000-hacked.html",
+        "score": 5, "badge": "skim",
+        "summary": "Fake 'protection' campaign weaponizing ~2k compromised WordPress sites. Standard-but-sizable web-malware op; relevant if you run WP anywhere."
+      }
+    ],
+    "ai": [
+      {
+        "title": "Mojo is now open source",
+        "source": "Simon Willison + Hacker News", "loc": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/18/mojo-is-now-open-source/",
+        "score": 7, "badge": "worth",
+        "summary": "Modular (now under Qualcomm) open-sourced Mojo — the Python-superset language built for high-performance AI/systems work. Big deal for the AI-infra crowd; a genuinely fast Python-family language going open changes the calculus for a lot of ML tooling."
+      },
+      {
+        "title": "AI 'mind viruses' can spread between agents via persistent prompt files",
+        "source": "The Hacker News", "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+        "score": 6, "badge": "skim",
+        "summary": "Research on self-propagating prompt injections that hop between AI agents through shared/persistent prompt files. Early-days threat model, but this is exactly the direction agentic-AI security is heading — worth knowing the term."
+      }
+    ],
+    "it": [
+      {
+        "title": "China-linked actor demonstrates AI-assisted capabilities in APAC attack",
+        "source": "Dark Reading", "loc": "Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack",
+        "score": 5, "badge": "skim",
+        "summary": "State-linked group showing off AI-augmented tradecraft in a regional (APAC — relevant to you, Tom) intrusion. Signal that the 'AI in offensive ops' era is operational, not theoretical."
+      }
+    ],
+    "videos": [
+      {
+        "title": "How to install Qubes OS and replace Windows (step by step)",
+        "channel": "David Bombal", "source": "YouTube", "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=JZK6h-4QZgQ",
+        "score": 7, "badge": "worth", "verdict": "WATCH — if you want a genuinely hardened daily driver",
+        "summary": "Clean, complete walkthrough of installing Qubes OS (the VM-isolation security distro Snowden, Mullvad and the EFF all endorse) over Windows — hardware requirements, making the Rufus USB, the install itself. High signal for a tutorial. Verdict: watch if you're tempted to run a security-first machine; skip if you're not switching OS — the summary tells you what it is and who it's for."
+      },
+      {
+        "title": "What should security leaders do with AI? They don't know.",
+        "channel": "IBM Technology", "source": "YouTube", "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=3zhveTN1VzE",
+        "score": 6, "badge": "skim", "verdict": "SKIM — the takeaways are here, skip the panel",
+        "summary": "IBM X-Force panel podcast. Core advice: start AI in your red teams and on repetitive L1/L2 alert triage to fight alert fatigue — don't over-reach. Cites that 64% of orgs still make limited/no use of AI in security. Also touches 'ghost jacking' and whether AI is any good at patching. Decent but low signal density — ~20 min for 3 takeaways."
+      }
+    ]
+  },
+  "also": [
+    { "title": "GLM-5.3 benchmarks published", "source": "Artificial Analysis", "loc": "Artificial Analysis", "score": 4, "url": "https://artificialanalysis.ai/models/glm-5-3" },
+    { "title": "Clop built a custom web shell for Windchill data-theft attacks", "source": "BleepingComputer", "loc": "BleepingComputer", "score": 4, "url": "https://www.bleepingcomputer.com/news/security/clop-created-custom-web-shell-for-windchill-data-theft-attacks/" },
+    { "title": "Silent 'TwinLoot' threat operates entirely from Microsoft's cloud", "source": "Dark Reading", "loc": "Dark Reading", "score": 3, "url": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud" },
+    { "title": "Infra Lang — DSL that compiles to K8s, Helm, Compose & Terraform", "source": "Hacker News", "loc": "Hacker News", "score": 4, "url": "https://github.com/TuviDev/infra-lang" },
+    { "title": "Claude wrote a macOS driver for an obscure HP printer", "source": "Hacker News", "loc": "Hacker News", "score": 3, "url": "https://twitter.com/kuberwastaken/status/2089377982536388964" },
+    { "title": "'Norway should buy OpenAI' (opinion)", "source": "Hacker News", "loc": "Hacker News", "score": 3, "url": "https://www.onethousandmeans.com/p/norway-should-buy-openai" },
+    { "title": "Fixing a bricked AMD Framework 13 laptop with $20 of tools", "source": "Hacker News", "loc": "Hacker News", "score": 3, "url": "https://quantum5.ca/2026/08/16/fixing-bricked-amd-7040-series-framework-13-laptop-with-20-tools/" }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-08-20",
+  "generated": "2026-08-20T11:27:06.675259+00:00",
+  "vibe": "Zimbra is on fire \u2014 a critical mail-server RCE under active attack leads a heavy exploitation day, with CISA, WordPress and even NASA in the mix.",
+  "stats": {
+    "scanned": 52,
+    "surfaced": 14,
+    "videos_watched": 1,
+    "sources": 9
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Critical Zimbra RCE flaw now actively exploited in attacks",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/",
+        "score": 9,
+        "summary": "A critical remote-code-execution bug in Zimbra is being exploited in the wild right now. If you run a Zimbra mail server, patch immediately \u2014 this is the day's top must-do.",
+        "badge": "must"
+      },
+      {
+        "title": "Agentic AI presents a new insider-threat model for organizations",
+        "source": "Dark Reading",
+        "loc": "Dark Reading",
+        "url": "https://www.darkreading.com/",
+        "score": 7,
+        "summary": "Dark Reading argues autonomous AI agents with system access behave like a novel class of insider threat \u2014 worth thinking about as agents get real permissions.",
+        "badge": "worth"
+      },
+      {
+        "title": "CISA warns of hackers exploiting a critical MLflow vulnerability",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/",
+        "score": 6,
+        "summary": "CISA flags active exploitation of a critical flaw in MLflow, the popular ML lifecycle platform. Patch if you run ML infrastructure.",
+        "badge": "skim"
+      },
+      {
+        "title": "~2,000 hacked WordPress sites spreading malware (StopAndProtect)",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/",
+        "score": 6,
+        "summary": "Nearly 2,000 compromised WordPress sites are pushing malware and stealing data. Audit plugins/admin accounts if you run WordPress.",
+        "badge": "skim"
+      },
+      {
+        "title": "NASA AIT-GUI flaws could let unauthenticated attackers issue spacecraft commands",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/",
+        "score": 5,
+        "summary": "Vulnerabilities in NASA's open-source AIT-GUI ground software could let unauthenticated attackers send spacecraft commands. Niche but striking.",
+        "badge": "skim"
+      },
+      {
+        "title": "CareCloud healthtech breach exposes 3.7 million patients",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/",
+        "score": 5,
+        "summary": "Health-tech firm CareCloud disclosed a breach affecting 3.7M patient records.",
+        "badge": "skim"
+      },
+      {
+        "title": "Password-spraying attacks surge 155x as attackers exploit MFA gaps",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/",
+        "score": 5,
+        "summary": "A 155-fold jump in password-spraying against weak/missing MFA. Tighten MFA coverage.",
+        "badge": "skim"
+      },
+      {
+        "title": "Cloudflare Workers hit by Spectre attack leaking JWTs (corroborated HN + THN)",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/",
+        "score": 5,
+        "summary": "A revived remote Spectre attack leaks JWTs from a co-located Cloudflare Worker at ~12 bits/sec. Flagged on both Hacker News and The Hacker News.",
+        "badge": "skim"
+      }
+    ],
+    "ai": [
+      {
+        "title": "OpenAI confirms ChatGPT outage as logins and signups fail",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/",
+        "score": 6,
+        "summary": "ChatGPT went down with login/signup failures, confirmed by OpenAI. Transient but disruptive.",
+        "badge": "skim"
+      },
+      {
+        "title": "OpenAI pauses frontier RL training to harden against unsafe AI behavior",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/",
+        "score": 6,
+        "summary": "OpenAI halted some frontier reinforcement-learning runs while tightening safety defenses.",
+        "badge": "skim"
+      },
+      {
+        "title": "Phishing 3.0: the fight moves to agent-versus-agent",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/",
+        "score": 5,
+        "summary": "As attackers automate phishing with AI agents, defenders deploy their own \u2014 early agent-vs-agent security dynamics.",
+        "badge": "skim"
+      }
+    ],
+    "it": [
+      {
+        "title": "Framework responds to complaints that a BIOS update bricks Ryzen 7040 laptops",
+        "source": "Ars Technica",
+        "loc": "Ars Technica",
+        "url": "https://arstechnica.com/",
+        "score": 5,
+        "summary": "Framework is handling reports that a BIOS update bricked some Ryzen 7040 laptops. Hold off updating if you own one.",
+        "badge": "skim"
+      },
+      {
+        "title": "Google stops pushing Git tags for some Android source code",
+        "source": "Hacker News",
+        "loc": "Hacker News",
+        "url": "https://news.ycombinator.com/",
+        "score": 5,
+        "summary": "Google quietly stopped publishing Git tags for parts of the Android source \u2014 an openness signal that irked the community.",
+        "badge": "skim"
+      }
+    ],
+    "videos": [
+      {
+        "title": "DeepSeek Just Made Closed AI Look Ridiculous",
+        "channel": "Two Minute Papers",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=kyYepbhe1g8",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM \u2014 the news is the model, not the 8 minutes",
+        "summary": "DeepSeek 4 Pro (build 0813), MIT-licensed open weights, markedly better structural understanding than the earlier preview. DeepSeek raised hosted prices 2.5-5x, but open weights let rival hosts undercut them."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "New 'Manic' Android malware exfiltrates data through nearby devices",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/",
+      "score": 4,
+      "summary": ""
+    },
+    {
+      "title": "Rogue ransomware affiliate poses as a recovery firm to steal payments",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "url": "https://www.bleepingcomputer.com/",
+      "score": 4,
+      "summary": ""
+    },
+    {
+      "title": "Graphing AWS attack paths in BloodHound",
+      "source": "Reddit r/netsec",
+      "loc": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "score": 4,
+      "summary": ""
+    },
+    {
+      "title": "Hacking SAML with Claude Code",
+      "source": "Reddit r/netsec",
+      "loc": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "score": 3,
+      "summary": ""
+    },
+    {
+      "title": "A revisit of remote Spectre attacks on Cloudflare Workers",
+      "source": "Hacker News",
+      "loc": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "score": 3,
+      "summary": ""
+    },
+    {
+      "title": "PostgreSQL for Everything",
+      "source": "Hacker News",
+      "loc": "Hacker News",
+      "url": "https://news.ycombinator.com/",
+      "score": 2,
+      "summary": ""
+    }
+  ]
+}

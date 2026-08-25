@@ -1,0 +1,295 @@
+{
+  "date": "2026-08-22",
+  "generated": "2026-08-22T06:45:00+10:00",
+  "vibe": "A max-severity Entra ID zero-day and two actively-exploited CVEs headline a heavy patch day, while IBM's twin OpenAI+Anthropic deals show the AI money is moving from models to orchestration.",
+  "stats": {
+    "scanned": 178,
+    "surfaced": 24,
+    "videos_watched": 9,
+    "sources": 12
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Microsoft warns of max-severity Entra ID flaw (CVSS 10.0) exploited in attacks",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A perfect-10 flaw in Entra ID (formerly Azure AD) is being actively abused for remote code execution. Corroborated by The Register and The Hacker News. If you touch Microsoft identity, this is the patch-now item of the day."
+      },
+      {
+        "title": "CISA orders feds to patch actively exploited TrueConf Server flaws",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "CISA added TrueConf Server (a Russian Zoom alternative) to the KEV catalog with a hard remediation deadline. The Register also flagged it. Rare in Western orgs, but if it's in your estate, treat it as urgent."
+      },
+      {
+        "title": "GitLab CVE-2026-19478 under active exploitation within days of disclosure",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Attackers moved on a freshly-disclosed GitLab flaw within days \u2014 the classic race between patch and exploit. Self-hosted GitLab runners are a prime CI/CD supply-chain target, so patch before the weekend."
+      },
+      {
+        "title": "Apollo confirms data breach amid hacking wave targeting financial firms",
+        "source": "CyberScoop",
+        "loc": "CyberScoop",
+        "url": "https://cyberscoop.com/apollo-discloses-data-breach-social-engineering-attack/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Private-equity giant Apollo disclosed a breach tied to an ongoing social-engineering campaign hitting the financial sector. TechCrunch corroborates. Part of a broader wave, not an isolated hit."
+      },
+      {
+        "title": "Medical records, SSNs and bank details exposed in CareCloud breach",
+        "source": "Malwarebytes Labs",
+        "loc": "Malwarebytes Labs",
+        "url": "https://www.malwarebytes.com/blog/news/2026/08/medical-records-ssns-and-bank-details-exposed-in-carecloud-data-breach",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Healthcare data broker CareCloud leaked a sensitive combo \u2014 medical records, Social Security numbers and banking details. High-value identity-theft fuel."
+      },
+      {
+        "title": "Android car malware spreads through built-in updaters for ad fraud and proxy botnet",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/android-car-malware-spreads-through.html",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Malware riding the built-in update mechanism of Android automotive head units, enrolling cars into an ad-fraud and residential-proxy botnet. A reminder that the supply chain now includes your dashboard."
+      },
+      {
+        "title": "14 trojanized npm packages drop RedC2 4.0 Linux backdoor with AI-assisted C2",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Another npm supply-chain hit \u2014 14 malicious packages dropping a Linux backdoor whose C2 layer is AI-assisted. Audit your lockfiles."
+      },
+      {
+        "title": "Hundreds of leaked AWS keys still give full admin control of corporate accounts",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Truffle Security found 431,875 exposed AWS secrets across repos, Docker images and CI logs since 2022; 768 live keys grant full AdministratorAccess, 242 with root privileges, median age ~5 years and mostly never rotated. Hugging Face was the single biggest leak source (8,482 keys). Worth an afternoon auditing your own IAM key age and budget alerts \u2014 only 1 in 10 readable accounts had one set."
+      }
+    ],
+    "ai": [
+      {
+        "title": "OpenAI is gaining on Anthropic with business users, new data indicates",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/20/openai-is-gaining-on-anthropic-with-business-users-new-data-indicates/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Ramp's corporate-spend data shows OpenAI clawing back enterprise ground from Anthropic. IBM's Mixture of Experts panel dug into the same Ramp index this week \u2014 the enterprise-AI race is genuinely close again."
+      },
+      {
+        "title": "Anthropic's $65B revenue surge turbocharges IPO race with OpenAI",
+        "source": "Los Angeles Times",
+        "loc": "Los Angeles Times",
+        "url": "https://www.latimes.com/business/story/2026-08-18/anthropics-65-billion-revenue-surge-turbocharges-ipo-race-with-openai",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Anthropic is reportedly tracking to $65B annualized revenue \u2014 a sevenfold jump \u2014 putting real fuel behind an IPO showdown with OpenAI. Context for why both labs are courting distribution partners like IBM."
+      },
+      {
+        "title": "Child-safety experts skeptical of OpenAI's ChatGPT for Teens",
+        "source": "Engadget",
+        "loc": "Engadget",
+        "url": "https://www.engadget.com/2241179/child-safety-experts-skeptical-of-openai-chatgpt-for-teens/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "OpenAI launched a teen-tuned ChatGPT with new controls; safety experts aren't convinced. Dark Reading was blunter \u2014 'controls that should've been there already.' Corroborated, and a sign guardrails are now a competitive battleground."
+      },
+      {
+        "title": "Anthropic brings Claude Mythos 5 to Claude Security for enterprise vulnerability scanning",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/08/21/anthropic-brings-claude-mythos-5-to-claude-security/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Claude Security now runs on Mythos 5 \u2014 Anthropic's most cyber-capable model, previously locked behind vetted-defender access via Project Glasswing. It scans a connected GitHub repo, traces data flows, and returns CWE-tagged findings with a suggested patch, without exposing the raw model as a prompt box. Public beta, Claude Enterprise only, billed as standard token usage."
+      },
+      {
+        "title": "Salesforce partners not seeing meaningful revenue from Agentforce, report says",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/saas/2026/08/21/salesforce-partners-not-seeing-meaningful-revenue-from-agentforce-ai-platform-report-says/5291167",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A partner-channel report finds Agentforce isn't yet translating into real revenue for Salesforce's ecosystem \u2014 a data point for the broader 'agentic hype vs. paid adoption' gap showing up across the enterprise AI market."
+      }
+    ],
+    "it": [
+      {
+        "title": "How AWS Marketplace is using AI agents to meet demand for AI agents",
+        "source": "ZDNet",
+        "loc": "ZDNet",
+        "url": "https://www.zdnet.com/article/application-marketplaces-aws-ai-agents/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "AWS is wiring agents into its Marketplace to help buyers navigate the flood of agentic products \u2014 agents selling agents. Worth a look given how procurement of AI tooling is reshaping cloud spend."
+      },
+      {
+        "title": "Alibaba Cloud plans to use fewer Western chips to boost its already huge AI margins",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/off-prem/2026/08/21/alibaba-cloud-plans-to-use-fewer-western-chips-to-boost-its-already-huge-ai-margins/5290815",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Alibaba Cloud is leaning into domestic silicon to widen already-fat AI margins \u2014 a signal of how the chip-supply split is hardening the hyperscaler landscape."
+      },
+      {
+        "title": "Cloudflare proposes the 'Agent Access Model' for securing AI agents",
+        "source": "Cloudflare Blog",
+        "loc": "Cloudflare Blog",
+        "url": "https://blog.cloudflare.com/the-agent-access-model/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "BeyondCorp assumed a human at a device acting at human speed; agents are ephemeral, fast, and don't fail loudly when over-permissioned. Cloudflare's proposed AAM adds strict identity brokering, continuous mediation and stateful trust for task-scoped agents \u2014 a concrete next step past Zero Trust for anyone wiring agents into infra."
+      },
+      {
+        "title": "Best GPU neoclouds 2026, ranked: CoreWeave, Nebius, Lambda, Crusoe, Groq",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/08/21/best-gpu-neoclouds-2026/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "A buyer's comparison on published pricing and contracted power: CoreWeave is the only Platinum-rated cloud in SemiAnalysis's ClusterMAX 2.0, Nebius is the only one publishing B300 on-demand pricing, Lambda has the cheapest on-demand B200 ($6.69/GPU-hr) but no spot tier. Useful if GPU capacity ever becomes your problem to solve."
+      }
+    ],
+    "videos": [
+      {
+        "title": "Stripe buys OpenRouter, Ramp's AI Index & IBM's OpenAI deal (Mixture of Experts)",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=8LNH7TxvD14",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH \u2014 the clearest read this week on where enterprise-AI money is actually flowing.",
+        "summary": "IBM's panel unpacks its twin partnerships \u2014 Anthropic for internal software engineering, OpenAI for consulting \u2014 while keeping its own Granite models for cheap routing. Their thesis: value is shifting from owning the model to orchestrating, governing and integrating them. Ties directly to today's Ramp/OpenAI-vs-Anthropic story."
+      },
+      {
+        "title": "Claude vs. ChatGPT Just Got Serious (Gmail/Drive connectors)",
+        "channel": "The AI Advantage",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=ARnUlEyVRoY",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM \u2014 jump in for the concrete email-triage prompt around the 4-min mark.",
+        "summary": "Hands-on comparison of the new Gmail/Drive connectors in Claude and ChatGPT \u2014 both can now send emails and manage files, though ChatGPT's plugins are further ahead. Practical if you want AI running your inbox triage; note it's paid-tier only."
+      },
+      {
+        "title": "Is it your fault that you got hacked?",
+        "channel": "David Bombal",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=WCVf7_fWCH8",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM \u2014 a sharp reframing of blame in security.",
+        "summary": "Argument that we blame victims for not patching while letting vendors ship 'defects' dressed up as 'vulnerabilities.' The multi-billion-dollar security aftermarket exists because security was always a bolt-on. Secure-by-design, at the source, is the fix."
+      },
+      {
+        "title": "AWS Glue 6.0: serverless data integration simplified",
+        "channel": "Amazon Web Services",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=pl4MWkk5opM",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM \u2014 worth 3 min if Glue is in your stack.",
+        "summary": "Glue 6.0 adds native variant support on Apache Iceberg (no more custom flattening), declarative pipelines, ultra-low-latency streaming and AI-powered code migration on the latest Spark runtime. Squarely in your cloud-engineering wheelhouse."
+      },
+      {
+        "title": "Canary Tokens, Meet AI",
+        "channel": "John Hammond",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=uRlD2E2-IlU",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM \u2014 a neat DIY detection demo.",
+        "summary": "Wiring canarytokens.org into an AI agent so it can watch for and reason about tripped tokens automatically \u2014 a low-effort, high-signal intrusion-detection trick, demoed on the free tier."
+      },
+      {
+        "title": "You need to switch to Linux RIGHT NOW!! (Omarchy)",
+        "channel": "NetworkChuck",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=9SDkU5VDQEQ",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM \u2014 fun, but it's an enthusiast piece.",
+        "summary": "A tour of DHH's Omarchy \u2014 an AI-first, keyboard-only Arch-based distro that installs in ~60 seconds and aims to make Linux feel cinematic. More passion project than production advice, but an entertaining look at where the Linux desktop is heading."
+      },
+      {
+        "title": "Intro to AI Hypercomputer",
+        "channel": "Google Cloud Tech",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=GfDS6TyTq6I",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM \u2014 good mental model of a co-designed AI stack.",
+        "summary": "Google's pitch for AI Hypercomputer: a single co-designed system spanning TPUs/GPUs, networking, storage and open software (JAX, PyTorch, vLLM, XLA, Pathways) with GKE/Cluster Director on top. Useful framing if you're weighing infra choices for training vs. serving."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "Cisco patches nine Crosswork and Secure Workload flaws, five scoring CVSS 10.0",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html"
+    },
+    {
+      "title": "New SynkLoader malware pushed in Microsoft Teams phishing campaign",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/"
+    },
+    {
+      "title": "New CUSTODY framework constrains AI agents inside the network",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 4,
+      "url": "https://www.darkreading.com/perimeter/new-custody-framework-constrains-ai-agents-inside-network"
+    },
+    {
+      "title": "OpenAI adds controls that should've been there already",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 5,
+      "url": "https://www.darkreading.com/application-security/openai-adds-controls-already"
+    },
+    {
+      "title": "Where's real enterprise value? (IBM Technology short)",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=_LqY-1q50pI"
+    },
+    {
+      "title": "Three things that make you burnout resilient (DevOps Toolkit)",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 3,
+      "url": "https://www.youtube.com/watch?v=sjRYYluzdP4"
+    }
+  ]
+}

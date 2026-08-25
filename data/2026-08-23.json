@@ -1,0 +1,137 @@
+{
+  "date": "2026-08-23",
+  "generated": "2026-08-23T06:45:00+10:00",
+  "vibe": "A quiet-ish Sunday with two exploited Windows/Cisco zero-days still in the wild, Anthropic eyeing a record IPO, and the cloud giants swapping olive branches on multicloud.",
+  "stats": { "scanned": 48, "surfaced": 13, "videos_watched": 2, "sources": 14 },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Lazarus exploits Windows afd.sys zero-day (CVE-2026-68820) for SYSTEM access",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "North Korea's Lazarus group is chaining an actively-exploited use-after-free in the WinSock driver (afd.sys) to elevate to SYSTEM and drop a backdoor at defence/aerospace firms. It's patched in August Patch Tuesday — if any Windows box slipped that cycle, prioritise it."
+      },
+      {
+        "title": "Cisco FMC zero-day (CVE-2026-20316) under active exploitation, added to CISA KEV",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/07/cisco-fmc-zero-day-actively-exploited.html",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Static credentials let unauthenticated attackers reach sensitive data on Cisco's Firewall Management Center. Now in CISA's Known Exploited Vulnerabilities catalog — patch or restrict management-plane access."
+      },
+      {
+        "title": "Hackers infect Android car head units with proxy botnet malware",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Aftermarket Android head units are being enrolled into a residential proxy botnet via malicious firmware/apps — turning cars into traffic-laundering nodes. A reminder that the IoT attack surface now includes the dashboard."
+      }
+    ],
+    "ai": [
+      {
+        "title": "Anthropic prepping what could be one of the largest IPOs ever",
+        "source": "Tech Startups",
+        "loc": "Tech Startups",
+        "url": "https://techstartups.com/2026/08/21/top-tech-news-today-august-21-2026-anthropic-apple-broadcom-google-nvidia-openai-tesla-more/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Reports say Anthropic's planned public debut could match or exceed SpaceX's record — with 300k+ business customers now on the books. A signal of how fast the frontier-lab economy is maturing into public markets."
+      },
+      {
+        "title": "Anthropic brings Claude Mythos 5 into Claude Security for enterprise teams",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Anthropic is wiring its newest Mythos 5 model into Claude Security, aimed at enterprise SOC/appsec workflows. Worth a glance if your team is evaluating LLM-assisted security tooling."
+      },
+      {
+        "title": "Anthropic appears to be A/B testing reduced effort levels in Claude Code",
+        "source": "Hacker News",
+        "loc": "Hacker News",
+        "url": "https://news.ycombinator.com/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Devs on HN noticed Claude Code quietly serving lower-effort responses to some users — an A/B test on reasoning budget. Directly relevant if you're leaning on it day-to-day; explains occasional 'feels dumber today' moments."
+      },
+      {
+        "title": "Cloudflare launches Kitesurf, a browser runtime built for AI agents",
+        "source": "Tech Startups",
+        "loc": "Tech Startups",
+        "url": "https://techstartups.com/2026/08/22/top-tech-news-today-august-22-2026/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Runs on Cloudflare Workers, uses ~3-7x less CPU/memory than Chromium and passes 235k+ web-platform tests. A cloud-native answer to the headless-browser cost problem for agentic workloads — squarely in your lane."
+      },
+      {
+        "title": "Salesforce partners say Agentforce isn't yet moving meaningful revenue",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A useful reality check: channel partners aren't seeing the agentic-AI pipeline Salesforce hyped. The gap between AI-agent marketing and booked revenue remains wide."
+      },
+      {
+        "title": "OpenAI urges California to strengthen its AI safety bill",
+        "source": "Engadget",
+        "loc": "Engadget",
+        "url": "https://www.engadget.com/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "OpenAI publicly backed tougher California AI-safety legislation (corroborated by TechCrunch). Notable given the industry's usual allergy to regulation — read as positioning ahead of federal rules."
+      }
+    ],
+    "it": [
+      {
+        "title": "AWS and Google Cloud link up to ease multicloud deployments",
+        "source": "CIO Dive",
+        "loc": "CIO Dive",
+        "url": "https://www.ciodive.com/news/aws-google-link-cloud-products/806705/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "The two rivals launched a joint offering to simplify connecting workloads across both platforms, with Azure expected to join the multicloud networking product later. Direct relevance for anyone architecting cross-cloud infra."
+      },
+      {
+        "title": "Cloud-native roundup: GKE dynamic storage class, Azure AKS AI infra",
+        "source": "InfoQ",
+        "loc": "InfoQ",
+        "url": "https://www.infoq.com/news/2026/06/microsoft-build-aks-ai/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "GKE now auto-picks Persistent Disk vs Hyperdisk per node hardware; Azure AKS is pushing bare-metal + fleet management for AI training/inference. Incremental but handy quality-of-life wins if you run managed Kubernetes."
+      }
+    ],
+    "videos": [
+      {
+        "title": "China moves to Linux, WSL beats native installs, potato gaming PCs fixed - Linux Weekly News",
+        "channel": "Low Level",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=1EOjwwmKm-4",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — solid open-source roundup, but nothing you must act on",
+        "summary": "China ordered govt agencies to drop Windows 10 (China Gov Edition) for a homegrown distro (likely Kylin OS or UnionTech) years ahead of schedule — digital-sovereignty play. Kernel 7.3 gets a Valve-contributed VRAM-management fix so low-VRAM (8GB) GPUs degrade gracefully instead of crashing. Also: WSL usage reportedly outgrowing native Ubuntu installs, plus more Google/Apple 'malicious compliance' with court orders."
+      }
+    ]
+  },
+  "also": [
+    { "title": "AWS Cloud Report ep.2: GameLift 'instant play' demos + SST deploy (promo live-stream)", "source": "YouTube", "loc": "YouTube", "score": 4, "url": "https://www.youtube.com/watch?v=iAKM-OalIKA" },
+    { "title": "Inherent (ex-DeepMind founders) says its AI 'teammate' outperformed human benchmarks", "source": "TechCrunch", "loc": "TechCrunch", "score": 5, "url": "https://techcrunch.com/" },
+    { "title": "Decoding AI's open-source course maps three ways to run an agent loop", "source": "MarkTechPost", "loc": "MarkTechPost", "score": 4, "url": "https://www.marktechpost.com/" },
+    { "title": "Microsoft August Patch Tuesday: 400+ flaws, 3 zero-days total", "source": "BleepingComputer", "loc": "BleepingComputer", "score": 4, "url": "https://www.bleepingcomputer.com/" },
+    { "title": "TikTok agrees to $400M settlement in US child-privacy lawsuit", "source": "The Hacker News", "loc": "The Hacker News", "score": 3, "url": "https://thehackernews.com/" },
+    { "title": "Michael Polansky is training an AI model on skin that's still alive", "source": "TechCrunch", "loc": "TechCrunch", "score": 3, "url": "https://techcrunch.com/" },
+    { "title": "Over 1 million people have clicked LinkedIn's AI-slop button", "source": "The Verge", "loc": "The Verge", "score": 2, "url": "https://www.theverge.com/" },
+    { "title": "Best GPU Neoclouds 2026: CoreWeave, Nebius, Lambda, Crusoe, Groq ranked", "source": "MarkTechPost", "loc": "MarkTechPost", "score": 4, "url": "https://www.marktechpost.com/" },
+    { "title": "Named Pipes under attack: securing Windows interprocess communication", "source": "BleepingComputer", "loc": "BleepingComputer", "score": 4, "url": "https://www.bleepingcomputer.com/" }
+  ]
+}

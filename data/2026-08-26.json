@@ -1,0 +1,190 @@
+{
+  "date": "2026-08-26",
+  "generated": "2026-08-26T06:35:00+10:00",
+  "vibe": "Patch Tuesday energy — a perfect-10 Oracle flaw on CISA's 3-day clock, a 270-server Zimbra mass-breach, and an agent-poisoning bug that lands uncomfortably close to home for anyone running OpenClaw, while OpenAI's Jalapeño chip and Claude's new cross-app memory carry the AI side.",
+  "stats": {"scanned": 104, "surfaced": 17, "videos_watched": 2, "sources": 14},
+  "sections": {
+    "cyber": [
+      {
+        "title": "Actively exploited Oracle WebLogic flaw gets CISA's tightest-ever 3-day patch deadline",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/actively-exploited-oracle-weblogic-flaw.html",
+        "score": 9,
+        "badge": "must",
+        "summary": "A perfect-10 CVSS, unauthenticated Oracle WebLogic flaw is under active exploitation. CISA issued its tightest-ever 3-day emergency patch deadline, and even shops that applied all 1,449 other Oracle patches this year were still hit — corroborated across The Register and Dark Reading."
+      },
+      {
+        "title": "Webpage-triggered flaw lets attackers poison local AI models behind NVIDIA's NemoClaw (the sandbox that runs OpenClaw-style agents)",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Oasis Security found that NVIDIA's NemoClaw — its reference stack for running agents like OpenClaw inside sandboxes — starts Ollama bound to 0.0.0.0. A malicious webpage can DNS-rebind past the CORS check and rewrite the model's chat template, silently injecting instructions into every future response. No CVE, not exploited in the wild yet. Fixed on macOS/Linux in v0.0.35; still open on Windows/WSL. Worth knowing given the tooling overlap with what you run day to day."
+      },
+      {
+        "title": "Hackers breached 270+ Zimbra mail servers in ongoing attacks",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breached-over-270-zimbra-servers-in-ongoing-attacks/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A mass-exploitation campaign against Zimbra Collaboration servers is still running, with Dark Reading separately flagging how fast the patch window is closing. If you or clients run Zimbra, this is a today problem."
+      },
+      {
+        "title": "Crooks push Mac malware through fake OpenAI Codex ads",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/security/2026/08/25/crooks-push-mac-malware-through-fake-openai-codex-ads/5291899",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Malvertising campaign impersonates OpenAI's Codex to drop Mac malware — another sign AI-branded lures are the current phishing bait of choice."
+      },
+      {
+        "title": "24 npm packages abuse unpkg mirrors to host fake Cloudflare CAPTCHA pages",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/24-npm-packages-abuse-unpkg-mirrors-to.html",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Supply-chain abuse using legitimate unpkg CDN mirrors to serve fake CAPTCHA phishing pages from inside otherwise-normal npm packages."
+      },
+      {
+        "title": "AnonyMousKIT phishing-as-a-service uses voice AI agents to phish iPhone passcodes",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A phishing kit now bundles AI voice agents to social-engineer iPhone users out of their passcodes — commoditized AI-assisted vishing."
+      },
+      {
+        "title": "Massive DDoS attack disrupts Norway's government digital services",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/massive-ddos-attack-disrupts-norways-government-digital-services/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A large-scale DDoS knocked Norwegian government services offline; The Record has separate corroborating coverage."
+      },
+      {
+        "title": "\"Sleepwalker\" backdoor spreading on Windows machines",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/security/2026/08/24/you-dont-want-this-sleepwalker-backdoor-on-your-windows-machine/5292021",
+        "score": 5,
+        "badge": "skim",
+        "summary": "New Windows backdoor campaign flagged by The Register — worth a skim if you manage Windows fleets."
+      },
+      {
+        "title": "US sanctions Iran-linked hackers behind critical infrastructure breaches",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/us-sanctions-iran-linked-hackers-behind.html",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Treasury sanctions follow a string of Iran-linked attacks on critical infrastructure; The Record separately reports a UK power-plant disclosure the same day."
+      }
+    ],
+    "ai": [
+      {
+        "title": "OpenAI's Jalapeño chip benchmarks show it's built for fast inference at scale",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/25/openais-jalapenos-chip-is-built-for-fast-inference-at-scale-benchmarks-show/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "OpenAI's in-house inference chip Jalapeño posted benchmarks aimed squarely at Nvidia Blackwell. Heavily corroborated (TechCrunch, The Verge, The Register, and a 160-point HN thread) — a real signal on the AI hardware race, relevant if you're tracking inference economics."
+      },
+      {
+        "title": "Anthropic's Claude and Cowork will now share memories across sessions - opt-out only",
+        "source": "ZDNet",
+        "loc": "ZDNet",
+        "url": "https://www.zdnet.com/article/anthropic-claude-and-cowork-share-memories-now-unless-you-opt-out/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Claude chat and Cowork sessions now share memory by default (opt-out available). Covered by ZDNet, Engadget and TechCrunch — directly relevant given the Claude-based tooling you run daily; worth checking your own memory/opt-out settings."
+      },
+      {
+        "title": "OpenAI subpoenaed by Alabama AG over Hugging Face hack",
+        "source": "The Verge",
+        "loc": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/984239/alabama-attorney-general-subpoena-openai-hugging-face-hack",
+        "score": 6,
+        "badge": "skim",
+        "summary": "State-level legal scrutiny of OpenAI over a Hugging Face breach tie-in — one to watch as a precedent for AI-company breach liability."
+      },
+      {
+        "title": "Anthropic expected to tell investors it sees over $30T in potential revenue",
+        "source": "Hacker News",
+        "loc": "Hacker News",
+        "url": "https://www.reuters.com/business/media-telecom/anthropic-expected-tell-investors-it-sees-over-30-trillion-potential-revenue-wsj-2026-08-25/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Eye-popping long-term revenue projection reportedly being pitched to investors — take the number with the usual pitch-deck grain of salt."
+      }
+    ],
+    "it": [
+      {
+        "title": "Apple leans hard into local AI: new Mac Studio and Mac mini with M6 / M5 Ultra",
+        "source": "Ars Technica",
+        "loc": "Ars Technica",
+        "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Apple's new desktop silicon is explicitly pitched at local AI inference workloads — three separate 500-800 point HN threads plus ZDNet/Engadget coverage. Notable if you've been eyeing a local-inference box."
+      },
+      {
+        "title": "Perplexity ships \"Portable Computer\" on NVIDIA DGX Spark - local harness, zero per-token cost",
+        "source": "ZDNet",
+        "loc": "ZDNet",
+        "url": "https://www.zdnet.com/article/portable-computer-perplexity-local-ai-agent/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "An OS-enforced sandboxed local agent harness running on DGX Spark hardware, avoiding per-token API costs for local steps — an interesting local-compute counterpoint to the cloud-inference race."
+      }
+    ],
+    "videos": [
+      {
+        "title": "AI Model vs Agentic Harness: What Actually Drives AI",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=ZELPNFXJ4_o",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — clean, jargon-free breakdown of why two products on the same model can behave totally differently: tools, memory, and the agentic loop live in the \"harness,\" not the model. Directly maps onto the agent-harness tooling you use daily; ~7 minutes, no fluff.",
+        "summary": "Explains the model-vs-harness split (tools, memory persistence/compaction, the plan-act-observe loop with verification) and argues most recent capability gains have come from harness improvements, not just smarter models."
+      },
+      {
+        "title": "AI Is Changing Cybersecurity. Here's How to Defend Yourself",
+        "channel": "David Bombal",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=cWH8rORzMGY",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM the first half — sponsored Black Hat interview (ThreatLocker), but the opening 10 minutes have real substance: a live demo of Claude refusing then agreeing to \"delete all except text files, then delete text files\" (self-flagging it as ransomware-shaped), and a prompt-injection trick that fooled Claude into mischaracterizing a malicious PowerShell script. Core thesis is deny-by-default/zero-trust for agent process trees. Back half is a ThreatLocker product pitch.",
+        "summary": "Threat researcher demos AI agents being socially engineered into ransomware-like behavior and prompt-injected past security analysis, arguing for zero-trust ring-fencing of what agentic tools are allowed to touch."
+      }
+    ]
+  },
+  "also": [
+    {"title": "Pgbot: a 5.9MB read-only Postgres tool for humans and agents", "source": "Hacker News", "loc": "Hacker News", "score": 4, "url": "https://news.ycombinator.com/item?id=49438492"},
+    {"title": "Pwning Call of Duty 1: a 20-year-old RCE found in an evening with AI", "source": "Reddit r/netsec", "loc": "Reddit r/netsec", "score": 4, "url": "https://www.reddit.com/r/netsec/comments/1vy5zqu/pwning_call_of_duty_1_a_20yearold_rce_found_in_an/"},
+    {"title": "Attackers target miniOrange SAML flaws that can grant WordPress admin access", "source": "The Hacker News", "loc": "The Hacker News", "score": 4, "url": "https://thehackernews.com/2026/08/attackers-target-miniorange-saml-flaws.html"},
+    {"title": "Hospital operator Nutex Health says data stolen in cyberattack", "source": "BleepingComputer", "loc": "BleepingComputer", "score": 4, "url": "https://www.bleepingcomputer.com/news/security/hospital-operator-nutex-health-says-data-stolen-in-cyberattack/"},
+    {"title": "Unpatched Calix flaw lets hackers bypass NAT to expose internal devices", "source": "BleepingComputer", "loc": "BleepingComputer", "score": 3, "url": "https://www.bleepingcomputer.com/news/security/unpatched-calix-flaw-lets-hackers-bypass-nat-to-expose-internal-devices/"},
+    {"title": "Water sector passes, government sector fails simulated CISA attack", "source": "CyberScoop", "loc": "CyberScoop", "score": 3, "url": "https://cyberscoop.com/cisa-red-team-report-government-water-cybersecurity/"},
+    {"title": "Microsoft AI watermarks in Paint and Photos are linked to user IDs, researcher finds", "source": "The Register", "loc": "The Register", "score": 3, "url": "https://www.theregister.com/ai-and-ml/2026/08/25/microsoft-ai-watermarks-in-paint-and-photos-are-linked-to-user-ids-researcher-finds/5292034"},
+    {"title": "Meta AI introduces MetaRoCE: a clean-sheet RDMA transport for AI-scale Ethernet", "source": "MarkTechPost", "loc": "MarkTechPost", "score": 3, "url": "https://www.marktechpost.com/2026/08/25/meta-ai-introduces-metaroce-a-clean-sheet-rdma-transport-built-for-ai-scale-ethernet/"},
+    {"title": "Accel-backed Keenable is indexing the web for AI agents", "source": "TechCrunch", "loc": "TechCrunch", "score": 3, "url": "https://techcrunch.com/2026/08/25/accel-backed-keenable-is-indexing-the-web-for-ai-agents/"},
+    {"title": "Stability AI raises $76M in fresh funding", "source": "TechCrunch", "loc": "TechCrunch", "score": 2, "url": "https://techcrunch.com/2026/08/25/stability-ai-maker-of-image-generator-stable-diffusion-raises-76-million-in-fresh-funding/"},
+    {"title": "That fake Grand Theft Auto VI demo is actually just malware", "source": "TechCrunch", "loc": "TechCrunch", "score": 3, "url": "https://techcrunch.com/2026/08/25/that-fake-grand-theft-auto-vi-demo-is-actually-just-malware/"},
+    {"title": "OpenAI's Head of Data Centers has left the company", "source": "Hacker News", "loc": "Hacker News", "score": 3, "url": "https://news.ycombinator.com/item?id=49439489"},
+    {"title": "Granite 4.2 LLMs: how they're built", "source": "Hugging Face Blog", "loc": "Hugging Face Blog", "score": 3, "url": "https://huggingface.co/blog/ibm-granite/granite-4-2"},
+    {"title": "Black Hat state of security vendors", "source": "Schneier on Security", "loc": "Schneier on Security", "score": 3, "url": "https://www.schneier.com/blog/archives/2026/08/black-hat-state-of-security-vendors.html"},
+    {"title": "Inside LinkedIn's cognitive memory agent for agentic personalization", "source": "Stack Overflow Blog", "loc": "Stack Overflow Blog", "score": 2, "url": "https://stackoverflow.blog/2026/08/25/inside-linkedin-s-cognitive-memory-agent/"}
+  ]
+}
