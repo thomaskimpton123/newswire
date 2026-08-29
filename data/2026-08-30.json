@@ -1,0 +1,178 @@
+{
+  "date": "2026-08-30",
+  "generated": "2026-08-29T20:36:00+00:00",
+  "vibe": "OpenAI's messy divorce from Cursor and a fresh Anthropic copyright lawsuit carry the AI beat today, while a Claude Code prompt-injection trick and a wave of WordPress RCEs are the actual patch-and-be-careful items.",
+  "stats": {"scanned": 46, "surfaced": 16, "videos_watched": 1, "sources": 16},
+  "sections": {
+    "cyber": [
+      {
+        "title": "Researcher shows how Claude Code can be tricked simply by asking it to summarize a website",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/research/2026/08/28/researcher-shows-how-claude-code-can-be-tricked-simply-by-asking-it-to-summarize-a-website/5293372",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A security researcher demonstrated that Claude Code can be steered into unintended actions just by asking it to summarize a malicious website — hidden instructions in the page content get treated as if they came from the user. Straightforward prompt-injection risk for anyone using Claude Code's web-fetch/browsing features, worth reading given how often you're driving Claude Code day to day."
+      },
+      {
+        "title": "Five Critical WordPress Plugin and Theme Flaws Enable Site Takeover or RCE",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/five-critical-wordpress-plugin-and.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Five newly disclosed critical flaws across popular WordPress plugins and themes allow full site takeover or remote code execution. Classic mass-scan bait — patch immediately if you or anyone you know self-hosts WordPress."
+      },
+      {
+        "title": "McKesson discloses breach after ShinyHunters claims patient data theft",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/mckesson-discloses-breach-after-shinyhunters-claims-patient-data-theft/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Healthcare/pharma giant McKesson disclosed a breach after extortion group ShinyHunters claimed to have stolen patient data — another entry in ShinyHunters' ongoing run against major US firms this year."
+      },
+      {
+        "title": "The Cybersecurity Apocalypse Is Coming in 'Months,' AI Giants Warn",
+        "source": "Wired",
+        "loc": "Wired",
+        "url": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Wired rounds up warnings from multiple AI labs that AI-accelerated offense — automated vulnerability discovery plus exploit writing — could produce a step change in attack volume within months. More a temperature check than a single incident, but notable that it's coming from the people building the models."
+      },
+      {
+        "title": "IBM Langflow OSS hit with five high-severity CVEs: auth bypass, path traversal, RCE, SSRF",
+        "source": "IBM Security Advisory",
+        "loc": "Tenable",
+        "url": "https://www.tenable.com/cve/CVE-2026-18729",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Langflow, a popular open-source agent-building framework, picked up five high-severity CVEs in one disclosure batch — a namespace-collision info leak, a path-traversal file read, an improper-authentication flow-execution bug, arbitrary code execution via flow definitions, and SSRF. If you're experimenting with Langflow, update before exposing an instance to anything untrusted."
+      },
+      {
+        "title": "Just a rumour of a bug is enough to find a security exploit these days",
+        "source": "Simon Willison",
+        "loc": "Simon Willison's Blog",
+        "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Willison writes up a case where a mere rumour that a bug existed was enough for someone to go find and weaponize a real one — a neat illustration of how AI-assisted research is closing the gap between 'someone mentioned a bug' and 'someone has a working exploit.'"
+      },
+      {
+        "title": "Cosmos EVM Flaw Exploited After Cosmos Labs Knew Every Blockchain Running It Was Vulnerable",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/08/cosmos-evm-flaw-exploited-after-cosmos.html",
+        "score": 5,
+        "badge": "skim",
+        "summary": "An EVM-compatibility flaw across Cosmos-based blockchains got exploited after Cosmos Labs reportedly already knew every chain running the vulnerable code was exposed — a patching/governance failure as much as a technical one."
+      }
+    ],
+    "ai": [
+      {
+        "title": "OpenAI will pull its models from Cursor due to SpaceXAI acquisition",
+        "source": "Engadget",
+        "loc": "Engadget",
+        "url": "https://www.engadget.com/2246969/openai-pull-its-models-from-cursor-due-to-spacexai-acquisition/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "OpenAI is cutting off Cursor's access to its models after Cursor's acquisition by Elon Musk's SpaceX/xAI, publishing its own blog post to explain the call — seeing a competitor now own a popular AI coding tool was an unacceptable conflict. Big shakeup for anyone running Cursor on GPT models; expect a scramble to Claude or Gemini backends. Confirmed by CNBC and OpenAI's own post (770+ points on HN).",
+        "corroboration": "CNBC, OpenAI (Hacker News, 770+ points)"
+      },
+      {
+        "title": "Sony Music and Warner Chappell are suing Anthropic",
+        "source": "The Verge",
+        "loc": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Sony Music and Warner Chappell filed a copyright suit accusing Anthropic of a 'brazen campaign' of IP theft in training its models — the highest-profile music-industry suit yet against an AI lab, landing right as Anthropic is reportedly prepping an IPO. Also covered by Engadget and TechCrunch.",
+        "corroboration": "Engadget, TechCrunch"
+      },
+      {
+        "title": "Warp builds self-improving agents on Claude",
+        "source": "Claude Blog",
+        "loc": "Claude Blog",
+        "url": "https://claude.com/blog/how-warp-builds-self-improving-agents-on-claude",
+        "score": 6,
+        "badge": "skim",
+        "summary": "AI-terminal company Warp details how it built agents on Claude that iteratively improve their own prompts and tool use from real usage data — a solid engineering write-up if you're building anything agentic on top of Claude."
+      },
+      {
+        "title": "I accidentally turned LLM memory into program analysis",
+        "source": "pwning.systems",
+        "loc": "pwning.systems",
+        "url": "https://pwning.systems/posts/llm-memory-program-analysis/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "A researcher describes stumbling into a genuinely new program-analysis technique while building memory systems for LLM agents. Niche but well-regarded on HN (260+ points) — worth a skim if you like the security-research/agent-tooling intersection."
+      },
+      {
+        "title": "Tencent Releases and Open-Sources Tencent Hy4 Preview",
+        "source": "Tencent",
+        "loc": "Tencent",
+        "url": "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Tencent released and open-sourced a preview of its latest model, Hy4 — light on independent coverage so far, but another entrant in the crowded open-weight race out of China."
+      },
+      {
+        "title": "StemDeck, a free, open-source and local AI stem separator",
+        "source": "Hacker News",
+        "loc": "Hacker News",
+        "url": "https://github.com/stemdeckapp/stemdeck",
+        "score": 5,
+        "badge": "skim",
+        "summary": "A fully local, open-source AI tool for splitting songs into vocals/instrument stems landed on HN with strong traction — handy if you want to pull stems without a cloud subscription."
+      }
+    ],
+    "it": [
+      {
+        "title": "AWS mumbles about its cost-busting networking tech when it should be shouting",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/networks/2026/08/29/aws-mumbles-about-its-cost-busting-networking-tech-when-it-should-be-shouting/5293379",
+        "score": 6,
+        "badge": "skim",
+        "summary": "The Register argues AWS has quietly shipped meaningful networking cost reductions but has done a poor job publicizing them — worth a look if you're doing any AWS network-cost optimization work."
+      },
+      {
+        "title": "Nvidia's AI advantage is moving beyond the GPU",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Analysis piece on how Nvidia's moat is shifting from raw chip performance toward the surrounding software/networking stack (CUDA, NVLink) plus its growing string of strategic AI-company investments."
+      }
+    ],
+    "videos": [
+      {
+        "title": "The Only Way to Fund Open Source Is to Sell It",
+        "channel": "DevOps Toolkit",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=Abc9smlVSE0",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — it's a rambling ~2hr livestream (hosts catching up after weeks off, lots of personal chat) but the segment on the rumored Nvidia/Hugging Face acquisition and Stripe's purchase of OpenRouter is worth 10 minutes. Their thesis: at current AI-infrastructure valuations, open-source projects can't sustain themselves on donations or usage fees, so the only realistic exit is being bought by a strategically-motivated player (Nvidia wanting AI to not consolidate around 2-3 closed labs). Skip the first 15-20 minutes of catch-up chat and jump straight to the Hugging Face/Nvidia discussion.",
+        "summary": "Live-show discussion arguing that at current AI-infrastructure valuations, open-source projects like Hugging Face and OpenRouter can only survive by being acquired by a strategically-motivated buyer rather than through direct monetization."
+      }
+    ]
+  },
+  "also": [
+    {"title": "vLLM v0.28.0", "source": "Hacker News", "loc": "Hacker News", "score": 4, "url": "https://github.com/vllm-project/vllm/releases/tag/v0.28.0"},
+    {"title": "Debian votes to allow \"responsible use of generative AI\"", "source": "LWN", "loc": "LWN", "score": 4, "url": "https://lwn.net/Articles/1091231/"},
+    {"title": "GrapheneOS project: Pixel 11 no longer supports hardware memory tagging (MTE)", "source": "Hacker News", "loc": "Hacker News", "score": 4, "url": "https://bsky.app/profile/grapheneos.org/post/3mua32q4ds22e"},
+    {"title": "Startup bags $7M to build drone-interceptor-in-a-backpack systems", "source": "The Register", "loc": "The Register", "score": 3, "url": "https://www.theregister.com/offbeat/2026/08/29/startup-bags-7m-to-build-drone-interceptor-in-a-backpack-systems/5293176"},
+    {"title": "At TechBBQ, Europe's AI conversations kept coming back to: Who's actually in control?", "source": "TechCrunch", "loc": "TechCrunch", "score": 3, "url": "https://techcrunch.com/2026/08/29/at-techbbq-europes-ai-conversations-kept-coming-back-to-whos-actually-in-control/"},
+    {"title": "TurboKV: Insanely fast Rust key-value store", "source": "Hacker News", "loc": "Hacker News", "score": 3, "url": "https://news.ycombinator.com/item?id=49486334"},
+    {"title": "Samsung's Processing-in-Memory (PIM)", "source": "Hacker News", "loc": "Hacker News", "score": 3, "url": "https://news.ycombinator.com/item?id=49487341"},
+    {"title": "A week with the Google Pixel 11 changed my mind about Gemini (for the better)", "source": "ZDNet", "loc": "ZDNet", "score": 3, "url": "https://www.zdnet.com/article/google-pixel-11-review/"},
+    {"title": "Domain-Driven Agents", "source": "Hacker News", "loc": "Hacker News", "score": 2, "url": "https://news.ycombinator.com/item?id=49492584"},
+    {"title": "This pocket AI voice recorder took me back to the good old days of dictation", "source": "ZDNet", "loc": "ZDNet", "score": 2, "url": "https://www.zdnet.com/article/comulytic-note-pro-ai-voice-recorder-review/"},
+    {"title": "Phishing Panel Breadcrumbs", "source": "YouTube", "loc": "YouTube", "score": 2, "url": "https://www.youtube.com/watch?v=lXlSRXEuJAc"},
+    {"title": "Massive funding for Linux projects, Nintendo nukes emulation, Graphene comes to more phones", "source": "YouTube", "loc": "YouTube", "score": 2, "url": "https://www.youtube.com/watch?v=uPwQzJ33Uhk"}
+  ]
+}
