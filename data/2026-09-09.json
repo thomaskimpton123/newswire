@@ -1,0 +1,671 @@
+{
+  "date": "2026-09-09",
+  "generated": "2026-09-08T20:38:14.305786+00:00",
+  "vibe": "Patch Tuesday is the centre of gravity, while powerful new agents make security capability and controllability the same story.",
+  "stats": {
+    "scanned": 95,
+    "surfaced": 25,
+    "videos_watched": 7,
+    "sources": 23
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Microsoft September 2026 Patch Tuesday fixes 966 flaws, 2 zero-days",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-september-2026-patch-tuesday-fixes-966-flaws-2-zero-days/",
+        "score": 10,
+        "badge": "must",
+        "summary": "Microsoft's September Patch Tuesday fixes a record-scale 966 flaws, including two zero-days. Windows and Microsoft estate owners should treat this as today's patching priority; SANS and the sysadmin megathread corroborate the release."
+      },
+      {
+        "title": "Adobe Patches Magento Zero-Day Exploited to Deploy Rust Backdoor and PHP Web Shell",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/adobe-patches-magento-zero-day.html",
+        "score": 9,
+        "badge": "must",
+        "summary": "Adobe has patched an Adobe Commerce/Magento zero-day already used to deploy a Rust backdoor and PHP web shell. Internet-facing stores need the fix and a compromise hunt, not merely routine patch scheduling."
+      },
+      {
+        "title": "Hackers breach F5 BIG-IP APM devices to deploy Linux rootkit",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-f5-big-ip-apm-devices-to-deploy-linux-rootkit/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Attackers are compromising F5 BIG-IP APM appliances and installing a Linux rootkit. Check exposed appliances, vendor guidance and telemetry for persistence immediately."
+      },
+      {
+        "title": "SAP warns of maximum severity 'OVERPASS' kernel vulnerability",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-maximum-severity-overpass-kernel-vulnerability/",
+        "score": 9,
+        "badge": "must",
+        "summary": "SAP's OVERPASS kernel flaw carries the maximum severity rating. SAP teams should review the advisory and emergency-patch affected systems."
+      },
+      {
+        "title": "CISA warns of Chromium type-confusion zero-day actively exploited in attacks",
+        "source": "Cybersecurity News",
+        "loc": "Cybersecurity News",
+        "url": "https://cybersecuritynews.com/chromium-type-confusion-0-day-vulnerability/",
+        "score": 9,
+        "badge": "must",
+        "summary": "CISA says a Chromium type-confusion zero-day is being exploited. Update Chrome and Chromium-based browsers promptly and confirm managed fleets have actually received the fixed build."
+      },
+      {
+        "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A planted prompt could make ChatGPT send a victim's Gmail data to another account, a sharp example of indirect prompt injection crossing into connected services. Revisit connector permissions and least-privilege controls."
+      },
+      {
+        "title": "N-able issues patch for zero-day flaw",
+        "source": "Cybersecurity Dive",
+        "loc": "Cybersecurity Dive",
+        "url": "https://www.cybersecuritydive.com/news/n-able-issues-patch-zero-day-flaw/829808/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "N-able released another N-central zero-day fix, with reports describing a critical remote-code-execution issue. MSPs should prioritize patching because one console can expose many downstream customers."
+      },
+      {
+        "title": "A hacking tool built with AI can breach phones without a click",
+        "source": "The New York Times",
+        "loc": "The New York Times",
+        "url": "https://www.nytimes.com/2026/09/08/us/politics/calif-ai-worm-wechat-hack.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Researchers demonstrated an AI-built tool capable of no-click phone compromise via WeChat, according to the Times. The important signal is automated exploit development becoming operational, not just theoretical."
+      },
+      {
+        "title": "Trezor customers hit with phishing calls and letters after shipping-partner breach",
+        "source": "Help Net Security",
+        "loc": "Help Net Security",
+        "url": "https://www.helpnetsecurity.com/2026/09/08/trezor-shipping-partner-breach-phishing-attacks/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Trezor customers are receiving convincing calls and physical letters after a shipping-partner breach. Treat any recovery-seed request as theft: never enter or disclose the seed outside the hardware wallet's trusted flow."
+      }
+    ],
+    "ai": [
+      {
+        "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
+        "score": 9,
+        "badge": "must",
+        "summary": "OpenAI says GPT-6 Astra can discover zero-days, while stronger capabilities make its reasoning harder to monitor. That combination raises both defensive opportunity and governance risk for agentic security work."
+      },
+      {
+        "title": "Muse: Meta's personal AI agent, features and capabilities",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://ai.meta.com/muse/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Meta launched Muse, a personal agent designed to shop, send email and plan trips, with privacy controls presented as a core feature. The real test will be whether users trust Meta with broad delegated authority."
+      },
+      {
+        "title": "Mistral raises €3B",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Mistral raised €3 billion to expand sovereign, open-weight AI infrastructure. It is a major bet that European buyers will pay for strategic independence as well as model quality."
+      },
+      {
+        "title": "Google DeepMind Releases AlphaGenome Atlas",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Google DeepMind released AlphaGenome Atlas, making genome-model predictions easier to explore. It is a substantial research resource, though practical clinical value will depend on validation and responsible use."
+      },
+      {
+        "title": "On the Navier–Stokes Millennium Prize Problem",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://openai.com/index/navier-stokes-solution/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "OpenAI claimed progress on the Navier–Stokes Millennium Prize problem, but mathematicians disputed attribution and process. Treat the scientific claim as consequential but contested until independent review settles it."
+      },
+      {
+        "title": "ChatGPT Images 2.5",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "ChatGPT Images 2.5 adds a sketch-to-image workflow that turns rough drawings into detailed generations. It looks genuinely useful for fast visual ideation rather than merely another image-quality bump."
+      },
+      {
+        "title": "How well do agents use test/verification techniques?",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://danluu.com/agentic-testing/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A careful look at how well coding agents actually use tests and verification finds meaningful gaps between producing code and proving it works. Useful reading for anyone designing agent workflows or review gates."
+      }
+    ],
+    "it": [
+      {
+        "title": "Google Cloud races to catch up in the AI deployment wars with Accenture deal",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/08/google-cloud-races-to-catch-up-in-the-ai-deployment-wars-with-accenture-deal/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Google Cloud's Accenture deal is aimed at accelerating enterprise AI deployment. For cloud engineers, the signal is that implementation capacity and governance are becoming as competitive as the models themselves."
+      },
+      {
+        "title": "Among European Companies That Use a CDN, Nearly 9 in 10 Use Cloudflare",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://ciphercue.com/blog/european-cdn-concentration-cloudflare-nine-in-ten",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A survey argues nearly nine in ten European companies using a CDN rely on Cloudflare. Even allowing for methodology caveats, the concentration is a useful resilience and supplier-risk warning."
+      },
+      {
+        "title": "Jellyfin 12.0",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://jellyfin.org/posts/jellyfin-release-12.0/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Jellyfin 12.0 landed with a large community response. It is the standout self-hosting release in today's feed and worth a look for home-media operators."
+      },
+      {
+        "title": "DaVinci Resolve 21.1",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://www.blackmagicdesign.com/media/release/20260908-03",
+        "score": 6,
+        "badge": "skim",
+        "summary": "DaVinci Resolve 21.1 is out. It is a meaningful update for video workflows, though less urgent than today's security and cloud stories."
+      }
+    ],
+    "videos": [
+      {
+        "title": "GPT-6 Astra Changes Everything",
+        "channel": "Two Minute Papers",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=eVBJIUxv8N8",
+        "score": 8,
+        "badge": "worth",
+        "verdict": "WATCH — concise hands-on demonstrations plus a useful safety/monitorability discussion.",
+        "summary": "Two Minute Papers tests GPT-6 Astra on ray tracing and research-paper reproduction, then highlights a tension: safer observed behavior alongside reduced reasoning monitorability. High signal, enthusiastic presentation, and clearly separated demonstrations."
+      },
+      {
+        "title": "Inside LockBit: How He Earned a Ransomware Gang’s Trust",
+        "channel": "David Bombal",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=CmEob7nVfDo",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — potentially interesting LockBit access story, but no transcript was available, so confidence is limited.",
+        "summary": "An interview-style look inside LockBit and how trust was built with a ransomware gang. Metadata suggests original reporting, but the unavailable transcript prevents a reliable full digest."
+      },
+      {
+        "title": "They Can Read Your Files",
+        "channel": "David Bombal",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=fboLW1IqM4U",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — useful reminder; the first half carries the argument.",
+        "summary": "David Bombal explains that ordinary cloud-storage encryption does not stop the provider from accessing plaintext under controlled circumstances, and recommends client-side encryption for genuinely provider-blind storage. Sound basics, though framed dramatically."
+      },
+      {
+        "title": "Claude Skills Explained: ELI5",
+        "channel": "The AI Advantage",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=h8gKU5DboVs",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — a quick practical demo if you use Claude skills.",
+        "summary": "A short demonstration of an ELI5 skill that generates visual HTML explanations of complex topics. Useful workflow inspiration, but narrow and light on implementation detail."
+      },
+      {
+        "title": "An Ancient Guide to Cybersecurity: 8 Lessons from The Art of War",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=kjoQPn--F7A",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — solid fundamentals, but little is novel for experienced defenders.",
+        "summary": "IBM maps eight Art of War principles to attack-surface awareness, patching, deception, monitoring, segmentation, leadership and resource prioritisation. Clear security refresher rather than breaking insight."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "OpenAI says ChatGPT outage causes image generation errors",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/technology/openai-says-chatgpt-outage-causes-image-generation-errors/"
+    },
+    {
+      "title": "OpenAI Just Claimed a Huge Math Discovery. Some Academics Are Crying Foul",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 3,
+      "url": "https://www.wired.com/story/openai-navier-stokes-math-discovery-academics/"
+    },
+    {
+      "title": "Supreme Court forces TV stations to sell more election ads at steep discounts",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 3,
+      "url": "https://arstechnica.com/tech-policy/2026/09/supreme-court-forces-tv-stations-to-sell-more-election-ads-at-steep-discounts/"
+    },
+    {
+      "title": "Mistral bags €3B to build Europe's sovereign AI champion",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/08/mistral-bags-3b-to-build-europes-sovereign-ai-champion/5294941"
+    },
+    {
+      "title": "Arm pushes agentic AI and desktop-quality graphics in next-gen phone platform",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/systems/2026/09/08/arm-pushes-agentic-ai-and-desktop-quality-graphics-in-next-gen-phone-platform/5294867"
+    },
+    {
+      "title": "Update to Google’s AI weather model improves forecast accuracy",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 3,
+      "url": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data/"
+    },
+    {
+      "title": "CIA official touts agency’s Cyber Mission Center in capture of Venezuela’s Maduro",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 3,
+      "url": "https://therecord.media/cia-cyber-operations-maduro-capture-venezuela"
+    },
+    {
+      "title": "Grindr settles HIV status data-sharing lawsuit for $35 million",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 3,
+      "url": "https://www.malwarebytes.com/blog/privacy/2026/09/grindr-settles-hiv-status-data-sharing-lawsuit-for-35-million"
+    },
+    {
+      "title": "MikroTik router flaws allow takeover without a password",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 3,
+      "url": "https://www.malwarebytes.com/blog/news/2026/09/mikrotik-routers-can-be-taken-over-without-password"
+    },
+    {
+      "title": "Stealing AI Reasoning Traces",
+      "source": "Schneier on Security",
+      "loc": "Schneier on Security",
+      "score": 3,
+      "url": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html"
+    },
+    {
+      "title": "Boston Scientific left nursing its bottom line after cyberattack",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/security/2026/09/08/boston-scientific-left-nursing-its-bottom-line-after-cyberattack/5295026"
+    },
+    {
+      "title": "BigBear phishing crew nets thousands of Microsoft 365 credentials",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/security/2026/09/08/bigbear-phishing-crew-nets-thousands-of-microsoft-365-credentials/5294944"
+    },
+    {
+      "title": "Extortion crews have their eyes on high-value AI data, Google warns",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/research/2026/09/08/extortion-crews-have-their-eyes-on-high-value-ai-data-google-warns/5294640"
+    },
+    {
+      "title": "Gen AI Tools Are Now Being Used to Push ‘Slop Jihad’",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 3,
+      "url": "https://www.wired.com/story/gen-ai-tools-are-now-being-used-to-push-slop-jihad/"
+    },
+    {
+      "title": "Claude Skills Explained: Grilling",
+      "source": "YouTube/The AI Advantage",
+      "loc": "YouTube",
+      "score": 3,
+      "url": "https://www.youtube.com/watch?v=kLAttkwBHYc"
+    },
+    {
+      "title": "OpenAI fought dirty on career-making math problem",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/"
+    },
+    {
+      "title": "Multi-Agents LLM Financial Trading Framework",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "title": "The VMs Powering Mobile Agents (Instinct, Claude Code)",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://rohanadwankar.github.io/posts/platforms.html"
+    },
+    {
+      "title": "OpenAI's German Wiki Hack Is Less About \"Rogue AI\" Than Failed Agent Containment",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://securityboulevard.com/2026/09/openais-german-wiki-hack-is-less-about-rogue-ai-than-failed-agent-containment/"
+    },
+    {
+      "title": "ShinyHunters hackers claim breach of Florida \"DAVID\" DMV database",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 2,
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-hackers-claim-breach-of-florida-david-dmv-database/"
+    },
+    {
+      "title": "ChatGPT Sketch turns your bad drawings into detailed AI images",
+      "source": "The Verge AI",
+      "loc": "The Verge",
+      "score": 2,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991727/openai-chatgpt-images-2-5-sketch"
+    },
+    {
+      "title": "AI power users claim Anthropic duped them with subscriptions, and they’re taking it to court",
+      "source": "The Verge AI",
+      "loc": "The Verge",
+      "score": 2,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990313/anthropic-class-action-lawsuit-pricing-subscription-plans"
+    },
+    {
+      "title": "OpenAI fought dirty on career-making math problem, says NYU mathematician",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/"
+    },
+    {
+      "title": "TALA Is Open-Source",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://d2lang.com/blog/tala-is-open-source/"
+    },
+    {
+      "title": "Hacking AI customer service agents (Bug Bounty Village DEF CON 34)",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 2,
+      "url": "https://www.reddit.com/r/netsec/comments/1wae5zc/hacking_ai_customer_service_agents_bug_bounty/"
+    },
+    {
+      "title": "Webinar: The forgotten Google Workspace access that can lead to a breach",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 2,
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-the-forgotten-google-workspace-access-that-can-lead-to-a-breach/"
+    },
+    {
+      "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 2,
+      "url": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html"
+    },
+    {
+      "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 2,
+      "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/"
+    },
+    {
+      "title": "Show HN: LLM Attention Visualization",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://ishamf.dev/p/llm-attention-visualizer/"
+    },
+    {
+      "title": "Controversy over OpenAI's Maths Breakthrough",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://www.scientificamerican.com/article/openai-claims-blockbuster-math-breakthrough-amid-swirl-of-controversy/"
+    },
+    {
+      "title": "\"Please Remove All Mannered Prose\" and Other LLM Incantations",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://matthewritch.com/blog/2026/09/08/Mannered-Prose-Style-Prompts/"
+    },
+    {
+      "title": "🚨 Redis Cryptomining Botnet Compromised 3,562 Servers, Exposed by the Operator's Own Files",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 1,
+      "url": "https://www.reddit.com/r/netsec/comments/1wavoo6/redis_cryptomining_botnet_compromised_3562/"
+    },
+    {
+      "title": "llm 0.35",
+      "source": "Simon Willison",
+      "loc": "Simon Willison",
+      "score": 1,
+      "url": "https://simonwillison.net/2026/Sep/7/llm/"
+    },
+    {
+      "title": "Chrome will now release updates every two weeks to better tackle security threats",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 1,
+      "url": "https://www.engadget.com/2252455/google-chrome-updates-every-two-weeks-to-better-tackle-security-threats/"
+    },
+    {
+      "title": "Chrome is now shipping updates every 2 weeks as AI changes the security landscape",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/09/08/chrome-is-now-shipping-updates-every-2-weeks-as-ai-changes-the-security-landscape/"
+    },
+    {
+      "title": "Benchmarking Qwen3.8 27B quantizations: 4-bit holds up, 1-bit collapses",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://quesma.com/blog/qwen38-27b-quantizations-benchmarked/"
+    },
+    {
+      "title": "I-have-ADHD: A skill to stop coding agents from burying the answer",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "title": "I Rewrote My Back End in Go in 72 Hours and Cut My AWS Bill by 94%",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://www.bajura.online/2026/09/i-rewrote-my-backend-in-go-in-72-hours.html"
+    },
+    {
+      "title": "LibreOffice breaks download records after declaring it has no AI features",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/"
+    },
+    {
+      "title": "AI Giants Work Hand-in-Hand with The Pentagon, Contracts Reveal",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google/"
+    },
+    {
+      "title": "Hackers build AI frameworks for widescale credential theft",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 1,
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-build-ai-frameworks-for-widescale-credential-theft/"
+    },
+    {
+      "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 1,
+      "url": "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026"
+    },
+    {
+      "title": "[Virtual Event] Building a Secure AI Strategy for the Enterprise",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 1,
+      "url": "https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026"
+    },
+    {
+      "title": "September 2026 Microsoft Patch Tuesday, (Tue, Sep 8th)",
+      "source": "SANS Internet Storm Center",
+      "loc": "SANS Internet Storm Center",
+      "score": 1,
+      "url": "https://isc.sans.edu/diary/rss/33320"
+    },
+    {
+      "title": "Adobe is trying to make its AI generators idiot-proof in Premiere",
+      "source": "The Verge AI",
+      "loc": "The Verge",
+      "score": 1,
+      "url": "https://www.theverge.com/tech/991133/adobe-is-trying-to-make-its-ai-generators-idiot-proof-in-premiere"
+    },
+    {
+      "title": "The rise in drive prices is being driven by AI and even HDDs can't hide",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 1,
+      "url": "https://www.engadget.com/2252075/drive-price-rise-driven-by-ai-even-hdd-affected/"
+    },
+    {
+      "title": "The Brutal Truth About Failure You Need to Hear 💥",
+      "source": "YouTube/TechWorld with Nana",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=vvkPhG9NpfE"
+    },
+    {
+      "title": "Microsoft releases Windows 10 KB5122878 extended security update",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 0,
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5122878-extended-security-update/"
+    },
+    {
+      "title": "NVIDIA Announces CUDA Rust with cuda-oxide (SIMT) and cutile-rs (Tile) for Compile-Time-Safe GPU Kernels",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 0,
+      "url": "https://www.marktechpost.com/2026/09/08/nvidia-announces-cuda-rust-with-cuda-oxide-simt-and-cutile-rs-tile-for-compile-time-safe-gpu-kernels/"
+    },
+    {
+      "title": "Reducto Releases r-1: A Single Pass Document Parsing Model That Cuts Errors 20% at 1 Cent Per Page",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 0,
+      "url": "https://www.marktechpost.com/2026/09/07/reducto-releases-r-1-a-single-pass-document-parsing-model-that-cuts-errors-20-at-1-cent-per-page/"
+    },
+    {
+      "title": "Show HN: Copperhead – Hardware as Fast as Software",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://copperhead.sh/"
+    },
+    {
+      "title": "The two Christian saints who are the Buddha",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/"
+    },
+    {
+      "title": "Paramount Caught Using 'Astroturf' Group to Drum Up Fake Support for Merger",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://www.techdirt.com/2026/09/08/paramount-caught-using-astroturf-group-to-drum-up-fake-support-for-merger/"
+    },
+    {
+      "title": "Getting your hands dirty is good for you",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks"
+    },
+    {
+      "title": "There's a new \"Google Jail\" for independent wikis",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://weirdgloop.org/blog/google-jail"
+    },
+    {
+      "title": "DHS 'Predictive Policing' Unit Is Analyzing Americans' Financial Habits",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://www.404media.co/a-secretive-dhs-predictive-policing-unit-is-analyzing-americans-financial-habits-and-pulling-them-over/"
+    },
+    {
+      "title": "Antiquated HTML Snippets and Artefacts",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://vale.rocks/posts/html-relics"
+    },
+    {
+      "title": "LG TVs caught spying even when offline or on standby",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://www.theverge.com/tech/991190/lg-tv-spying-standby-recording-wi-fi-scanning-gamers-nexus"
+    },
+    {
+      "title": "I've factored the RSA keys of a Certificate Authority from the 90s",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://mcpherrin.ca/2026/09/07/rsa.html"
+    }
+  ]
+}
