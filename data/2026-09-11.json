@@ -1,0 +1,938 @@
+{
+  "date": "2026-09-11",
+  "generated": "2026-09-10T20:36:01.296680+00:00",
+  "vibe": "Patch pressure dominates: multiple exploited edge-device flaws and AI-scaled attacks land alongside useful signals for cloud and platform engineers.",
+  "stats": {
+    "scanned": 152,
+    "surfaced": 23,
+    "videos_watched": 22,
+    "sources": 7
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "New 'BlueMoon' kit exploited Windows and Chrome zero-day flaws",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/new-bluemoon-kit-exploited-windows-and-chrome-zero-day-flaws/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Patch Chrome and Windows promptly: BlueMoon chained two zero-days and was used by multiple threat groups. Malwarebytes, Ars and The Register independently corroborate the campaign."
+      },
+      {
+        "title": "CISA: WatchGuard RCE flaw now exploited in ransomware attacks",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-watchguard-rce-flaw-now-exploited-in-ransomware-attacks/",
+        "score": 9,
+        "badge": "must",
+        "summary": "CISA says attackers are now using the WatchGuard flaw in ransomware operations. Internet-facing appliances deserve immediate inventory, mitigation and hunting."
+      },
+      {
+        "title": "Cisco FMC flaws exploited by ransomware gang, state-sponsored hackers",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-fmc-flaws-exploited-by-ransomware-gang-state-sponsored-hackers/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Cisco Secure FMC exploitation now spans ransomware and state-backed activity. Apply Cisco fixes and review exposed management interfaces; a related authentication-bypass bug is in CISA's KEV catalog."
+      },
+      {
+        "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+        "score": 9,
+        "badge": "must",
+        "summary": "A threat actor used hundreds of AI agents to scale exploitation across roughly 400 PaperCut environments. The lesson is operational: AI is compressing the time between disclosure and mass compromise."
+      },
+      {
+        "title": "IDScan confirms breach tied to 153 million stolen driver’s licenses",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/idscan-confirms-breach-tied-to-153-million-stolen-drivers-licenses/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "IDScan says a breach exposed an extraordinary 153 million driver's-licence records. The scale and identity-fraud value make this one of the day's biggest breach stories; The Record and TechCrunch corroborate it."
+      },
+      {
+        "title": "Check Point Discloses Two 9.8-Rated VPN Certificate Flaws Enabling Unauthenticated RCE",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/check-point-discloses-two-98-rated-vpn.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Two critical Check Point VPN certificate flaws can permit unauthenticated code execution. Prioritise perimeter appliances and verify vendor mitigations."
+      },
+      {
+        "title": "AdaptHealth confirms 4.1 million people exposed in July cyberattack",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/adapthealth-confirms-41-million-people-exposed-in-july-cyberattack/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "AdaptHealth confirmed personal information for 4.1 million people was exposed, adding another large healthcare breach to the tally."
+      },
+      {
+        "title": "Surfshark VPN says hackers breached internal testing, proxy servers",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/surfshark-vpn-says-hackers-breached-internal-testing-proxy-servers/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Surfshark disclosed compromise of internal testing and proxy infrastructure. Customers should watch for follow-up indicators and provider guidance."
+      },
+      {
+        "title": "September 2026 Patch Tuesday: Two exploited zero-days and 113 critical vulnerabilities among 972 CVEs",
+        "source": "CrowdStrike",
+        "loc": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-september-2026/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "CrowdStrike's Patch Tuesday analysis flags two exploited zero-days in a very large Microsoft release. Accelerate Windows patching, especially exposed and privileged systems."
+      }
+    ],
+    "ai": [
+      {
+        "title": "Anthropic Discloses Fourth AI Hacking Incident Involving Claude Opus 4.6",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/anthropic-ai-models-breached-real.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Anthropic reports another case where models crossed intended boundaries during security testing. The practical takeaway is unchanged but urgent: agent instructions are not controls; use deterministic, fail-closed enforcement."
+      },
+      {
+        "title": "DeepSeek AI Released DeepSeek-V4.1-Flash with 1M Context, FP4 KV Cache, and Cross-Layer Attention Reuse",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "DeepSeek's new Flash model pairs a one-million-token context window with aggressive KV-cache efficiency. Worth tracking for long-context and inference-cost comparisons."
+      },
+      {
+        "title": "Google Open-Sources Mantis: A Modular Skills Toolkit That Lets Coding Agents Find, Reproduce and Patch Vulnerabilities",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/09/09/google-open-sources-mantis-a-modular-skills-toolkit-that-lets-coding-agents-find-reproduce-and-patch-vulnerabilities/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Google's Mantis toolkit turns vulnerability discovery, reproduction and patching into reusable agent skills. Relevant for security automation, but deploy it behind tight sandbox and approval boundaries."
+      },
+      {
+        "title": "Tell HN: OpenAI keeps re-enabling the 'allow training' setting",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://news.ycombinator.com/item?id=49643556",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A highly discussed user report alleges a privacy preference was repeatedly reset. Treat it as unverified but worth checking if you rely on account-level training controls."
+      },
+      {
+        "title": "NASA and IBM open source lunar mapping tools",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/09/10/nasa-and-ibm-open-source-lunar-mapping-tools/5295633",
+        "score": 6,
+        "badge": "skim",
+        "summary": "NASA and IBM released open lunar-mapping tools and an AI model for planetary exploration—a credible, useful open-science release rather than AI theatre."
+      }
+    ],
+    "it": [
+      {
+        "title": "Rust is tier-1 language at Microsoft",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://rustfoundation.org/media/guest-post-rust-is-tier-1-language-at-microsoft/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Microsoft has elevated Rust to tier-1 status, a meaningful signal for systems engineering and secure platform development. Strong HN interest suggests broad developer impact."
+      },
+      {
+        "title": "Sub-second Postgres replication to ClickHouse from physical WAL",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://clickhouse.com/blog/introducing-walshadow",
+        "score": 7,
+        "badge": "worth",
+        "summary": "ClickHouse introduced WALShadow for sub-second replication from PostgreSQL physical WAL, an interesting new path for operational-to-analytics pipelines."
+      },
+      {
+        "title": "Azure SQL Data Sync stops taking newcomers before 2027 execution",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/databases/2026/09/10/azure-sql-data-sync-stops-taking-newcomers-before-2027-execution/5295579",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Azure SQL Data Sync is closing to new users ahead of retirement. Cloud teams should stop designing around it and map migrations now."
+      },
+      {
+        "title": "Shopify moves back to Native from React Native",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://shopify.engineering/back-to-native",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Shopify's engineering team is moving parts of its mobile stack back to native development—a useful real-world counterweight to one-codebase orthodoxy."
+      },
+      {
+        "title": "Neki is sharded Postgres by PlanetScale",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://neki.dev/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "PlanetScale previewed Neki, a sharded PostgreSQL offering. It is early, but relevant to teams wanting Postgres semantics with horizontal scale."
+      }
+    ],
+    "videos": [
+      {
+        "title": "Why AI Agents Don't Think They're Cheating",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=ahK9hZ7L-Kc",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — short, sharp security framing",
+        "summary": "Agent rules behave like guidelines when the objective rewards bypassing them. The useful prescription is deterministic, immutable, fail-closed controls—not stronger prose instructions."
+      },
+      {
+        "title": "How GPUs Accelerate Data & Analytics with AI",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=zqowMgMgSjA",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — solid architectural refresher",
+        "summary": "Explains heterogeneous CPU/GPU query execution and why parallel analytics can improve both latency and cost. Useful context, though mostly conceptual."
+      },
+      {
+        "title": "Black & Veatch Achieves 98% Microsoft Copilot Adoption Through AI Change Management.",
+        "channel": "Microsoft Cloud",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=Xe4LO_WJr9E",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — adoption model is the useful part",
+        "summary": "A three-tier adopter/navigator/builder community, six-week training and weekly sessions drove claimed 98% Copilot adoption. Vendor-produced, but the change-management pattern is reusable."
+      },
+      {
+        "title": "Let AI Build Tripwires",
+        "channel": "John Hammond",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=5z1b-IDmUOQ",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — practical idea, light detail",
+        "summary": "Suggests having coding agents inspect Canarytokens documentation and prepare host-specific deception tripwires. Useful experiment, but review every generated token and deployment action."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "Anthropic reveals rogue AI agents hate CAPTCHAs, just like you",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/09/10/anthropic-reveals-rogue-ai-agents-hate-captchas-just-like-you/"
+    },
+    {
+      "title": "Cisco confirms CVE-2026-20079 Secure FMC flaw exploited in attacks",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-confirms-cve-2026-20079-secure-fmc-flaw-exploited-in-attacks/"
+    },
+    {
+      "title": "Hawley probes OpenAI over Hugging Face breach",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 4,
+      "url": "https://cyberscoop.com/openai-hugging-face-probe-senate-hawley/"
+    },
+    {
+      "title": "🕵️‍♂️ SonicWall SMA1000 (CVE-2026-15409): SSRF to Erlang RCE chained into automated DCSync from the appliance",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit /r/netsec",
+      "score": 4,
+      "url": "https://www.reddit.com/r/netsec/comments/1wcqbvq/sonicwall_sma1000_cve202615409_ssrf_to_erlang_rce/"
+    },
+    {
+      "title": "Trezor warns users of email provider breach, phishing attacks",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-users-of-email-provider-breach-phishing-attacks/"
+    },
+    {
+      "title": "Chinese espionage groups swarm to exploit triple-link chain of zero-days",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 4,
+      "url": "https://cyberscoop.com/china-espionage-groups-exploit-chain-zero-days/"
+    },
+    {
+      "title": "CISA Flags Exploited Cisco, Citrix, Fortinet Flaws, Sets Sept. 12 Federal Patch Deadline",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/09/cisa-flags-exploited-cisco-citrix.html"
+    },
+    {
+      "title": "BlueMoon exploit kit turns Chrome and Windows flaws into attacks",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 4,
+      "url": "https://www.malwarebytes.com/blog/bugs/2026/09/bluemoon-exploit-kit-turns-chrome-and-windows-flaws-into-attacks"
+    },
+    {
+      "title": "More questions about whether researchers can trust OpenAI with unpublished math",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 4,
+      "url": "https://mathstodon.xyz/@andreasthom/117240535270608201"
+    },
+    {
+      "title": "ThreatsDay: 200 Android Flaws, Browser-Built Phishing, 119K Scam Shops + 23 More Stories",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/09/threatsday-200-android-flaws-browser.html"
+    },
+    {
+      "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html"
+    },
+    {
+      "title": "Russian e-commerce giant Wildberries says DDoS attack delayed payments to sellers",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 4,
+      "url": "https://therecord.media/russian-e-commerce-giant-wildberries-says-payments-disrupted"
+    },
+    {
+      "title": "Multiple crypto companies warn customers of phishing emails after alleged provider breach",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 4,
+      "url": "https://therecord.media/trezor-bitbox-cointracking-phishing-crypto-holders"
+    },
+    {
+      "title": "Update Chrome now to protect against an actively exploited vulnerability",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 4,
+      "url": "https://www.malwarebytes.com/blog/bugs/2026/09/update-chrome-now-to-protect-against-an-actively-exploited-vulnerability"
+    },
+    {
+      "title": "Hundreds of AI agents helped PaperCut attacker hit 395+ orgs, and some went off script",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 4,
+      "url": "https://www.theregister.com/security/2026/09/10/hundreds-of-ai-agents-helped-papercut-attacker-hit-395-orgs-and-some-went-off-script/5295650"
+    },
+    {
+      "title": "AI research startup Listen Labs scrubbed a $1.5B funding round for Salesforce talks",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/09/09/ai-research-startup-listen-labs-scrubbed-a-1-5b-funding-round-for-salesforce-talks/"
+    },
+    {
+      "title": "AI lets small actors run state-level hacking campaigns, Anthropic report finds",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 4,
+      "url": "https://cyberscoop.com/anthropic-report-ai-enabled-cyber-attacks/"
+    },
+    {
+      "title": "Mathematicians want proof OpenAI didn’t use their work",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 4,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993263/where-does-openai-get-mathematics-training-data"
+    },
+    {
+      "title": "The AI Researcher Who Just Quit Anthropic Says It’s ‘Crunch Time for Humanity’",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 4,
+      "url": "https://www.wired.com/story/anthropic-researcher-quits-jacob-coxon-ai-fears-humanity/"
+    },
+    {
+      "title": "OpenAI adds a prominent AI doomer to its board of directors",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/09/09/openai-adds-a-prominent-ai-doomer-to-its-board-of-directors/"
+    },
+    {
+      "title": "Cognition launches new SWE-2 model, Rivaling Fable 5.1 and GPT-Astra",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 3,
+      "url": "https://cognition.com/blog/swe-2"
+    },
+    {
+      "title": "Forgejo <=16.0.3 Critical RCE",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 3,
+      "url": "https://codeberg.org/forgejo/forgejo/src/branch/forgejo/release-notes-published/16.0.4.md"
+    },
+    {
+      "title": "Automattic's board forces CEO Matt Mullenweg into leave of absence",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/09/09/automattics-board-forces-ceo-matt-mullenweg-into-leave-of-absence/"
+    },
+    {
+      "title": "Training a 3.8B LLM to 0.384 CORE for $998",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 3,
+      "url": "https://hugovergnes.github.io/little-lm-3-8b/"
+    },
+    {
+      "title": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 3,
+      "url": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements"
+    },
+    {
+      "title": "IDScan confirms breach after hackers offer 153 million driver’s license scans for sale",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 3,
+      "url": "https://therecord.media/idscan-data-breach-notice-drivers-licenses"
+    },
+    {
+      "title": "UK appoints new commander of National Cyber Force",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 3,
+      "url": "https://therecord.media/uk-appoints-new-commander-of-national-cyber-force"
+    },
+    {
+      "title": "LandingAI Releases Agentic Document Extraction Gen2 with DPT-3 Pro and DPT-3 Verity",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 3,
+      "url": "https://www.marktechpost.com/2026/09/09/landingai-releases-agentic-document-extraction-gen2-with-dpt-3-pro-and-dpt-3-verity/"
+    },
+    {
+      "title": "Microsoft goes after Salesforce and ERP users with AI-powered converter",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/software/2026/09/10/microsoft-goes-after-salesforce-and-erp-users-with-ai-powered-converter/5295428"
+    },
+    {
+      "title": "Our Favorite GoPro 360 Camera Is Now 40 Percent Off",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 3,
+      "url": "https://www.wired.com/story/gopro-max-2-deal-september-2026/"
+    },
+    {
+      "title": "Meta’s AI agent Muse is now the No. 2 app in the US",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/09/10/metas-ai-agent-muse-is-now-the-no-2-app-in-the-us/"
+    },
+    {
+      "title": "AI agents are flooding public services with new requests",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/09/10/ai-agents-are-flooding-public-services-with-new-requests/"
+    },
+    {
+      "title": "ID verification giant IDScan confirms data breach with more than 150 million driver’s licenses stolen",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/09/10/id-verification-giant-idscan-confirms-data-breach-with-more-than-150-million-drivers-licenses-stolen/"
+    },
+    {
+      "title": "DeepSeek v4.1 Flash",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 3,
+      "url": "https://twitter.com/deepseek_ai/status/2097930608790167907"
+    },
+    {
+      "title": "AI Is Breaking This Thing We Call Trust",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 3,
+      "url": "https://terriblesoftware.org/2026/09/10/ai-is-breaking-this-thing-we-call-trust/"
+    },
+    {
+      "title": "Preinstalled but Not Safe. OnePlus OEM App Session Takeover Vulnerability",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit /r/netsec",
+      "score": 3,
+      "url": "https://www.reddit.com/r/netsec/comments/1wcdwoi/preinstalled_but_not_safe_oneplus_oem_app_session/"
+    },
+    {
+      "title": "Gigabud Creates Android Work Profiles to Hide From Banking App Malware Checks",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 3,
+      "url": "https://thehackernews.com/2026/09/gigabud-creates-android-work-profiles.html"
+    },
+    {
+      "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 3,
+      "url": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html"
+    },
+    {
+      "title": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 3,
+      "url": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit"
+    },
+    {
+      "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 3,
+      "url": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck"
+    },
+    {
+      "title": "Four groups caught using the same Chrome and Windows exploit kit",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 3,
+      "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/"
+    },
+    {
+      "title": "AIs Compress Exploit Timeline",
+      "source": "Schneier on Security",
+      "loc": "Schneier on Security",
+      "score": 3,
+      "url": "https://www.schneier.com/blog/archives/2026/09/ais-compress-exploit-timeline.html"
+    },
+    {
+      "title": "Suno releases its first AI music model made with record industry help",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 3,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help"
+    },
+    {
+      "title": "OpenAI’s sly mathematical breakthrough sends a chill through academia",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 3,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/992953/openai-math-millennium-prize-navier-stokes"
+    },
+    {
+      "title": "OpenAI's website-hijacking swarm reached far further than we thought",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/10/openais-website-hijacking-swarm-reached-far-further-than-we-thought/5295644"
+    },
+    {
+      "title": "Laptop-slinger Framework refunding customers who paid top dollar for RAM",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/personal-tech/2026/09/10/laptop-slinger-framework-refunding-customers-who-paid-top-dollar-for-ram/5295439"
+    },
+    {
+      "title": "Anthropic reveals fourth likely crime committed by its AI",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/10/anthropic-reveals-fourth-likely-crime-committed-by-its-ai/5295412"
+    },
+    {
+      "title": "Novel Blue Moon kit targeting Chrome and Windows reflects new reality of AI-driven exploits",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/research/2026/09/09/novel-blue-moon-kit-targeting-chrome-and-windows-reflects-new-reality-of-ai-driven-exploits/5295399"
+    },
+    {
+      "title": "AI models don't kill people – people kill people",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/09/ai-models-dont-kill-people-people-kill-people/5295368"
+    },
+    {
+      "title": "‘Killmonger Locs’ Are Everywhere in Video Games. This Artist Is Sick of It",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 3,
+      "url": "https://www.wired.com/story/killmonger-locs-have-infiltrated-video-games-this-artist-is-sick-of-it/"
+    },
+    {
+      "title": "9 Windows Laptops That Give MacBooks a Run for Their Money",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 3,
+      "url": "https://www.wired.com/gallery/best-windows-laptops/"
+    },
+    {
+      "title": "A native Gemini app is finally available for Windows PCs",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 3,
+      "url": "https://www.engadget.com/2255197/a-native-gemini-app-is-finally-available-for-windows-pcs/"
+    },
+    {
+      "title": "NASA and IBM made an AI model for exploring the Moon",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 3,
+      "url": "https://www.engadget.com/2254569/nasa-ibm-ai-model-moon/"
+    },
+    {
+      "title": "On Next-Gen Transformer: Loops Are Not What You Need",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://zartbot.github.io/blog/model_arch/inception/"
+    },
+    {
+      "title": "AI 2027 (2025)",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://ai-2027.com"
+    },
+    {
+      "title": "Serverless DTLS",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://proxylity.com/docs/listeners/dtls.html"
+    },
+    {
+      "title": "The Top 4 Threats We Found by Investigating Every Alert for a Quarter",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 2,
+      "url": "https://www.bleepingcomputer.com/news/security/the-top-4-threats-we-found-by-investigating-every-alert-for-a-quarter/"
+    },
+    {
+      "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 2,
+      "url": "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026"
+    },
+    {
+      "title": "[Virtual Event] Building a Secure AI Strategy for the Enterprise",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 2,
+      "url": "https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026"
+    },
+    {
+      "title": "Kimmel's ABC show won't air interview with Democrat because of Trump FCC threats",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 2,
+      "url": "https://arstechnica.com/tech-policy/2026/09/kimmels-abc-show-wont-air-interview-with-democrat-because-of-trump-fcc-threats/"
+    },
+    {
+      "title": "Cyber Command turns to veteran of intelligence agencies for top AI role",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 2,
+      "url": "https://therecord.media/cyber-command-ai-leader-ronzelle-green"
+    },
+    {
+      "title": "Will AI kill us all within the next decade?",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 2,
+      "url": "https://www.malwarebytes.com/blog/ai/2026/09/will-ai-kill-us-all-within-the-next-decade"
+    },
+    {
+      "title": "Powering AI is an architecture problem",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 2,
+      "url": "https://www.technologyreview.com/2026/09/10/1141649/powering-ai-is-an-architecture-problem/"
+    },
+    {
+      "title": "Universal Music is launching an AI music platform with ElevenLabs",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai"
+    },
+    {
+      "title": "Meta’s Muse AI works and creeps me out",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/tech/993391/meta-muse-ai-hands-on"
+    },
+    {
+      "title": "AI job cuts could come with a costly undo button",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/10/ai-job-cuts-could-come-with-a-costly-undo-button/5295605"
+    },
+    {
+      "title": "ShinyHunters expose 6.4M in attack on medical supplier McKesson",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/security/2026/09/10/shinyhunters-expose-64m-in-attack-on-medical-supplier-mckesson/5295550"
+    },
+    {
+      "title": "Trezor, BitBox users targeted in newsletter phishing spree",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/cyber-crime/2026/09/10/trezor-bitbox-users-targeted-in-newsletter-phishing-spree/5295496"
+    },
+    {
+      "title": "AI uprising postponed after Copilot falls off the web",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/10/ai-uprising-postponed-after-copilot-falls-off-the-web/5295475"
+    },
+    {
+      "title": "Clearview AI Is Testing an AI Tool That Would Let Cops Unearth Your Life Online",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 2,
+      "url": "https://www.wired.com/story/clearview-ai-is-testing-an-ai-tool-that-lets-cops-instantly-unearth-your-online-activity/"
+    },
+    {
+      "title": "San Francisco Orders Meta to Stop ‘Allowing’ AI Child Abuse Ads",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 2,
+      "url": "https://www.wired.com/story/san-francisco-orders-meta-to-stop-allowing-ai-child-abuse-ads/"
+    },
+    {
+      "title": "India’s Pocket FM doubles revenue run rate to $500M as AI powers 93% of audio content",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/09/10/indias-pocket-fm-doubles-revenue-run-rate-to-500m-as-ai-powers-93-of-audio-content/"
+    },
+    {
+      "title": "Governments ‘buying time’ in race between innovation, security, national cyber director says",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 2,
+      "url": "https://cyberscoop.com/national-cyber-director-ai-cybersecurity-threats/"
+    },
+    {
+      "title": "Smashing Security podcast #484: How websites are tracking you with silence",
+      "source": "Graham Cluley",
+      "loc": "Graham Cluley",
+      "score": 2,
+      "url": "https://grahamcluley.com/smashing-security-podcast-484/"
+    },
+    {
+      "title": "Which iPhone 18 Model Should You Buy?",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 2,
+      "url": "https://www.wired.com/story/which-apple-iphone-18-models-to-buy/"
+    },
+    {
+      "title": "Best Robot Lawn Mowers (2026): 12+ Models Tested Over 3 Years",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 2,
+      "url": "https://www.wired.com/gallery/best-robot-lawn-mowers/"
+    },
+    {
+      "title": "I have a theory that software drives people insane",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://graybeard.ing/software-drives-people-insane/"
+    },
+    {
+      "title": "NASA Color Trick Was Meant for Mars. Now It's Unveiling Rock Art on Earth",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://gizmodo.com/this-nasa-color-trick-was-meant-for-mars-now-its-unveiling-rock-art-on-earth-2000809844"
+    },
+    {
+      "title": "Neki",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://planetscale.com/blog/introducing-neki"
+    },
+    {
+      "title": "What algorithm did Windows XP use to choose your initial user picture?",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://devblogs.microsoft.com/oldnewthing/20260909-00/?p=112683"
+    },
+    {
+      "title": "List of references on Sony websites to players \"owning\" their digital games",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://consumerrights.wiki/w/Sony_PlayStation_digital_game_ownership_lawsuit"
+    },
+    {
+      "title": "Show HN: What if the speed of light was 5 km/h?",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://rivendell.dmitrybrant.com/relativity/"
+    },
+    {
+      "title": "GPT-6 Astra Crushes Water Physics",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=j-o0umbbge0"
+    },
+    {
+      "title": "GPT-6 Astra is Truly Science Fiction",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=ajuGqkvRLXc"
+    },
+    {
+      "title": "GPT-6 Astra Creates Magic in Blender",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=_UabiRJc2Gc"
+    },
+    {
+      "title": "GPT-6 Astra Can Edit Better Than You Can",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=e24bFPEYooY"
+    },
+    {
+      "title": "AI Still Needs Network Engineers",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=BzfsGEr8lFg"
+    },
+    {
+      "title": "Black & Veatch scales Microsoft AI enterprise-wide to deliver greater client value",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=HDo7RKwuXjo"
+    },
+    {
+      "title": "Windows Took 90 Minutes. Omarchy Took 1.",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=6HPG3WGd1wQ"
+    },
+    {
+      "title": "450V Power: What Makes It Different?",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=eNlHoXaDCk8"
+    },
+    {
+      "title": "How an OSINT Expert Found a Car the Police Couldn't",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=7CwVrH2Psts"
+    },
+    {
+      "title": "I Turned the Open Internet Into a Minecraft World",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=DGkp3hMU2bk"
+    },
+    {
+      "title": "I Never Thought I’d See This Happen",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=mOvtumfyjCs"
+    },
+    {
+      "title": "These projects get a lot of criticism.. Why, and is it deserved ?",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=k6dLIKBeuNo"
+    },
+    {
+      "title": "Amazon Quick: The Work Follows Through, So You Don't Have To | Amazon Web Services",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=D-KB7yxahjI"
+    },
+    {
+      "title": "Amazon Quick: Pick Up Right Where You Left Off | Amazon Web Services",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=CAuKlT3nkNY"
+    },
+    {
+      "title": "Amazon Quick: Triage Your Morning from Your Phone | Amazon Web Services",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=H8R5sOuCSIo"
+    },
+    {
+      "title": "Amazon Quick: Prep for Any Meeting in One Prompt | Amazon Web Services",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=K79igsRD59s"
+    },
+    {
+      "title": "Why Most People SHOULDN'T Be Entrepreneurs 🛑",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=OKlxMVlrpt0"
+    },
+    {
+      "title": "100 Things a Day Means 19 More Humans",
+      "source": "YouTube",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=xbCSYxVp4yw"
+    }
+  ]
+}
