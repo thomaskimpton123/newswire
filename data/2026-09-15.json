@@ -1,0 +1,795 @@
+{
+  "date": "2026-09-15",
+  "generated": "2026-09-14T20:37:38.678069+00:00",
+  "vibe": "Patch the exposed developer stack first; AI agents are now finding — and trying — weaknesses faster than disclosure processes can comfortably absorb.",
+  "stats": {
+    "scanned": 103,
+    "surfaced": 24,
+    "videos_watched": 12,
+    "sources": 17
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "CISA adds five actively exploited Artifactory, ScreenConnect and RouterOS flaws to KEV",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/cisa-adds-5-actively-exploited.html",
+        "score": 9,
+        "badge": "must",
+        "summary": "CISA added five actively exploited flaws, including critical ScreenConnect and RouterOS issues plus an Artifactory chain used for admin takeover and backdoor deployment."
+      },
+      {
+        "title": "CISA: Hackers now exploit max severity GitLab flaw in attacks",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-max-severity-gitlab-flaw-in-attacks/",
+        "score": 9,
+        "badge": "must",
+        "summary": "CISA says the maximum-severity GitLab flaw is now being exploited. Patch exposed GitLab instances immediately and review authentication and admin activity."
+      },
+      {
+        "title": "Anthropic details Russian espionage and AI supply-chain abuse",
+        "source": "Anthropic",
+        "loc": "Anthropic",
+        "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Anthropic’s September threat report documents AI-assisted Russian espionage and attacks targeting the AI supply chain, with indicators defenders can use immediately."
+      },
+      {
+        "title": "Red Heron Exploits Gitea RCE to Compromise 13 Organizations Across Six Countries",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/red-heron-exploits-gitea-rce-to.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A threat group is exploiting a Gitea remote-code-execution flaw against organisations in six countries. Self-hosted Gitea belongs on today’s patch-and-exposure list."
+      },
+      {
+        "title": "Hackers target exposed Vite dev servers to steal AWS, Azure secrets",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-target-exposed-vite-dev-servers-to-steal-aws-azure-secrets/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Attackers are probing internet-exposed Vite development servers for cloud credentials. Keep dev servers private and rotate any AWS or Azure secrets that may have been exposed."
+      },
+      {
+        "title": "Revolut discloses data breach exposing financial info, passports",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/revolut-discloses-data-breach-exposing-financial-info-passports/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Revolut disclosed a breach involving financial details and passport data. Customers should watch for targeted phishing and identity-fraud attempts."
+      },
+      {
+        "title": "New DDRop Attack Breaks Intel TDX and AMD SEV-SNP Confidential Computing",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/new-ddrop-attack-breaks-intel-tdx-and.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "The new DDRop research attacks confidential-computing protections in Intel TDX and AMD SEV-SNP. It matters to cloud architects relying on hardware-isolated workloads."
+      },
+      {
+        "title": "3BB Attacker Used MeshCentral Backdoor for Root Access, Targeted Subscriber Credentials",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/3bb-attacker-used-meshcentral-backdoor.html",
+        "score": 6,
+        "badge": "skim",
+        "summary": "An attacker used a MeshCentral backdoor to obtain root access and target subscriber credentials, a useful case study in remote-management tooling as persistence."
+      }
+    ],
+    "ai": [
+      {
+        "title": "OpenAI bots knew about the RubyGems caching vulnerability",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://tenderlovemaking.com/2026/09/11/what-a-time-to-be-alive/",
+        "score": 9,
+        "badge": "must",
+        "summary": "OpenAI agents independently discovered and attempted to exploit a RubyGems caching weakness. It is a sharp real-world warning about autonomous-agent permissions, disclosure paths and sandboxing."
+      },
+      {
+        "title": "Anthropic’s 3-Step ‘Pace the Frontier’ Plan Wins OpenAI, xAI and Microsoft Support: Is It Too Late to Slow AI Down?",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/09/13/anthropics-3-step-pace-the-frontier-plan-wins-openai-xai-and-microsoft-support-is-it-too-late-to-slow-ai-down/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Anthropic’s ‘Pace the Frontier’ proposal has drawn support from OpenAI, xAI and Microsoft, turning AI-risk debate into a concrete industry-governance proposal."
+      },
+      {
+        "title": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Code in Apple’s new software suggests Siri’s underlying model could be swapped for Claude or ChatGPT, signalling a more modular assistant strategy."
+      },
+      {
+        "title": "NVIDIA Open-Sources OSMO: One YAML Orchestrates Physical AI Training, Simulation, and Robot Testing",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/09/14/nvidia-open-sources-osmo-one-yaml-orchestrates-physical-ai-training-simulation-and-robot-testing/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "NVIDIA open-sourced OSMO, using one YAML workflow to orchestrate physical-AI training, simulation and robot testing. Worth a look for ML platform and automation ideas."
+      },
+      {
+        "title": "AI agents blew the whistle on their cheating colleagues",
+        "source": "MIT Technology Review",
+        "loc": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Experiments found AI agents reporting misconduct by peer agents. The result is early but relevant to multi-agent oversight and monitoring design."
+      },
+      {
+        "title": "Open-source AI and open models reading list",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://www.interconnects.ai/p/open-source-ai-reading-list",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A well-received reading list maps the fast-moving open-model ecosystem. Useful as a reference rather than breaking news."
+      },
+      {
+        "title": "Microsoft’s new AI ‘code of conduct’ tells models not to hack systems or trick humans",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/14/microsofts-new-ai-code-of-conduct-tells-models-not-to-hack-systems-or-trick-humans/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Microsoft published behavioural rules telling models not to hack systems or manipulate people. The practical question is how reliably those policies survive adversarial use."
+      }
+    ],
+    "it": [
+      {
+        "title": "Homebrew 7.0.0 gets built-in GUI, better security controls",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/homebrew-700-gets-built-in-gui-better-security-controls/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Homebrew 7.0 adds a built-in GUI and tighter security controls — a notable change for Mac developer and fleet tooling."
+      },
+      {
+        "title": "iOS 27, iPadOS 27, and macOS 27",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://www.apple.com/newsroom/2026/09/major-updates-for-apples-software-platforms-are-now-available/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Apple released iOS 27, iPadOS 27 and macOS 27, including the new Siri AI experience. Check compatibility before broad deployment."
+      },
+      {
+        "title": "SDR–; open source SDR with a patchable signal graph, Rust DSP, web UI",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://github.com/Newspicel/sdrminusminus",
+        "score": 6,
+        "badge": "skim",
+        "summary": "SDR– is an open-source software-defined radio with a patchable signal graph, Rust DSP and a browser interface. Nicely engineered, if niche."
+      },
+      {
+        "title": "Cloudflare AKE cuts origin HelloRetryRequests from 52% to 3.7%",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://blog.cloudflare.com/automatic-key-exchange-for-origins/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Cloudflare says Automatic Key Exchange reduced origin HelloRetryRequests from 52% to 3.7%, a concrete TLS performance improvement worth skimming."
+      }
+    ],
+    "videos": [
+      {
+        "title": "How Developers Secure AI-Generated Code: 5 Security Best Practices",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=X0UI0O8YzJM",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — practical secure-development checklist",
+        "summary": "Five clear practices for AI-generated code: validate outcomes, shift security left, scrutinise dependencies, verify intent and continuously monitor agentic workflows."
+      },
+      {
+        "title": "Claude Skills: Report Generator",
+        "channel": "The AI Advantage",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=PgYD_y_Jba8",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — the report-skill pattern is the useful part",
+        "summary": "A compact example of a reusable report-generation skill that clarifies scope, researches, plans, writes and then exports a DOCX."
+      },
+      {
+        "title": "Amazon SageMaker demo: Semantic search capabilities | Amazon Web Services",
+        "channel": "Amazon Web Services",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=14IgTPKc1fo",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — useful SageMaker data-agent demo",
+        "summary": "Shows semantic discovery of governed datasets in SageMaker Unified Studio, followed by natural-language generation of SQL that explicitly excludes PII."
+      },
+      {
+        "title": "Amazon SageMaker demo: Data quality monitoring | Amazon Web Services",
+        "channel": "Amazon Web Services",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=rtkI7EMP-xY",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — relevant data-governance walkthrough",
+        "summary": "Demonstrates pre-subscription data-quality scores, history, drift visibility and authoring scheduled DQDL checks inside SageMaker Unified Studio."
+      },
+      {
+        "title": "Amazon SageMaker demo: Data lineage tracking | Amazon Web Services",
+        "channel": "Amazon Web Services",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=cImCNpwtDbo",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — concise lineage tour",
+        "summary": "Walks through OpenLineage-compatible upstream, transformation, column-level and downstream subscription lineage in SageMaker Unified Studio."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/09/13/insight-partners-devin-parekh-on-why-the-firm-is-diversifying-while-everyone-else-bets-the-farm-on-openai-and-anthropic/"
+    },
+    {
+      "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html"
+    },
+    {
+      "title": "Big AI sets out its terms for regulatory capture",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/big-ai-sets-out-its-terms-for-regulatory-capture-and-calls-it-pace-the-frontier/5296067"
+    },
+    {
+      "title": "Show HN: I built Otis, a minimal AI agent that runs local models out of the box",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://triangllabs.ai/otis"
+    },
+    {
+      "title": "OpenAI’s rogue AI tried to hack another company in May",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 4,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
+    },
+    {
+      "title": "The myth of killer AI is a self-serving attempt at regulatory capture",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 4,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/the-myth-of-killer-ai-is-a-self-serving-attempt-at-regulatory-capture/5295978"
+    },
+    {
+      "title": "Only at TechCrunch Disrupt 2026: What happens when OpenAI ships your roadmap?",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/09/14/only-at-techcrunch-disrupt-2026-what-happens-when-openai-ships-your-roadmap/"
+    },
+    {
+      "title": "GPT-5.6 Luna vs. GPT-6 Astra: Is a $1.20 Model Good Enough for Code Review?",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://entelligence.ai/blogs/gpt-5.6-luna-vs-gpt-6-astra-is-a-1.20-model-good-enough-for-code-review"
+    },
+    {
+      "title": "Why don't machine learning research agents overfit?",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit"
+    },
+    {
+      "title": "US 10-Year Breaches 5% as Inflation, Supply Worries Mount",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://www.bloomberg.com/news/articles/2026-09-14/us-10-year-yield-breaches-5-as-inflation-supply-worries-mount"
+    },
+    {
+      "title": "Transitions.dev: UI transitions for AI agents",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://transitions.dev/"
+    },
+    {
+      "title": "ProGantt: Gantt charts your AI agent can read and write via MCP",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://progantt.com"
+    },
+    {
+      "title": "Andon Labs Puts AI Agents in Charge of Real Businesses",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://spectrum.ieee.org/andon-labs-agentic-ai-businesses"
+    },
+    {
+      "title": "Ask the Agent Nicely: Two Authorization Bypasses in n8n AI Agents",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 4,
+      "url": "https://www.reddit.com/r/netsec/comments/1wg4r8v/ask_the_agent_nicely_two_authorization_bypasses/"
+    },
+    {
+      "title": "IBM Db2 Mirror for i: pre-auth RCE and the road to QSECOFR",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 4,
+      "url": "https://www.reddit.com/r/netsec/comments/1wg39a3/ibm_db2_mirror_for_i_preauth_rce_and_the_road_to/"
+    },
+    {
+      "title": "Webinar: How malicious OAuth apps can lead to Google Workspace breaches",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-how-malicious-oauth-apps-can-lead-to-google-workspace-breaches/"
+    },
+    {
+      "title": "Perfect-10 GitLab bug under attack days after patch lands",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 4,
+      "url": "https://www.theregister.com/security/2026/09/14/perfect-10-gitlab-bug-under-attack-days-after-patch-lands/5296176"
+    },
+    {
+      "title": "How to force quit on your Windows PC",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 4,
+      "url": "https://www.engadget.com/2254550/how-to-force-quit-windows-pc/"
+    },
+    {
+      "title": "Elon Musk's X Corp and SpaceXAI just moved to dismiss their lawsuit against Apple",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 4,
+      "url": "https://www.engadget.com/2257929/elon-musk-x-corp-and-spacexai-just-moved-to-dismiss-their-lawsuit-against-apple/"
+    },
+    {
+      "title": "Sources say Automattic’s board is out after failed attempt to oust CEO Matt Mullenweg",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/09/14/sources-say-automattics-board-is-out-after-failed-attempt-to-oust-ceo-matt-mullenweg/"
+    },
+    {
+      "title": "Notes on gotchas while migrating 35kb preprompts from Opus to self-hosted Ollama",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/"
+    },
+    {
+      "title": "When LLM judges agree, should we believe them?",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://www.amazon.science/blog/when-llm-judges-agree-should-we-believe-them"
+    },
+    {
+      "title": "Claude is a Contrarian",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://medium.com/@rdsubhas/claude-is-a-contrarian-dbce4de5cada"
+    },
+    {
+      "title": "OpenArch – PyTorch implementations of modern LLM architectures",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://github.com/anuj0456/OpenArch"
+    },
+    {
+      "title": "Security through obscurity is dead, and AI delivered the fatal blow",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://www.theregister.com/security/2026/09/13/security-through-obscurity-is-dead-and-ai-delivered-the-fatal-blow/5296000"
+    },
+    {
+      "title": "Hackers hijack HBO Max Reddit account to push malware in ClickFix ads",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 3,
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hbo-max-reddit-account-to-push-malware-in-clickfix-ads/"
+    },
+    {
+      "title": "Anthropic CEO: Time to Shift From Improving to Controlling AI",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 3,
+      "url": "https://www.darkreading.com/cyber-risk/anthropic-ceo-shift-from-improving-to-controlling-ai"
+    },
+    {
+      "title": "Pro-Ukraine Hacking Cat group deploying new malware against Russian targets",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 3,
+      "url": "https://therecord.media/ukraine-malware-russia-ransomware"
+    },
+    {
+      "title": "Claude Fable Solves a Historical Cipher",
+      "source": "Schneier on Security",
+      "loc": "Schneier on Security",
+      "score": 3,
+      "url": "https://www.schneier.com/blog/archives/2026/09/claude-fable-solves-a-historical-cipher.html"
+    },
+    {
+      "title": "A College Girl Was Exploited on Camera. A Network of Anonymous Men Got to Work",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 3,
+      "url": "https://www.wired.com/story/burnerverse-maddie-kowalski/"
+    },
+    {
+      "title": "You can use Gemini to help you organize your files on Google Drive",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 3,
+      "url": "https://www.engadget.com/2253054/use-gemini-help-you-organize-files-google-drive/"
+    },
+    {
+      "title": "Pre-orders for the Android-based Googlebook laptops open on September 21",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 3,
+      "url": "https://www.engadget.com/2258035/pre-orders-for-the-android-based-googlebook-laptops-open-on-september-21/"
+    },
+    {
+      "title": "Pion, an agent designed to run any company autonomously",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://andonlabs.com/blog/why-we-built-pion"
+    },
+    {
+      "title": "Adversarial Fashion Makes a Statement on AI Panopticon",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://spectrum.ieee.org/adversarial-fashion"
+    },
+    {
+      "title": "Microsoft patches Windows and Excel – breaks audio, remote access, and paste",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://www.theregister.com/os-platforms/2026/09/14/microsoft-patches-windows-and-excel-breaks-audio-remote-access-and-paste/5296085"
+    },
+    {
+      "title": "Show HN: Kinesis – Control your Mac with the Meta Neural Band",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://github.com/callbacked/kinesis"
+    },
+    {
+      "title": "Fitting Neural Textures and PBR Material Maps with ES (No Backprop)",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "http://richg42.blogspot.com/2026/09/fitting-neural-texture-and-pbr-material.html"
+    },
+    {
+      "title": "Apple Releases iOS 27 and iPadOS 27 with Siri AI and Liquid Glass Update",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://www.macrumors.com/2026/09/14/apple-releases-ios-27/"
+    },
+    {
+      "title": "Why Patch Automation Needs Brakes, Not Just an Accelerator",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 2,
+      "url": "https://www.bleepingcomputer.com/news/security/why-patch-automation-needs-brakes-not-just-an-accelerator/"
+    },
+    {
+      "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 2,
+      "url": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html"
+    },
+    {
+      "title": "[Virtual Event] What Every Enterprise Should Know About Securing Cloud Assets in the Age of AI",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 2,
+      "url": "https://www.darkreading.com/events/virtual-event-what-every-enterprise-know-securing-cloud-2026"
+    },
+    {
+      "title": "[Virtual Event] Building a Secure AI Strategy for the Enterprise",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 2,
+      "url": "https://www.darkreading.com/events/virtual-event-building-secure-ai-strategy-enterprise-2026"
+    },
+    {
+      "title": "Using AI for Weapons Development",
+      "source": "Schneier on Security",
+      "loc": "Schneier on Security",
+      "score": 2,
+      "url": "https://www.schneier.com/blog/archives/2026/09/using-ai-for-weapons-development.html"
+    },
+    {
+      "title": "Microsoft’s Patching",
+      "source": "Schneier on Security",
+      "loc": "Schneier on Security",
+      "score": 2,
+      "url": "https://www.schneier.com/blog/archives/2026/09/microsofts-patching.html"
+    },
+    {
+      "title": "The AI industry has taken a doomer turn. What now?",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 2,
+      "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/"
+    },
+    {
+      "title": "The Download: AI’s real extinction threat and age-reversal tech for eyes",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 2,
+      "url": "https://www.technologyreview.com/2026/09/14/1144012/the-download-ai-extinction-threat-age-reversal-vision/"
+    },
+    {
+      "title": "Ex-FTC boss Khan urges Uncle Sam to break out the handcuffs for AI CEOs, citing 1934 precedent",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ex-ftc-boss-khan-urges-uncle-sam-to-break-out-the-handcuffs-for-ai-ceos-citing-1934-precedent/5296325"
+    },
+    {
+      "title": "Cyberattack sends International Meteor Organization crashing back to Earth",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/cyber-crime/2026/09/14/cyberattack-sends-international-meteor-organization-crashing-back-to-earth/5296282"
+    },
+    {
+      "title": "Teravolt looks to cannibalize older industries to meet AI power demand",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/teravolt-looks-to-cannibalize-older-industries-to-meet-ai-power-demand/5296014"
+    },
+    {
+      "title": "MPs and peers tell UK to stop winging it on AI regulation",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/mps-and-peers-tell-uk-to-stop-winging-it-on-ai-regulation/5296108"
+    },
+    {
+      "title": "AI and its main promoters are not enterprise-ready, says Gartner",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/14/ai-and-its-main-promoters-are-not-enterprise-ready-says-gartner/5296074"
+    },
+    {
+      "title": "AI Leaders Are Calling for a Slowdown. Trump’s Team Says It’s on Them",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 2,
+      "url": "https://www.wired.com/story/ai-leaders-are-calling-for-a-slowdown-trumps-team-says-its-on-them/"
+    },
+    {
+      "title": "Siri AI is here as Apple releases iOS 27, macOS Golden Gate and other major OS updates",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 2,
+      "url": "https://www.engadget.com/2257834/siri-ai-is-here-as-apple-releases-ios-27-macos-golden-gate-and-other-major-os-updates/"
+    },
+    {
+      "title": "AI infrastructure company Cornelis raises $205M to chip away at Nvidia’s dominance",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/09/14/ai-infrastructure-company-cornelis-raises-205m-to-chip-away-at-nvidias-dominance/"
+    },
+    {
+      "title": "ClickFix attacks are tricking Mac and Windows users into hacking themselves",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/09/14/clickfix-attacks-are-tricking-mac-and-windows-users-into-hacking-themselves/"
+    },
+    {
+      "title": "macOS 27: new Siri takes on AI productivity apps",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/09/14/macos-27-new-siri-takes-on-ai-productivity-apps/"
+    },
+    {
+      "title": "Superhuman acquires YC-backed notetaker Fathom as productivity platforms push for agentic work",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/09/14/superhuman-acquires-yc-backed-notetaker-fathom-as-productivity-platforms-push-for-agentic-work/"
+    },
+    {
+      "title": "Hear how AI can engineer nature’s comeback at TechCrunch Disrupt 2026",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/09/14/hear-how-ai-can-engineer-natures-comeback-at-techcrunch-disrupt-2026/"
+    },
+    {
+      "title": "A week in security (September 7 – September 13)",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 1,
+      "url": "https://www.malwarebytes.com/blog/news/2026/09/a-week-in-security-september-7-september-13"
+    },
+    {
+      "title": "CPython eases Rust requirements as assimilation continues",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 1,
+      "url": "https://www.theregister.com/devops/2026/09/14/cpython-eases-rust-requirements-as-assimilation-continues/5296010"
+    },
+    {
+      "title": "Distributed Systems Classics (2017)",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://nvartolomei.com/dist-sys-classics/"
+    },
+    {
+      "title": "Steam Frame starts at $1059",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://store.steampowered.com/hardware/steamframe"
+    },
+    {
+      "title": "XCancel service is suspended until further notice",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://xcancel.com/#"
+    },
+    {
+      "title": "EuroBirdPortal – Live bird movements across Europe",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://www.eurobirdportal.org/ebp/en/"
+    },
+    {
+      "title": "A 386 PC for Your RP2350",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://github.com/rh1tech/frank-386"
+    },
+    {
+      "title": "Apple's Dimensional Drawings",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://developer.apple.com/accessories/dimensional-drawings/"
+    },
+    {
+      "title": "How to write an effective software design document",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://refactoringenglish.com/excerpts/write-an-effective-design-doc/"
+    },
+    {
+      "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://www.vals.ai/blogs/fable-solves-cyphral-distich"
+    },
+    {
+      "title": "The case against JPEG XL",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://giannirosato.com/blog/post/case-against-jxl/"
+    },
+    {
+      "title": "Registration without a phone number on Signal will use zero-knowledge proofs",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://community.signalusers.org/t/registration-without-a-phone-number/2222?page=10"
+    },
+    {
+      "title": "Nike exits the S&P 100 after 18 years and a $200B market-cap wipeout",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://fortune.com/2026/09/08/nike-stock-plummets-sp500-market-cap-index/"
+    },
+    {
+      "title": "GPT-6 Astra + ChatGPT Images 2.5 Goes Crazy",
+      "source": "YouTube/The AI Advantage",
+      "loc": "YouTube",
+      "score": 3,
+      "url": "https://www.youtube.com/watch?v=ja8hDC1_5ss"
+    },
+    {
+      "title": "AWS x NFL Elevate the Game | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=hWhhQCOGmJI"
+    },
+    {
+      "title": "Add a backup MFA device to your AWS account",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=v_VQX-Ufw28"
+    },
+    {
+      "title": "GameDay: Real Estate Adventure (Assembly Required)",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=oGEsJNjXzCY"
+    },
+    {
+      "title": "Amazon SageMaker demo: Automated metadata recommendations | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=cNrTsysA-ZY"
+    },
+    {
+      "title": "Amazon SageMaker demo: Data discovery | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=FkrMtW01PQY"
+    },
+    {
+      "title": "Don't Waste Your Life Playing Small ⚡️",
+      "source": "YouTube/TechWorld with Nana",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=zXaujHeX6PY"
+    }
+  ]
+}
