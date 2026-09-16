@@ -1,0 +1,819 @@
+{
+  "date": "2026-09-17",
+  "generated": "2026-09-16T20:35:40.738989+00:00",
+  "vibe": "Patch the exposed edge first: Pixel, ScreenConnect, WordPress and hosting tools are under active attack, while AWS offers a sobering lesson in cross-region resilience.",
+  "stats": {
+    "scanned": 106,
+    "surfaced": 22,
+    "videos_watched": 14,
+    "sources": 21
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Google fixes actively exploited Pixel modem zero-day",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/google-fixes-actively-exploited-android-zero-day-on-pixel-devices/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Google patched CVE-2026-81224, a Pixel modem information-disclosure flaw used in limited targeted attacks. Pixel owners should install the September update now; enterprise fleets should verify patch compliance."
+      },
+      {
+        "title": "Critical ScreenConnect flaw is now actively exploited",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-screenconnect-flaw/",
+        "score": 9,
+        "badge": "must",
+        "summary": "CISA added CVE-2026-20079 to its exploited-vulnerabilities catalogue. Patch internet-facing ConnectWise ScreenConnect servers immediately and review them for compromise."
+      },
+      {
+        "title": "WooCommerce plugin flaw exploited to plant PHP web shells",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-woocommerce-wholesale.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Attackers are exploiting an unauthenticated file-upload bug in the Wholesale Lead Capture plugin. Update or remove the plugin and inspect affected WordPress hosts for web shells."
+      },
+      {
+        "title": "Acronis cPanel backup plugin flaw exploited in targeted attacks",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/acronis-cpanel-backup-plugin.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Acronis says attackers are exploiting a cPanel backup-plugin vulnerability. Hosting operators should update promptly and hunt for suspicious plugin or account activity."
+      },
+      {
+        "title": "Malware bypasses browser checks to force-install extensions",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/malware-bypasses-browser-checks-to-force-install-chrome-edge-extensions/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "New malware manipulates Chrome and Edge policy controls to install unwanted extensions, a useful reminder to monitor enterprise browser-policy changes as closely as endpoint binaries."
+      },
+      {
+        "title": "BragJack turns browser agents against their users",
+        "source": "Dark Reading",
+        "loc": "Dark Reading",
+        "url": "https://www.darkreading.com/endpoint-security/bragjack-browser-agentic-ai",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Researchers describe prompt-injection techniques that can steer browser-based AI agents through hostile page content. Keep high-privilege agent actions gated by explicit confirmation."
+      },
+      {
+        "title": "One malicious extension can hijack multiple browser AI assistants",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A cross-browser extension attack shows how shared extension trust can expose Chrome, Edge, Comet, Opera Neon and Claude workflows. Audit extensions before granting agent access to sensitive sessions."
+      },
+      {
+        "title": "Issabel command-execution flaw under active attack",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/09/attackers-exploit-issabel-framework.html",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Attackers are exploiting an unauthenticated OS-command-injection flaw in Issabel deployments. Exposed communications servers should be patched or isolated quickly."
+      },
+      {
+        "title": "Hackers publish driver data after Florida motor-vehicle breach",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/16/hackers-publish-thousands-of-drivers-data-after-breaching-florida-motor-vehicle-database/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Thousands of driver records were published following a breach of a Florida motor-vehicle database, extending the identity-fraud risk from the wider licence-data campaign."
+      }
+    ],
+    "ai": [
+      {
+        "title": "OpenAI expands ChatGPT advertising with sponsored agents",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://openai.com/index/reimagining-advertising-with-ai/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "OpenAI is extending ads beyond static placements into sponsored conversational agents. It is a significant shift in ChatGPT's business model and raises fresh questions about disclosure and answer neutrality."
+      },
+      {
+        "title": "Anthropic merges Claude and Cowork, adds editable documents",
+        "source": "The Verge AI",
+        "loc": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/996234/anthropic-one-claude-cowork-docs-slides",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Claude can now produce and revise editable documents and presentations inside one interface, collapsing the boundary between chat and workspace tooling."
+      },
+      {
+        "title": "Google releases Gemini 3.8 Live models for production voice agents",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/09/15/google-releases-gemini-3-8-live-and-3-8-live-extended-thinking-for-production-grade-voice-agents/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Google's new Live and Extended Thinking variants target lower-latency, production-grade voice agents. The longer-reasoning option is the technically interesting part for complex spoken workflows."
+      },
+      {
+        "title": "Google opens Home devices to third-party AI agents via MCP",
+        "source": "The Verge AI",
+        "loc": "The Verge AI",
+        "url": "https://www.theverge.com/tech/996310/google-home-mcp-integration-agentic-ai-smart-home-price-release-date",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Google is adding an MCP integration that lets outside agents control compatible smart-home devices. Useful, but permission boundaries and confirmation flows will matter enormously."
+      },
+      {
+        "title": "OpenAI, Anthropic and Google coordinate on AI safety",
+        "source": "Reuters",
+        "loc": "Reuters",
+        "url": "https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "The three leading labs have held weeks of talks on shared safety work, while OpenAI backs independent model assessments. Rare cross-lab coordination makes this worth watching."
+      }
+    ],
+    "it": [
+      {
+        "title": "AWS says wartime damage permanently destroyed some cloud resources",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/off-prem/2026/09/16/aws-says-wartime-damage-means-some-middle-east-cloud-resources-are-gone-for-good/5296830",
+        "score": 9,
+        "badge": "must",
+        "summary": "AWS says physical damage in the Middle East left some customer resources unrecoverable. It is a stark reminder that availability zones are not a substitute for tested cross-region backups and recovery."
+      },
+      {
+        "title": "Salesforce recovers from a global outage",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/saas/2026/09/16/salesforce-staggers-back-to-feet-after-global-outage/5296800",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Salesforce restored service after a broad outage disrupted customers worldwide. Cloud teams should review dependency maps and degraded-mode plans for core SaaS platforms."
+      },
+      {
+        "title": "Rheinmetall open-sources its Battlesuite connected-system protocol",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
+        "score": 5,
+        "badge": "skim",
+        "summary": "The defence manufacturer published documentation for its onboard connected-system API. It is niche, but an unusual look at interoperability in military platforms."
+      }
+    ],
+    "videos": [
+      {
+        "title": "DOP 368: The AI Productivity Paradox",
+        "channel": "DevOps Toolkit",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=PXcDQ9yz5zM",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "SKIM — strong thesis, but the podcast is long; the opening framing and DORA discussion carry the value",
+        "summary": "AI coding tools make individuals feel faster, yet teams may ship no more customer value and can create more instability. The useful takeaway is to measure flow, quality and outcomes—not tickets closed or code produced."
+      },
+      {
+        "title": "The vulnpocalypse might not be so bad after all",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=t8Y-eqZ5_-0",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "SKIM — practical security discussion; focus on validation, identity and managed degradation",
+        "summary": "IBM's panel argues the AI-driven 'vulnpocalypse' is overstated: validate whether a CVE is exploitable in your environment, keep identity fundamentals strong, and plan which critical services survive a prolonged incident."
+      },
+      {
+        "title": "GNOME 51: a look at everything that changed",
+        "channel": "Low Level",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=3Ws9dahsFqQ",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — worthwhile for Linux desktop users; use the chaptered feature tour",
+        "summary": "GNOME 51 brings better reduced-motion behaviour, crisper SVG cursors, improved hybrid-GPU frame handling, broader login methods and many application refinements rather than one headline feature."
+      },
+      {
+        "title": "New Way Now: Wipro scales agentic AI for 15,000 associates with Google Cloud Consulting",
+        "channel": "Google Cloud Tech",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=yymXCbbNSvE",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — polished customer case study, light on implementation detail",
+        "summary": "Wipro says it deployed Gemini Enterprise to 15,000 staff and orchestrates roughly 90 agents with Google Cloud. The clearest lesson is that process orchestration matters more than merely buying agent tooling."
+      },
+      {
+        "title": "AI Says It's a 10/10 Vulnerability... But Is It? 🤔",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=Dt0T0ga_zNA",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — only a short clip, but the advice is sound",
+        "summary": "Do not accept an AI-generated CVSS-style severity at face value: first test whether the issue applies to your environment and business, then verify the model's judgement."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "Anthropic merges Claude chat and Cowork in one interface",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/09/16/anthropic-merges-claude-chat-and-cowork-in-one-interface/"
+    },
+    {
+      "title": "Anthropic merges Claude chat and Cowork into one",
+      "source": "ZDNet",
+      "loc": "ZDNet",
+      "score": 4,
+      "url": "https://www.zdnet.com/innovation/claude-chat-absorbs-cowork-anthropic/"
+    },
+    {
+      "title": "Anthropic's Claude can now create editable documents for you",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 4,
+      "url": "https://www.engadget.com/2259938/anthropics-claude-can-now-create-editable-documents-for-you-cowork-chat-together/"
+    },
+    {
+      "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html"
+    },
+    {
+      "title": "Can we stop with the uptime percentages?",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://blog.jim-nielsen.com/2026/stop-with-the-uptime-percentage/"
+    },
+    {
+      "title": "DeepSeek v4.1 Flash Is Now Our Best Hacking Model",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://enclave.ai/blog/deepseek-v41-flash-is-now-our-best-hacking-model"
+    },
+    {
+      "title": "Google Patches Pixel Modem Flaw Amid Signs of Limited Targeted Exploitation",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/09/google-patches-pixel-modem-flaw-amid.html"
+    },
+    {
+      "title": "Google Pixel owners urged to patch actively exploited modem flaw",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 4,
+      "url": "https://www.malwarebytes.com/blog/mobile/2026/09/google-pixel-owners-urged-to-patch-actively-exploited-modem-flaw"
+    },
+    {
+      "title": "Google says some Pixel phone owners were hacked in zero-day attacks",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/09/16/google-says-some-pixel-phone-owners-were-hacked-in-zero-day-attacks/"
+    },
+    {
+      "title": "House passes bill to equip local law enforcement with scam-fighting tools",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 4,
+      "url": "https://therecord.media/house-passes-bill-to-equip-local-law-enforcement-scams"
+    },
+    {
+      "title": "Malcious Admin Menu Editor Pro plugin backdoors 1,500 WordPress sites",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/malcious-admin-menu-editor-pro-plugin-backdoors-1-500-wordpress-sites/"
+    },
+    {
+      "title": "Mistral X Mozilla: Private, Multilingual AI Browsing",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://mistral.ai/news/mistral-x-mozilla/"
+    },
+    {
+      "title": "OpenAI's new sponsored agents are happy to chat about selling you things",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 4,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/16/openais-new-sponsored-agents-are-happy-to-chat-about-selling-you-things/5296946"
+    },
+    {
+      "title": "Salesforce Global Outage",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://status.salesforce.com/products/all"
+    },
+    {
+      "title": "Spain's data agency gets first report of AI-powered data breach",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/"
+    },
+    {
+      "title": "The Boox Note Air6C E Ink tablet flips pages nearly 40 percent faster",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 4,
+      "url": "https://www.engadget.com/2260455/the-boox-note-air6c-e-ink-tablet-flips-pages-nearly-40-percent-faster/"
+    },
+    {
+      "title": "The true cost of a ransomware attack, with and without BCDR",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/the-true-cost-of-a-ransomware-attack-with-and-without-bcdr/"
+    },
+    {
+      "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html"
+    },
+    {
+      "title": "Three Threat Groups Target Russian Enterprises With Backdoors, Ransomware, and Wipers",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/09/three-threat-groups-target-russian.html"
+    },
+    {
+      "title": "Training a 4B model to produce 81% faster query plans than Postgres",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://rohanbansal.com/qorl"
+    },
+    {
+      "title": "Webinar: What happens in the first hours of a Google Workspace breach",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/webinar-what-happens-in-the-first-hours-of-a-google-workspace-breach/"
+    },
+    {
+      "title": "Your AI agents can now control your Google Home devices",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/09/16/your-ai-agents-can-now-control-your-google-home-devices/"
+    },
+    {
+      "title": "Acronis warns of actively exploited flaw in its cPanel backup plugin",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 3,
+      "url": "https://www.bleepingcomputer.com/news/security/acronis-warns-of-actively-exploited-flaw-in-its-cpanel-backup-plugin/"
+    },
+    {
+      "title": "Active Exploitation Attempts Target WSO2 API Manager JWT Bypass With Forged Admin Tokens",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 3,
+      "url": "https://thehackernews.com/2026/09/active-exploitation-attempts-target.html"
+    },
+    {
+      "title": "Backflip: Apple now wants to train AI models with user data after all",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://www.heise.de/en/news/Backflip-Apple-now-wants-to-train-AI-models-with-user-data-after-all-11451252.html"
+    },
+    {
+      "title": "Best 2-in-1 Laptops (2026): Microsoft, Lenovo, and the iPad",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 3,
+      "url": "https://www.wired.com/story/best-2-in-1-laptops/"
+    },
+    {
+      "title": "Claude Cowork and chat are now one Claude",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://claude.com/blog/cowork-is-now-claude"
+    },
+    {
+      "title": "Fake CAPTCHA Scams",
+      "source": "Schneier on Security",
+      "loc": "Schneier on Security",
+      "score": 3,
+      "url": "https://www.schneier.com/blog/archives/2026/09/fake-captcha-scams.html"
+    },
+    {
+      "title": "Gemini Live audio",
+      "source": "Simon Willison",
+      "loc": "Simon Willison",
+      "score": 3,
+      "url": "https://simonwillison.net/2026/Sep/15/gemini-live/"
+    },
+    {
+      "title": "Iranian hackers use CHOSEN BRICK Windows malware to spy on targets",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 3,
+      "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-use-chosen-brick-windows-malware-to-spy-on-targets/"
+    },
+    {
+      "title": "Learning Programming in an Age of LLMs",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://blog.ploeh.dk/2026/09/16/on-learning-programming-in-an-age-of-llms/"
+    },
+    {
+      "title": "Nums AI Releases Causilo: A Tabular Foundation Model That Tops TabArena Among Single Models",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 3,
+      "url": "https://www.marktechpost.com/2026/09/15/nums-ai-releases-causilo-a-tabular-foundation-model-that-tops-tabarena-among-single-models/"
+    },
+    {
+      "title": "Robots are waiting for a ChatGPT moment: Nvidia’s Les Karpas explains why at TechCrunch Disrupt 2026",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/09/16/robots-are-waiting-for-a-chatgpt-moment-nvidias-les-karpas-explains-why-at-techcrunch-disrupt-2026/"
+    },
+    {
+      "title": "The Download: AI’s trillion-dollar gamble and OpenAI’s biology data bid",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 3,
+      "url": "https://www.technologyreview.com/2026/09/16/1144205/the-download-ai-trillion-dollar-build-openai-biological-data/"
+    },
+    {
+      "title": "TypeSafe AI debuts model for machines that plays Doom",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711"
+    },
+    {
+      "title": "4chan/Kiwifarms lawsuit against OFCOM dismissed for lack of jurisdiction",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://prestonbyrne.com/2026/09/15/4chan_ofcom_mtd/"
+    },
+    {
+      "title": "A brief history of AI executives calling for regulation",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/policy/995534/a-brief-history-of-ai-executives-calling-for-regulation"
+    },
+    {
+      "title": "A coffee shop owner used AI to make a menu poster. Then came the angry DMs",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://www.businessinsider.com/coffee-shop-owner-ai-menu-backlash-2026-9"
+    },
+    {
+      "title": "AI and data centers are incredibly unpopular in every poll",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
+    },
+    {
+      "title": "AI helps scammers build convincing antivirus renewal pages",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 2,
+      "url": "https://www.malwarebytes.com/blog/threat-intel/2026/09/ai-helps-scammers-build-convincing-antivirus-renewal-pages"
+    },
+    {
+      "title": "AI labs want in-house auditors — but maybe they should shut the front door first",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/09/16/ai-labs-want-in-house-auditors-but-maybe-they-should-shut-the-front-door-first/"
+    },
+    {
+      "title": "AI networking startups race to replace Nvidia's NVLink",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/systems/2026/09/15/ai-networking-startups-race-to-replace-nvidias-nvlink/5296672"
+    },
+    {
+      "title": "American Diabetes Association | AWS Imagine Grant Winner | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=XSTe7caquQ4"
+    },
+    {
+      "title": "Apple might make servers again to cash in on the AI rush",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/tech/996321/apple-servers-ai-nvidia"
+    },
+    {
+      "title": "Bring on the AI swarms. They’re the only thing that can defend us now that AI is free",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/16/bring-on-the-ai-swarms-theyre-the-only-thing-that-can-defend-us-now-that-ai-is-free/5296727"
+    },
+    {
+      "title": "CISA promotes a fresh way to deter cyberattackers: Lie to them",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 2,
+      "url": "https://cyberscoop.com/cisa-guidance-cyber-decoys-critical-infrastructure/"
+    },
+    {
+      "title": "Challenger Center | AWS Imagine Grant Winner | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=8ffcKp9ry6g"
+    },
+    {
+      "title": "China Isn’t Buying Silicon Valley’s Call for an AI Slowdown",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 2,
+      "url": "https://www.wired.com/story/china-isnt-buying-silicon-valley-call-for-ai-slowdown/"
+    },
+    {
+      "title": "Coast Guard, FBI board US-bound foreign ships in order to probe for cyberattacks",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 2,
+      "url": "https://cyberscoop.com/coast-guard-fbi-investigate-tanker-cyberattacks/"
+    },
+    {
+      "title": "Coast Guard, FBI boarded tanker after attack by ‘foreign cyber actors’",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 2,
+      "url": "https://therecord.media/oil-tanker-cyberattack-coast-guard-fbi"
+    },
+    {
+      "title": "Datamimic – don't let your coding agent invent its own test world",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://github.com/rapiddweller/datamimic"
+    },
+    {
+      "title": "Enterprises are sweating legacy IT assets as AI investment grows",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/systems/2026/09/16/enterprises-are-sweating-legacy-it-assets-as-ai-investment-grows/5296896"
+    },
+    {
+      "title": "Evading Machine Learning Based Detections · MSec Operations Blog",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 2,
+      "url": "https://www.reddit.com/r/netsec/comments/1wi08xx/evading_machine_learning_based_detections_msec/"
+    },
+    {
+      "title": "Former Infosys chief’s AI startup nabs another $53M",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/"
+    },
+    {
+      "title": "Google Home is going agentic via integration with the MCP standard",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 2,
+      "url": "https://www.engadget.com/2260280/google-home-is-going-agentic-via-integration-with-the-mcp-standard/"
+    },
+    {
+      "title": "Google Pixel phones pwned in zero-click attacks",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/security/2026/09/16/google-pixel-phones-pwned-in-zero-click-attacks/5296936"
+    },
+    {
+      "title": "How Fortell is using AI (and $163M) to crack a hearing aid monopoly",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/video/how-fortell-is-using-ai-and-163m-to-crack-a-hearing-aid-monopoly/"
+    },
+    {
+      "title": "International Meteor Organization says cyberattack dealt ‘critical blow’ to website",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 2,
+      "url": "https://therecord.media/international-meteor-organization-cyberattack"
+    },
+    {
+      "title": "Is Big Tech’s AI slowdown a safety pact or a cartel?",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/995186/is-big-techs-ai-slowdown-a-safety-pact-or-a-cartel"
+    },
+    {
+      "title": "Lawmakers target Flock cameras with a threat to highway funding",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 2,
+      "url": "https://arstechnica.com/tech-policy/2026/09/lawmakers-target-flock-cameras-with-a-threat-to-highway-funding/"
+    },
+    {
+      "title": "Lieber Institute for Brain Development | AWS Imagine Grant Winner | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=0Pc1sU6ro1E"
+    },
+    {
+      "title": "Mythos has made 2026 patching hell. It might make 2027 a breeze",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/security/2026/09/16/mythos-has-made-2026-patching-hell-it-might-make-2027-a-breeze/5296747"
+    },
+    {
+      "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://stale.jock.pl/"
+    },
+    {
+      "title": "Spain gets its first taste of AI-aided cyber attack",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/cyber-crime/2026/09/16/spain-gets-its-first-taste-of-ai-aided-cyber-attack/5296844"
+    },
+    {
+      "title": "The vulnpocalypse rains iBugs down on Apple with record-setting number of patches",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/security/2026/09/15/the-vulnpocalypse-rains-ibugs-down-on-apple-with-record-setting-number-of-patches/5296679"
+    },
+    {
+      "title": "Treasury’s Scott Bessent says no liability exemptions for AI labs",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 2,
+      "url": "https://fedscoop.com/treasury-scott-bessent-ai-labs-liability-exemptions/"
+    },
+    {
+      "title": "Why a fast-growing German AI startup is moving its parent company from the US",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://www.euronews.com/business/2026/09/16/why-this-fast-growing-german-ai-start-up-is-moving-its-parent-company-from-the-us"
+    },
+    {
+      "title": "Apple Reference Image: A New Approach for Verified Photography",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://security.apple.com/blog/apple-reference-image/"
+    },
+    {
+      "title": "Dream-RSI: Recursive Self-Improvement through Evolving Worlds",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://arxiv.org/abs/2609.14858"
+    },
+    {
+      "title": "Everyone Is Faster, Nobody Is Shipping More",
+      "source": "YouTube/DevOps Toolkit",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=JUpm2IpWwEA"
+    },
+    {
+      "title": "Fedora 45 beta drags the Linux console into the 21st century",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 1,
+      "url": "https://www.theregister.com/software/2026/09/16/fedora-45-beta-drags-the-linux-console-into-the-21st-century/5296873"
+    },
+    {
+      "title": "Free Web Hacking Challenge!",
+      "source": "YouTube/John Hammond",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=SMtASqnefdc"
+    },
+    {
+      "title": "Hackers Got Inside a Flock Camera",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/"
+    },
+    {
+      "title": "I’ve used both iPhone 18 Pro models – here’s how my buying advice is changing in 2026",
+      "source": "ZDNet",
+      "loc": "ZDNet",
+      "score": 1,
+      "url": "https://www.zdnet.com/business/iphone-18-pro-vs-pro-max-buying-advice-2026/"
+    },
+    {
+      "title": "N0va Phishkit Targets US and EU Businesses: A New Challenge for Identity Security",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 1,
+      "url": "https://thehackernews.com/2026/09/n0va-phishkit-targets-us-and-eu.html"
+    },
+    {
+      "title": "Original Sony PlayStation 2 security chip 'broken wide open' after 26 years",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://www.tomshardware.com/video-games/playstation/26-year-old-sony-ps2-security-chip-broken-wide-open-after-four-years-of-effort-reverse-engineering-enthusiast-successfully-unlocks-cxp102064-mechacon-chip"
+    },
+    {
+      "title": "Payload Podcast 011 - Reunion",
+      "source": "YouTube/John Hammond",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=kYw6r_daw8k"
+    },
+    {
+      "title": "Prior Labs Releases TabPFN-3.5: A Tabular Foundation Model That Beats the Winning Otto Kaggle Solution With Default Settings",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 1,
+      "url": "https://www.marktechpost.com/2026/09/15/prior-labs-releases-tabpfn-3-5-a-tabular-foundation-model-that-beats-the-winning-otto-kaggle-solution-with-default-settings/"
+    },
+    {
+      "title": "Recreating Voodoo Graphics and a Late-1990s Gaming PC on an FPGA",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://nand2mario.github.io/posts/2026/zsst-voodoo/"
+    },
+    {
+      "title": "Small programming tricks",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://will-keleher.com/posts/small-programming-tricks-matter/"
+    },
+    {
+      "title": "The Google Play app review process now regularly takes longer than a week",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://gultsch.social/@daniel/117280438824908947"
+    },
+    {
+      "title": "The Programmatic Preview with Spotify, Netflix & Amazon Ads | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=cgfD0tKpCHA"
+    },
+    {
+      "title": "The Secret to Exponential Career Growth ⚡️",
+      "source": "YouTube/TechWorld with Nana",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=xedK6us1Sps"
+    },
+    {
+      "title": "What Is Splunk Actually Used For?",
+      "source": "YouTube/David Bombal",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=Ugg9w_gRth0"
+    }
+  ]
+}
