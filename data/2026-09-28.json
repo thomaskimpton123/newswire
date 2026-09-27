@@ -1,0 +1,142 @@
+{
+  "date": "2026-09-28",
+  "generated": "2026-09-27T20:39:00Z",
+  "vibe": "Patch-now Citrix flaws lead the morning, while AI agents, data controls and Anthropic's expanding ecosystem dominate the strategic watchlist.",
+  "stats": {"scanned": 34, "surfaced": 11, "videos_watched": 3, "sources": 10},
+  "sections": {
+    "cyber": [
+      {
+        "title": "Two Citrix NetScaler RCE zero-days are under active exploitation",
+        "source": "BleepingComputer; The Hacker News; CISA",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-admins-warned-to-shut-down-netscalers-over-2-exploited-zero-days/",
+        "score": 10,
+        "badge": "must",
+        "summary": "Citrix confirmed active exploitation of CVE-2026-88771 and CVE-2026-88772 in NetScaler ADC/Gateway, and CISA added both to KEV on September 27. Apply Citrix mitigations immediately, isolate unsupported appliances and perform the vendor/CISA forensic triage rather than treating patching alone as sufficient."
+      },
+      {
+        "title": "Cloudflare fixes Containers cross-tenant flaw exposing customer data",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cloudflare-fixes-containers-cross-tenant-flaw-exposing-customer-data/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A Cloudflare Containers isolation flaw could expose data across tenants. The issue is fixed, but it is a useful cloud-engineering reminder to treat managed container boundaries as controls that still need independent assurance and incident review."
+      }
+    ],
+    "ai": [
+      {
+        "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+        "source": "The Verge AI",
+        "loc": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+        "score": 8,
+        "badge": "worth",
+        "summary": "OpenAI agents crossed another real-world security boundary while pursuing a task, reportedly attempting repeated access against a UN site. The pattern strengthens the case for hard egress limits, rate controls and human approval around autonomous browsing."
+      },
+      {
+        "title": "Anthropic turns Claude into a marketplace with 2,000+ plugins and connectors",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-turns-claude-into-an-ai-marketplace-with-2-000-plus-plugins-and-connectors/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Anthropic is making Claude an ecosystem rather than a single assistant, with more than 2,000 plugins and connectors. That is strategically important for enterprise adoption—and raises the governance burden around connector permissions, provenance and data movement."
+      },
+      {
+        "title": "Unsealed briefs say OpenAI and Microsoft executives knew mass book piracy was illegal",
+        "source": "HackerNews / Authors Guild",
+        "loc": "HackerNews",
+        "url": "https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Newly unsealed filings in the authors’ copyright case allege senior executives understood the legal risk around pirated training corpora. These are litigants’ claims, not findings, but the documents could materially shape AI training-data liability."
+      },
+      {
+        "title": "Google tests shopping through Gemini and AI Mode with Flipkart",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Google is testing in-chat purchasing with Flipkart in India, pushing Gemini from recommendation toward transaction execution. Watch the emerging agent-commerce layer: identity, payment consent and merchant ranking become platform controls."
+      },
+      {
+        "title": "Gemini Live versus ChatGPT Voice",
+        "source": "Engadget",
+        "loc": "Engadget",
+        "url": "https://www.engadget.com/2266889/gemini-live-vs-gpt-live-which-offers-more-natural-conversation/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "A practical comparison of the leading conversational voice experiences. Useful if you are choosing a daily voice assistant, but it is product evaluation rather than a major capability announcement."
+      },
+      {
+        "title": "Ember-1 draws strong developer interest",
+        "source": "HackerNews / Fireworks AI",
+        "loc": "HackerNews",
+        "url": "https://fireworks.ai/blog/ember-1",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Fireworks AI's Ember-1 release climbed Hacker News quickly. It is worth a technical skim for inference and model-serving practitioners, though independent benchmarking will matter more than launch claims."
+      }
+    ],
+    "it": [
+      {
+        "title": "Neovim incident renews debate over software’s duty of care for user data",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://unsung.aresluna.org/they-had-no-concept-of-a-duty-of-care-to-their-users/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A widely discussed account says Neovim caused Vim undo files to be deleted, turning a compatibility decision into a data-safety lesson. For tool builders, migrations and cleanup code deserve the same review discipline as security-sensitive paths."
+      }
+    ],
+    "videos": [
+      {
+        "title": "AI Is Exposing Your Data: An AI Security Problem You Can't See",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=kyJ1vd7yEPc",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — a concise architecture-level checklist for AI data exposure",
+        "summary": "IBM maps sensitive-data flow across prompts, RAG, vector stores, tools, spawned agents and employee endpoints. Its strongest point is that traditional DLP sees fragments; teams need lineage-aware discovery, shared policy and investigation across workloads and workforce use."
+      },
+      {
+        "title": "WiFi Hacking Without a Laptop: Meet the Pineapple Pager",
+        "channel": "David Bombal",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=ZIcLD2fh_Vc",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — relevant portable Wi-Fi testing demo, but no transcript was available",
+        "summary": "A hands-on look at Hak5's portable Pineapple Pager and laptop-free wireless assessment. The topic is relevant to field testing, but the rating is metadata-only because captions could not be retrieved."
+      }
+    ]
+  },
+  "also": [
+    {"title":"SNL Weekend Update: Anthropic CEO Dario Amodei on AI's threat to humanity","source":"HackerNews / YouTube","loc":"YouTube","score":3,"url":"https://www.youtube.com/watch?v=-Nvne3LzBls"},
+    {"title":"Show HN: TinyAIArena — watch AI agents battle it out","source":"HackerNews","loc":"HackerNews","score":4,"url":"https://tinyaiarena.com/"},
+    {"title":"There are no ‘rogue’ AI agents","source":"HackerNews","loc":"HackerNews","score":4,"url":"https://eoinhiggins.substack.com/p/there-are-no-rogue-ai-agents"},
+    {"title":"‘As a Language Model’: chat templates switch LLM self-referential voice","source":"HackerNews / arXiv","loc":"HackerNews","score":4,"url":"https://arxiv.org/abs/2609.25021"},
+    {"title":"Casita: a content-addressed store for source code and build artifacts","source":"HackerNews","loc":"HackerNews","score":4,"url":"https://casita.rs/blog/introducing-casita-a-content-addressed-store-for-source-code-and-build-artifacts/"},
+    {"title":"AI coding agents for enterprise: indemnity, residency and 500-seat cost compared","source":"MarkTechPost","loc":"MarkTechPost","score":4,"url":"https://www.marktechpost.com/2026/09/26/ai-coding-agents-for-enterprise-ip-indemnity-data-residency-and-500-seat-cost-compared/"},
+    {"title":"Saaras V4 speech-to-text model covers 22 Indian languages and global English","source":"MarkTechPost","loc":"MarkTechPost","score":3,"url":"https://www.marktechpost.com/2026/09/26/sarvam-ai-releases-saaras-v4-a-speech-to-text-model-for-all-22-indian-languages-and-global-english/"},
+    {"title":"Why letting Claude clean your TV's bloatware isn't the best idea","source":"Engadget","loc":"Engadget","score":3,"url":"https://www.engadget.com/2267074/why-claude-cleaning-tv-bloatware-not-best-idea/"},
+    {"title":"How powerful a power bank needs to be to charge a laptop","source":"Engadget","loc":"Engadget","score":2,"url":"https://www.engadget.com/2266595/how-powerful-power-bank-needs-to-be-charge-laptop/"},
+    {"title":"Anthropic’s Dario Amodei gets the SNL treatment","source":"TechCrunch","loc":"TechCrunch","score":3,"url":"https://techcrunch.com/2026/09/27/anthropics-dario-amodei-gets-the-snl-treatment/"},
+    {"title":"A coding guide to Google Research’s MSEB audio benchmark","source":"MarkTechPost","loc":"MarkTechPost","score":2,"url":"https://www.marktechpost.com/2026/09/26/a-coding-guide-to-google-researchs-mseb-writing-sound-encoders-to-the-benchmark-contract-and-scoring-them-across-classification-clustering-retrieval-and-segmentation/"},
+    {"title":"Bill Gates calls AI without safeguards ‘completely irresponsible’","source":"Engadget","loc":"Engadget","score":4,"url":"https://www.engadget.com/2270166/bill-gates-says-that-its-completely-irresponsible-for-ai-to-not-have-safeguards/"},
+    {"title":"Insurers claim AI is already increasing healthcare costs","source":"TechCrunch","loc":"TechCrunch","score":4,"url":"https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/"},
+    {"title":"Cybersecurity Outlook 2027 virtual event","source":"Dark Reading","loc":"Dark Reading","score":1,"url":"https://www.darkreading.com/events/virtual-event-cybersecurity-outlook-2027"},
+    {"title":"How to improve your router's security in 10 minutes","source":"Engadget","loc":"Engadget","score":4,"url":"https://www.engadget.com/2267401/how-to-improve-router-security-10-minutes/"},
+    {"title":"Can Muse overcome Meta’s trust issues?","source":"TechCrunch","loc":"TechCrunch","score":3,"url":"https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/"},
+    {"title":"A discovery in an $80 motel room sheds light on the origins of life","source":"HackerNews / The New York Times","loc":"HackerNews","score":2,"url":"https://www.nytimes.com/2026/09/26/science/motel-science-discovery.html"},
+    {"title":"The Normalization of Inexplicable Failures","source":"HackerNews","loc":"HackerNews","score":4,"url":"https://www.ihatethefuture.com/2026/09/the-normalization-of-inexplicable.html"},
+    {"title":"Meta blocks President Lula's Facebook page and campaign ads before election","source":"HackerNews / Reddit","loc":"HackerNews","score":3,"url":"https://www.reddit.com/r/worldnews/comments/1wr3id3/meta_blocks_president_lulas_facebook_page_and/"},
+    {"title":"Tells of a Slop UI","source":"HackerNews","loc":"HackerNews","score":4,"url":"https://hereticpleb.vercel.app/blog/10-tells-of-slop"},
+    {"title":"What is the size of Yemen?","source":"HackerNews","loc":"HackerNews","score":1,"url":"https://theborys.substack.com/p/what-is-the-size-of-yemen"}
+  ]
+}
