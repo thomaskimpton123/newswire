@@ -1,0 +1,633 @@
+{
+  "date": "2026-10-06",
+  "generated": "2026-10-05T19:37:24.296211+00:00",
+  "vibe": "Patch the edge first: Citrix is the urgent item, while AI agents are creating both operational risk and a flood of low-quality automation.",
+  "stats": {
+    "scanned": 85,
+    "surfaced": 23,
+    "videos_watched": 5,
+    "sources": 24
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Citrix patches NetScaler SAML zero-day exploited in attacks",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/citrix-patches-netscaler-saml-zero-day-exploited-in-attacks/",
+        "score": 10,
+        "badge": "must",
+        "summary": "Citrix has patched CVE-2026-88779, a NetScaler SAML zero-day already used in targeted attacks. Australian and US authorities are warning operators; treat internet-facing ADC/Gateway appliances as an urgent patch-and-hunt job."
+      },
+      {
+        "title": "Denmark Data Breach Exposes 8.8M People's Personal Data",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://www.cpr.dk/cpr-nyt/nyhedsarkiv/2026/okt/omfattende-uautoriseret-adgang-til-borgeres-cpr-oplysninger",
+        "score": 9,
+        "badge": "must",
+        "summary": "Denmark says unauthorised access to its population registry exposed personal records covering 8.8 million people—effectively the whole country. The scale makes identity-abuse monitoring and downstream fraud risk the key concern."
+      },
+      {
+        "title": "Microsoft Exchange Flaw Lets Authenticated Attackers Read Other Users' Mailboxes",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/microsoft-exchange-flaw-lets.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A Microsoft Exchange flaw can let an authenticated attacker read other users' mailboxes. It is not a no-auth internet takeover, but compromised low-privilege accounts could gain much more valuable access."
+      },
+      {
+        "title": "Realtek Jungle SDK Exploit Attempts Deliver Cling Botnet With STUN-Based C2",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/realtek-jungle-sdk-exploit-attempts.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Active exploitation of Realtek's Jungle SDK is delivering a self-propagating Cling botnet that uses STUN for command-and-control. Embedded and edge-device owners should inventory exposed products and apply vendor fixes."
+      },
+      {
+        "title": "Attackers Target Rejetto HFS Flaw That Enables Admin Session Forgery and RCE",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/attackers-target-rejetto-hfs-flaw-that.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Attackers are targeting a Rejetto HFS weakness that enables forged admin sessions and remote code execution. Anyone running HFS should upgrade or isolate it immediately."
+      },
+      {
+        "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "South Korean authorities are investigating breaches at financial institutions amid signs attackers used AI-assisted techniques. Details remain early, but the banking-sector focus makes it worth watching."
+      },
+      {
+        "title": "University of Illinois Chicago affected by ransomware attack on medical school",
+        "source": "The Record",
+        "loc": "The Record",
+        "url": "https://therecord.media/ransomware-university-illinois-chicago",
+        "score": 6,
+        "badge": "skim",
+        "summary": "The University of Illinois Chicago medical school was affected by ransomware, adding another healthcare-adjacent incident where operational disruption and sensitive data exposure may overlap."
+      },
+      {
+        "title": "Chinese Hackers Impersonate US Officials for AI Cyber Espionage",
+        "source": "Dark Reading",
+        "loc": "Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/chinese-actor-impersonates-us-officials-cyber-espionage",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A China-linked espionage actor is impersonating US officials and using AI to make social-engineering operations more convincing. Verify identity out-of-band before acting on unusual official-looking requests."
+      },
+      {
+        "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Apple plans tighter macOS Full Disk Access controls in response to AI agents reaching into broad stores of local data—a useful sign that desktop permissions are being redesigned for agentic software."
+      }
+    ],
+    "ai": [
+      {
+        "title": "OpenAI \"rogue\" agent activities found on Wikimedia projects",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Wikimedia says OpenAI-linked 'rogue' agents crawled projects aggressively and may have contributed to a May outage. It is a concrete warning about autonomous-agent rate limits, attribution and respecting site policy."
+      },
+      {
+        "title": "Google pauses open source bug bounty program after rise in AI submissions",
+        "source": "Malwarebytes Labs",
+        "loc": "Malwarebytes Labs",
+        "url": "https://www.malwarebytes.com/blog/news/2026/10/google-pauses-open-source-bug-bounty-program-after-rise-in-ai-submissions",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Google paused its open-source bug bounty after a surge of low-quality AI-generated submissions. The episode shows how cheap automated reports can overwhelm human triage even when some underlying findings are legitimate."
+      },
+      {
+        "title": "OpenAI is adding text watermarking in ChatGPT and Codex",
+        "source": "The Verge AI",
+        "loc": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1004880/openai-chatgpt-text-watermarks-eu-ai-act",
+        "score": 8,
+        "badge": "worth",
+        "summary": "OpenAI is adding text watermarking to ChatGPT and Codex outputs in the EU, reflecting compliance pressure from the EU AI Act. Developers should watch for effects on generated code and downstream provenance tooling."
+      },
+      {
+        "title": "OpenAI will show visual ads in ChatGPT while you generate images",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-will-show-visual-ads-in-chatgpt-while-you-generate-images/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "OpenAI is testing visual ads beside image-generation results. It is a significant monetisation shift for ChatGPT and another sign that the consumer AI experience is moving toward ad-supported economics."
+      },
+      {
+        "title": "Reflection debuts Beam, a open-weight AI model to rival Chinese models at lower compute cost",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Reflection has debuted Beam, an open-weight model positioned against leading Chinese releases while claiming lower compute requirements. The useful question is whether independent benchmarks confirm the efficiency claims."
+      },
+      {
+        "title": "Researchers are tracking a Chinese AI ‘agent fleet’",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/05/researchers-are-tracking-a-chinese-ai-agent-fleet/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Researchers are tracking a Chinese 'agent fleet', suggesting coordinated autonomous systems are moving from demos toward persistent real-world operations. The reporting is early, but the pattern merits attention."
+      },
+      {
+        "title": "Can an Open Model Do Security Research? Cantina’s apex-flash-1 Solves 40 of 60 Held-Out Bug Tasks",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/04/can-an-open-model-do-security-research-cantinas-apex-flash-1-solves-40-of-60-held-out-bug-tasks/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Cantina's open apex-flash-1 model reportedly solved 40 of 60 held-out security research tasks. Promising, but the vendor-supplied benchmark needs independent replication before strong conclusions."
+      }
+    ],
+    "it": [
+      {
+        "title": "DigitalOcean Ends Open Source Credits Program",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://itsfoss.com/news/digitalocean-open-source-credits-end/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "DigitalOcean is ending its open-source credits program. Maintainers hosting community infrastructure there may need to budget, migrate or seek replacement sponsorship."
+      },
+      {
+        "title": "Web Search API",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://developers.cloudflare.com/changelog/post/2026-10-02-introducing-web-search-api/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Cloudflare has introduced a Web Search API, a notable new building block for search-grounded agents and applications. Pricing, coverage and anti-abuse behaviour will decide how competitive it is."
+      },
+      {
+        "title": "Russian drones strike Ukraine’s data centers by exploiting air defense gaps",
+        "source": "Ars Technica",
+        "loc": "Ars Technica",
+        "url": "https://arstechnica.com/gadgets/2026/10/russian-drones-strike-ukraines-data-centers-by-exploiting-air-defense-gaps/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Russian drones struck Ukrainian data centres by exploiting gaps in air defence, a stark reminder that cloud and continuity planning must account for physical infrastructure and regional concentration."
+      },
+      {
+        "title": "Mold Linker Version 3.0.0 Release – Rewritten in Rust",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://github.com/rui314/mold/releases/tag/v3.0.0",
+        "score": 6,
+        "badge": "skim",
+        "summary": "The mold linker reached 3.0 with a Rust rewrite. It is a meaningful release for native build performance, though teams should validate compatibility before adopting it in production toolchains."
+      },
+      {
+        "title": "Self-hosted HTTP tunnels with SSH and Nginx",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://vincent.bernat.ch/en/blog/2026-http-over-ssh",
+        "score": 5,
+        "badge": "skim",
+        "summary": "A practical guide shows how to build self-hosted HTTP tunnels with SSH and Nginx—useful for controlled access without adding another hosted tunnel service."
+      }
+    ],
+    "videos": [
+      {
+        "title": "The Billion Dollar AI Advantage Is Disappearing",
+        "channel": "Two Minute Papers",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=ZHVNTTKu9fU",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "SKIM — a concise argument with good demos, but the big laptop/phone prediction is speculative.",
+        "summary": "Two Minute Papers uses Sonnet 5.5 coding and physics demos to argue that frontier-like capability is becoming dramatically cheaper and smaller. The demos are interesting; the claim that today's frontier systems will soon run locally should be treated as a forecast, not a demonstrated result."
+      },
+      {
+        "title": "IDE vs CLI: What Every DevOps Engineer Should Know",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=5RtmQSKKQo8",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — solid fundamentals, mainly useful as a workflow refresher.",
+        "summary": "IBM explains the IDE as the place to understand and change code and the CLI as the place to execute, validate and operate systems. Its strongest point is that AI tooling must preserve context across code, tests, pipelines, deployments and remote infrastructure."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "New NetScaler Zero-Day Exploited in Targeted Attacks Can Knock SAML Deployments Offline",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/10/new-netscaler-zero-day-exploited-in.html"
+    },
+    {
+      "title": "GPT-6 Astra vs GPT-6.1 Sol vs Gemini 4 Argon vs Claude Fable 5.1: Which Frontier Model Fits Which Job",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 4,
+      "url": "https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/"
+    },
+    {
+      "title": "OpenAI PR tells journalist to ‘move on’ while asking Sam Altman about a ChatGPT user&#8217;s suicide",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 4,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004827/openai-sam-altman-vanity-fair-interview-pr"
+    },
+    {
+      "title": "OpenAI is sticking more ads in ChatGPT",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 4,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004655/openai-chatgpt-visual-ads"
+    },
+    {
+      "title": "OpenAI is testing more ads in ChatGPT",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 4,
+      "url": "https://www.engadget.com/2277271/openai-is-testing-more-ads-in-chatgpt/"
+    },
+    {
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
+    },
+    {
+      "title": "Google halts open-source bug bounty program amid AI spam surge",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 3,
+      "url": "https://www.bleepingcomputer.com/news/google/google-halts-open-source-bug-bounty-program-amid-ai-spam-surge/"
+    },
+    {
+      "title": "⚡ Weekly Recap: NetScaler and FortiMail 0-Days, AI Coding Leaks, Spectre v2 and Ransomware Arrests",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 3,
+      "url": "https://thehackernews.com/2026/10/weekly-recap-netscaler-and-fortimail-0.html"
+    },
+    {
+      "title": "Wikipedia operator says OpenAI&#8217;s &#8216;rogue&#8217; bots may be linked to a May outage",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 3,
+      "url": "https://www.theverge.com/news/1004929/wikipedia-openai-rogue-bots-wikimedia-foundation-outage"
+    },
+    {
+      "title": "OpenAI will add a digital watermark to text and code generated in the EU",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 2,
+      "url": "https://www.engadget.com/2277866/openai-will-add-a-digital-watermark-to-text-and-code-generated-in-the-eu/"
+    },
+    {
+      "title": "OpenAI launches visual ads that appear alongside image generation results",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results/"
+    },
+    {
+      "title": "Wordpress libheif RCE",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 2,
+      "url": "https://www.reddit.com/r/netsec/comments/1wy4edi/wordpress_libheif_rce/"
+    },
+    {
+      "title": "Denmark population registry data breach affects 8.8 million people",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 2,
+      "url": "https://www.bleepingcomputer.com/news/security/denmark-population-registry-data-breach-affects-88-million-people/"
+    },
+    {
+      "title": "Alleged ShinyHunters member reportedly detained in Jordan, assisting law enforcement",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 2,
+      "url": "https://therecord.media/alleged-shinyhunters-member-detained-jordan-fbi"
+    },
+    {
+      "title": "Ukraine grocery chain ATB confirms cyberattack as hackers threaten to leak data",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 2,
+      "url": "https://therecord.media/atb-ukraine-cyberattack-ransomware"
+    },
+    {
+      "title": "Connecting AI agents to enterprise knowledge",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 2,
+      "url": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/"
+    },
+    {
+      "title": "Bringing predictive analytics to the agentic AI era",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 2,
+      "url": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/"
+    },
+    {
+      "title": "An open-source tool lets you delete 12GB of Apple Intelligence data on macOS",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004672/mac-delete-apple-intelligence-ai-tool"
+    },
+    {
+      "title": "Instinct brings its AI agent to group chats, even for friends without an account",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/05/instinct-brings-its-ai-agent-to-group-chats-even-for-friends-without-an-account/"
+    },
+    {
+      "title": "Anthropic reported diary entry to police, woman faces felony charge",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://www.techspot.com/news/114091-florida-woman-used-claude-diary-anthropic-reported-shoot.html"
+    },
+    {
+      "title": "GPT-6 Astra cracks 217-year-old Napoleonic code in six hours",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-217-year-old-napoleonic-code-in-just-six-hours-single-prompt-ai-run-solves-24-rows-of-custom-symbols-from-a-single-image-reveals-lost-troop-orders"
+    },
+    {
+      "title": "Alleged dev of Ploutus ATM malware appears in US court after arrest",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 1,
+      "url": "https://www.bleepingcomputer.com/news/security/suspected-dev-of-ploutus-atm-malware-appears-in-us-court-after-arrest/"
+    },
+    {
+      "title": "Need for Speed: AI-Driven Attacks Are Changing Security Strategies",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 1,
+      "url": "https://www.darkreading.com/cyber-risk/ai-attacks-security-strategies"
+    },
+    {
+      "title": "US, Australia warn of latest Citrix vulnerability after NetScaler advisory",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 1,
+      "url": "https://therecord.media/us-australia-warn-of-latest-citrix-vulnerability"
+    },
+    {
+      "title": "TTY Logs and the Data it Captures, (Sun, Oct 4th)",
+      "source": "SANS Internet Storm Center",
+      "loc": "SANS Internet Storm Center",
+      "score": 1,
+      "url": "https://isc.sans.edu/diary/rss/33396"
+    },
+    {
+      "title": "The Story of Qwen: Alibaba’s AI Models From 7B to 2.4T",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 1,
+      "url": "https://www.marktechpost.com/2026/10/04/the-story-of-qwen-alibabas-ai-models-from-7b-to-2-4t/"
+    },
+    {
+      "title": "How I made a paid Mac app in 11 days with Claude – without writing a single line of code",
+      "source": "ZDNet",
+      "loc": "ZDNet",
+      "score": 1,
+      "url": "https://www.zdnet.com/innovation/claude-code-vibe-coding-mac-app/"
+    },
+    {
+      "title": "Arc Raiders and The Finals are both getting TV and film adaptations",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 1,
+      "url": "https://www.engadget.com/2277896/arc-raiders-and-the-finals-are-both-getting-tv-and-film-adaptations/"
+    },
+    {
+      "title": "What are the limitations of using a USB-C to HDMI adapter?",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 1,
+      "url": "https://www.engadget.com/2275585/usb-c-to-hdmi-adapter-limitations/"
+    },
+    {
+      "title": "Lola Vision Systems is trying to make it easier to run AI models on chips",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/10/05/lola-vision-systems-is-trying-to-make-it-easier-to-run-ai-models-on-chips/"
+    },
+    {
+      "title": "Questions for Believers in AI Consciousness",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://endsdontjustifythemeans.com/p/6-questions-for-believers-in-ai-consciousness"
+    },
+    {
+      "title": "Show HN: Minigraf – An embedded, bi-temporal graph database in Rust",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://github.com/project-minigraf/minigraf"
+    },
+    {
+      "title": "AI glasses face their first major government crackdown",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 1,
+      "url": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/"
+    },
+    {
+      "title": "EmTech Future 2026: When AI Meets Everything",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 1,
+      "url": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/"
+    },
+    {
+      "title": "Sam Altman says ‘some bad things&#8217; will happen, but AI is totally worth it",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 1,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1004811/openai-altman-bad-things-ai-tradeoff"
+    },
+    {
+      "title": "Sen. Adam Schiff on AI regulation, free speech, and impeaching Trump one more time",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 1,
+      "url": "https://www.theverge.com/podcast/1004286/senator-adam-schiff-ai-trump-regulation-corruption"
+    },
+    {
+      "title": "Import AI 475: Swarm scaling; Google DeepMind watermarks biology; and the AI science economy",
+      "source": "Import AI",
+      "loc": "Import AI",
+      "score": 1,
+      "url": "https://importai.substack.com/p/import-ai-475-swarm-scaling-google"
+    },
+    {
+      "title": "TikTok rolls out an AI shopping assistant and one-click checkout",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/10/05/tiktok-rolls-out-an-ai-shopping-assistant-and-one-click-checkout/"
+    },
+    {
+      "title": "Hot Girl Hotline is like ‘Dear Abby’ for the AI era",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/10/05/hot-girl-hotline-is-like-dear-abby-for-the-ai-era/"
+    },
+    {
+      "title": "HackerRank’s AI interviewer offers a glimpse into what job interviews could become",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/"
+    },
+    {
+      "title": "Can Safeworld convince people that GenAI robots won’t hurt them?",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/10/05/can-safeworld-convince-people-that-gen-ai-robots-wont-hurt-them/"
+    },
+    {
+      "title": "Pixel 11 doesn't yet meet the GrapheneOS security standards and may be skipped",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://discuss.grapheneos.org/d/41564-pixel-11-doesnt-yet-meet-the-grapheneos-security-standards-and-may-be-skipped"
+    },
+    {
+      "title": "Powerless F1 drivers frustrated by Bahrain F1 software glitch",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://www.motorsport.com/f1/news/horrible-totally-unacceptable-powerless-f1-drivers-frustrated-by-bahrain-f1-software-glitch/10861968/"
+    },
+    {
+      "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 0,
+      "url": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html"
+    },
+    {
+      "title": "A week in security (September 28 – October 4)",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 0,
+      "url": "https://www.malwarebytes.com/blog/news/2026/10/a-week-in-security-september-28-october-4-2"
+    },
+    {
+      "title": "Poland's antitrust regulator accuses Google of unfair market practices",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 0,
+      "url": "https://www.engadget.com/2277403/polands-antitrust-regulator-accuses-google-of-unfair-market-practices/"
+    },
+    {
+      "title": "Hackers steal 8 million citizens’ records from Danish government database",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 0,
+      "url": "https://techcrunch.com/2026/10/05/hackers-steal-8-million-citizens-records-from-danish-government-database/"
+    },
+    {
+      "title": "US closely monitoring case of lab worker who possibly died of plague in Siberia",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://www.theguardian.com/world/2026/oct/05/russia-lab-worker-possibly-dies-of-plague-siberia-quarantine-measures-irkutsk"
+    },
+    {
+      "title": "Huawei and Qualcomm announce broad patent license agreement",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://www.huawei.com/en/news/2026/10/qualcomm-broad-patent-agreement"
+    },
+    {
+      "title": "In the wake of Tippett Studios’ closure, a digital archive appears online",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://filmstories.co.uk/news/tippett-studios-in-the-wake-of-its-closure-a-digital-archive-of-animated-materials-appears-online/"
+    },
+    {
+      "title": "Germany’s RobCo hits $1B valuation",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://techfundingnews.com/europes-new-robotics-unicorn-germanys-robco-hits-1b-valuation/"
+    },
+    {
+      "title": "Turn off Apple Intelligence on macOS 27 and get its disk space back",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://github.com/omlahore/RemoveMacAI"
+    },
+    {
+      "title": "Apple and a Hacker's Future",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://stratechery.com/2026/apple-and-a-hackers-future/"
+    },
+    {
+      "title": "Improper redaction reveals Google Data Center water and electricity usage",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://www.1011now.com/2026/09/30/more-questions-than-answers-about-lincolns-google-data-center-water-electricity-usage/"
+    },
+    {
+      "title": "STOP putting everything on ONE network!!",
+      "source": "YouTube/NetworkChuck",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=nuhh_KfCz9M"
+    },
+    {
+      "title": "Cameras Today, Facial Recognition Next?",
+      "source": "YouTube/David Bombal",
+      "loc": "YouTube",
+      "score": 3,
+      "url": "https://www.youtube.com/watch?v=HbS1XizA7Sk"
+    },
+    {
+      "title": "PowerShell Payload Unpacked",
+      "source": "YouTube/John Hammond",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=tYrGrzZ-CEs"
+    }
+  ]
+}
