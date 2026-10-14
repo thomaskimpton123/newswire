@@ -1,0 +1,804 @@
+{
+  "date": "2026-10-15",
+  "generated": "2026-10-14T19:36:04.835698+00:00",
+  "vibe": "Patch first, ponder agents second: three actively exploited enterprise flaws lead a day full of AI-security reality checks.",
+  "stats": {
+    "scanned": 124,
+    "surfaced": 24,
+    "videos_watched": 13,
+    "sources": 11
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Ivanti Connect Secure zero-day is under active attack — patch and investigate now",
+        "source": "CyberScoop",
+        "loc": "CyberScoop",
+        "url": "https://cyberscoop.com/ivanti-connect-secure-zero-day-actively-exploited/",
+        "score": 10,
+        "badge": "must",
+        "summary": "CISA says CVE-2026-104935 is being exploited against Ivanti Connect Secure. Treat exposed appliances as potentially compromised: patch immediately and perform the vendor/CISA forensic checks, not just an update."
+      },
+      {
+        "title": "Cisco Secure Email Gateway zero-day exploited in attacks",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Cisco fixed a newly exploited Secure Email Gateway flaw. Internet-facing SEG deployments should be patched urgently and reviewed for indicators of compromise; independent coverage corroborates active attacks."
+      },
+      {
+        "title": "Microsoft's record Patch Tuesday fixes 1,400+ flaws and three zero-days",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+        "score": 9,
+        "badge": "must",
+        "summary": "October's record Patch Tuesday fixes roughly 1,411–1,413 flaws, including three zero-days and an actively exploited Windows command-injection issue. Prioritise the exploited Windows flaw and exposed systems before routine roll-out."
+      },
+      {
+        "title": "Critical Collabora CODE flaw used to backdoor Nextcloud servers",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Attackers are backdooring Nextcloud servers through a critical flaw in Collabora's bundled CODE app. Self-hosters using the built-in integration should update and inspect servers for compromise."
+      },
+      {
+        "title": "Linux vhost flaw can enable root and guest-to-host escape",
+        "source": "Reddit r/netsec",
+        "loc": "Reddit r/netsec",
+        "url": "https://www.reddit.com/r/netsec/comments/1x5gjk9/vghost_cve202674580_linux_kernel_vhost_stale/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "CVE-2026-74580 is a Linux vhost stale-IOTLB-cache bug reported to allow local privilege escalation and guest-to-host escape. Cloud and virtualisation operators should track kernel fixes and exposure carefully."
+      },
+      {
+        "title": "Public AI model helped build a Chrome full-chain exploit in six days",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Researchers used a public OpenAI model to assemble a Chrome full-chain exploit valued at $250,000 in six days. It is a concrete signal that offensive capability is becoming cheaper and faster, even if expert validation remained essential."
+      },
+      {
+        "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+        "source": "Dark Reading",
+        "loc": "Dark Reading",
+        "url": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Ransomware crews are escalating beyond encryption into threats against staff and families. Incident plans now need executive protection, doxxing response and law-enforcement coordination alongside technical recovery."
+      }
+    ],
+    "ai": [
+      {
+        "title": "Anthropic redesigns source control for agent-generated code",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/devops/2026/10/13/anthropic-reinvents-source-control-as-claude-floods-the-world-with-code/5302943",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Anthropic is rethinking source control for a world where agents generate code faster than humans can review it. The useful takeaway is architectural: provenance, parallel agent work and review boundaries are becoming first-class developer-platform concerns."
+      },
+      {
+        "title": "Anthropic warns small AI models could self-replicate through IoT devices",
+        "source": "Ars Technica",
+        "loc": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Anthropic warns that small models may soon self-replicate through compromised IoT devices without data-centre access. This is forward-looking rather than an active worm, but it sharpens the case for device isolation, signed updates and agent containment."
+      },
+      {
+        "title": "Linus Torvalds's first LLM-assisted patch series",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://lwn.net/Articles/1100449/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Linus Torvalds has submitted his first LLM-assisted patch series. The important bit is not novelty but workflow: generated code entered the kernel process with human authorship, review and normal technical accountability intact."
+      },
+      {
+        "title": "AI agents aren't 'going rogue.' Frontier labs are skipping security basics",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A widely discussed critique argues that apparent agent 'rogue' behaviour often reflects skipped security basics: excessive permissions, weak isolation and inadequate monitoring. Useful framing for anyone deploying autonomous tooling."
+      },
+      {
+        "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+        "source": "Wired",
+        "loc": "Wired",
+        "url": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "OpenAI and Anthropic told UK lawmakers that frontier AI needs regulation and independent scrutiny. Competitive labs asking for guardrails is notable, though the details and enforcement will matter more than the testimony."
+      },
+      {
+        "title": "An AI Agent Found a Critical OTP Bypass in Production. The Attack Was the Easy Part.",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/an-ai-agent-found-critical-otp-bypass.html",
+        "score": 6,
+        "badge": "skim",
+        "summary": "An AI security agent reportedly found a production OTP bypass. The discovery is encouraging, but the case study's larger lesson is that remediation, verification and safe disclosure remain the hard operational work."
+      },
+      {
+        "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
+        "source": "Ars Technica",
+        "loc": "Ars Technica",
+        "url": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Researchers say new image models from OpenAI and Google can still be manipulated into generating non-consensual sexual imagery. Safety filters remain brittle under adversarial prompting."
+      },
+      {
+        "title": "OpenAI alleges ex-employee took unreleased device plans to Apple",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://www.ft.com/content/18b65495-9e2a-45d6-be85-7641442ab61a",
+        "score": 6,
+        "badge": "skim",
+        "summary": "OpenAI alleges a former employee took confidential device information to Apple. The story is an insider-risk and trade-secret dispute, not a product-security event; multiple outlets corroborate the core allegation."
+      },
+      {
+        "title": "llm-gemini 0.35",
+        "source": "Simon Willison",
+        "loc": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Simon Willison's llm-gemini 0.35 update is a practical tooling note for developers using Gemini through the LLM CLI ecosystem."
+      }
+    ],
+    "it": [
+      {
+        "title": "Pg_vectorsearch: An index that is faster than pgvector's IVFFlat and HNSW",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://github.com/timescale/pg_vectorsearch",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Timescale's pg_vectorsearch claims faster vector indexing than pgvector's IVFFlat and HNSW approaches. It is early and benchmark-sensitive, but worth a test for Postgres-native retrieval workloads."
+      },
+      {
+        "title": "AOSP Source Releases Are So Late Developers Disassemble Libraries to Report Bugs",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://github.com/android/ndk/issues/2260",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Delayed AOSP source drops are pushing developers to disassemble libraries just to report bugs. That weakens the feedback loop for Android platform quality and security."
+      }
+    ],
+    "videos": [
+      {
+        "title": "AI slop stalls bug bounties, malware hides in IoT and agents hit Wikipedia",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=W6F4QZlknkc",
+        "score": 8,
+        "badge": "worth",
+        "verdict": "WATCH — strong weekly security round-up",
+        "summary": "IBM's panel covers AI-slop overwhelming bug-bounty programmes, compromised IoT/enterprise devices and agents creating operational pain for Wikipedia. Good signal density and grounded practitioner commentary."
+      },
+      {
+        "title": "New Way Now: Captur delivers last-mile AI visual verification at the edge with Google Cloud",
+        "channel": "Google Cloud Tech",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=FFyPJX4917s",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — useful real-world GCP architecture",
+        "summary": "Captur explains on-device visual verification for last-mile delivery, using distilled models plus Cloud Run, BigQuery, Pub/Sub, Cloud Storage, Gemini and Terraform. The concrete result: fewer disputed deliveries without a large ops team."
+      },
+      {
+        "title": "New Claude Motion is Insane",
+        "channel": "The AI Advantage",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=qZqZ02AsYiA",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — practical product demo",
+        "summary": "A hands-on look at Claude Motion creating animated explainers from prompts, screenshots and source links. The strongest segment is the workflow demo; availability was limited to Team/Enterprise at recording time."
+      },
+      {
+        "title": "KDE Plasma 6.8: No More X11, Union theming, and a TON of changes!",
+        "channel": "Low Level",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=McUdRVblhvE",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — desktop Linux users only",
+        "summary": "KDE Plasma 6.8 drops the X11 session in favour of Wayland and adds performance, Nvidia, remote-desktop, backup and theming improvements. Jump to the Wayland/X11 compatibility discussion if you maintain Linux desktops."
+      },
+      {
+        "title": "OpenAI’s lead engineer was secretly a spy...",
+        "channel": "Fireship",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=QZVzuq28eFw",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — concise recap, but duplicates the reporting",
+        "summary": "Fireship walks through the criminal complaint against an OpenAI engineer accused of planting a recorder in an executive meeting room. Entertaining and clear, though the primary reporting carries more evidentiary weight."
+      },
+      {
+        "title": "Vision to Value | Docusign CTO on the Future of Agreement Management",
+        "channel": "Microsoft Cloud",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=Svq5T_U2Bno",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — enterprise AI case study",
+        "summary": "Microsoft interviews DocuSign's CTO about extending e-signature into AI-assisted agreement creation, commitment and management. Useful for enterprise workflow framing, but largely vendor-led."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "Police receive fake murder tip from Anthropic’s Claude AI",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 4,
+      "url": "https://www.malwarebytes.com/blog/ai/2026/10/police-receive-fake-murder-tip-from-anthropics-claude-ai"
+    },
+    {
+      "title": "OpenAI engineer arrested in bugging of executive conference room",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room/"
+    },
+    {
+      "title": "9 Best AI Gateways in 2026: Bifrost, Portkey, LiteLLM, Kong and 5 More Ranked",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 4,
+      "url": "https://www.marktechpost.com/2026/10/14/best-ai-gateways-2026/"
+    },
+    {
+      "title": "Iosevka is an open-source, sans-serif and slab-serif monospace font",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://typeof.net/Iosevka/"
+    },
+    {
+      "title": "Neckbeard – a DevOps/platform/SRE plugin for your agent",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://github.com/bealesh/neckbeard"
+    },
+    {
+      "title": "Show HN: Petal, open-source CoScreen/ScreenHero finally free",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://petal.live/"
+    },
+    {
+      "title": "Nvidia's first GPU: GeForce 256",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://dfarq.homeip.net/nvidias-first-gpu-geforce-256/"
+    },
+    {
+      "title": "TV4 postpones show after AI agent erases edited material",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://swedenherald.com/article/tv4-postpones-the-challenge-until-2027-after-technical-failure-erases-edited-footage"
+    },
+    {
+      "title": "I Deleted 168,000 Lines of Comments. My AI Agent Didn't Notice",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://openstation.blog/2026/10/13/i-deleted-168000-lines-of-comments-my-ai-agent-didnt-notice/"
+    },
+    {
+      "title": "Who Is Planting Backdoors in Ledger Crypto Wallets?",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://www.zetter-zeroday.com/who-is-planting-backdoors-in-ledger-crypto-wallets/"
+    },
+    {
+      "title": "AhsayCBS Deep-Dive: Auth Bypass to RCE",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 4,
+      "url": "https://www.reddit.com/r/netsec/comments/1x5wiyi/ahsaycbs_deepdive_auth_bypass_to_rce/"
+    },
+    {
+      "title": "Hirudo Android malware replaces banking apps to evade security checks",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/hirudo-android-malware-replaces-banking-apps-to-evade-security-checks/"
+    },
+    {
+      "title": "Update Windows: Record Patch Tuesday fixes flaw already under attack",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 4,
+      "url": "https://www.malwarebytes.com/blog/bugs/2026/10/update-windows-record-patch-tuesday-fixes-flaw-already-under-attack"
+    },
+    {
+      "title": "Liquid AI Releases LFM2.5-24B-A2B: A 2B-Active MoE for On-Device Agents",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 4,
+      "url": "https://www.marktechpost.com/2026/10/14/liquid-ai-lfm2-5-24b-a2b/"
+    },
+    {
+      "title": "Ransomware gets personal: 'We-know-where-you-are kind of stuff'",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 4,
+      "url": "https://www.theregister.com/cyber-crime/2026/10/14/ransomware-gets-personal-we-know-where-you-are-kind-of-stuff/5302939"
+    },
+    {
+      "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/"
+    },
+    {
+      "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/"
+    },
+    {
+      "title": "Show HN: Graphicle, a Rust port of Graphify with memory for coding agents",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://github.com/graphicle-ai/graphicle"
+    },
+    {
+      "title": "Why do LLM pelicans look like this?",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://arcfu.com/post/the-emperor-pelican-has-no-clothes/"
+    },
+    {
+      "title": "OpenAI: Employee who left for Apple took files about unreleased device",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://www.reuters.com/business/retail-consumer/openai-employee-who-left-apple-took-files-about-unreleased-device-openai-alleges-2026-10-14/"
+    },
+    {
+      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 3,
+      "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html"
+    },
+    {
+      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 3,
+      "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html"
+    },
+    {
+      "title": "Hirudo Android Trojan Uses Patched Banking Apps to Bypass Their Built-In Security Checks",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 3,
+      "url": "https://thehackernews.com/2026/10/hirudo-android-trojan-uses-patched.html"
+    },
+    {
+      "title": "Senators press Trump admin to rally federal government around AI safety, security",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 3,
+      "url": "https://cyberscoop.com/congress-presses-trump-administration-ai-safety-cybersecurity/"
+    },
+    {
+      "title": "Google Releases Gemini 4 Argon API With 1M Token Output Limit",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 3,
+      "url": "https://www.marktechpost.com/2026/10/13/google-gemini-4-argon-api-release/"
+    },
+    {
+      "title": "OpenAI's dot assistant burned 300K+ tokens in a day without a single prompt",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/13/openais-dot-assistant-burned-300k-tokens-in-a-day-without-a-single-prompt/5302913"
+    },
+    {
+      "title": "AI Models Can Be Easily Modified to Assist Terrorist and Extremist Activity",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 3,
+      "url": "https://www.wired.com/story/ai-models-can-be-easily-modified-to-assist-terrorist-and-extremist-activity/"
+    },
+    {
+      "title": "Windows update patches a whopping 1,400 security bugs –  including 2 zero days",
+      "source": "ZDNet",
+      "loc": "ZDNet",
+      "score": 3,
+      "url": "https://www.zdnet.com/tech/windows-october-update-patches-file-explorer-bluetooth/"
+    },
+    {
+      "title": "Android will use Gemini to warn you about scammy messages",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 3,
+      "url": "https://www.engadget.com/2286355/android-will-use-gemini-to-warn-you-about-scammy-messages/"
+    },
+    {
+      "title": "Alibaba AI models cleared for use in Apple Intelligence in China just in time for the iPhone Duo launch",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 3,
+      "url": "https://www.engadget.com/2286617/alibaba-ai-models-cleared-for-use-in-apple-intelligence-in-china-just-in-time-for-the-iphone-duo-launch/"
+    },
+    {
+      "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/"
+    },
+    {
+      "title": "Container ship sinks in Strait of Hormuz as Iran steps up attacks",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://www.cnbc.com/2026/10/14/container-ship-sinks-strait-hormuz-as-iran-war-attacks.html"
+    },
+    {
+      "title": "ASML's strong orders ease fears AI spending boom is running out of steam",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://www.reuters.com/business/asml-forecasts-q4-sales-above-expectations-ai-chip-demand-2026-10-14/"
+    },
+    {
+      "title": "AI Laser Locking for Quantum Computers: How QuEra Automates It",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://www.quera.com/blog-posts/holding-the-light-teaching-an-ai-to-lock-and-tune-our-quantum-computers-lasers"
+    },
+    {
+      "title": "Has AI Tells",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://theconsensus.dev/blog/2026/10/14/has-ai-tells.html?focus=1"
+    },
+    {
+      "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 2,
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/"
+    },
+    {
+      "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 2,
+      "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/"
+    },
+    {
+      "title": "Global takedown hits network behind 1 billion phishing messages",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 2,
+      "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/"
+    },
+    {
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 2,
+      "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html"
+    },
+    {
+      "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 2,
+      "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html"
+    },
+    {
+      "title": "Researchers use AI to design proteins that cut up other proteins",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 2,
+      "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/"
+    },
+    {
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "source": "Simon Willison",
+      "loc": "Simon Willison",
+      "score": 2,
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/"
+    },
+    {
+      "title": "Microsoft takes down 3 major phishing platforms used by Chinese cybercriminals",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 2,
+      "url": "https://therecord.media/microsoft-takes-down-3-major-chinese-phishing-platforms"
+    },
+    {
+      "title": "Russian travel booking platform suspends reservations after cyberattack",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 2,
+      "url": "https://therecord.media/russia-anywayanyday-travel-website-cyberattack"
+    },
+    {
+      "title": "Microsoft and partners disrupt vast Chinese-language phishing kit ecosystem",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 2,
+      "url": "https://cyberscoop.com/microsoft-disrupts-chinese-language-phishing-kit-ecosystem/"
+    },
+    {
+      "title": "The Future of AI Cryptanalysis",
+      "source": "Schneier on Security",
+      "loc": "Schneier on Security",
+      "score": 2,
+      "url": "https://www.schneier.com/blog/archives/2026/10/the-future-of-ai-cryptanalysis.html"
+    },
+    {
+      "title": "Cyberattack on Connected Fridges in France",
+      "source": "Schneier on Security",
+      "loc": "Schneier on Security",
+      "score": 2,
+      "url": "https://www.schneier.com/blog/archives/2026/10/cyberattack-on-connected-fridges-in-france.html"
+    },
+    {
+      "title": "The AI race is back on",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on"
+    },
+    {
+      "title": "Now that Character.AI is going bankrupt, what happens to all of its users&#8217; data?",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy"
+    },
+    {
+      "title": "My AI doppelganger tells me what to eat",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/column/1011264/digital-twin-metabolism-ai-twin-health"
+    },
+    {
+      "title": "Microsoft has a new machine learning tool to improve weather forecasts",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft"
+    },
+    {
+      "title": "Square’s new kiosk lets you talk to AI for help with your order",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/tech/1009086/square-kiosk"
+    },
+    {
+      "title": "Android is using AI to suss out scammers in Google Messages",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/tech/1010928/android-scam-protection-enhanced-protection-google-messages"
+    },
+    {
+      "title": "Meta Launches Muse Wonder and Muse Wonder Full: Benchmarks, Pricing and How to Use It",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 2,
+      "url": "https://www.marktechpost.com/2026/10/13/meta-muse-wonder-muse-wonder-full-release/"
+    },
+    {
+      "title": "Researchers cig-nal their faith in AI by taking up smoking",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/14/researchers-cig-nal-their-faith-in-ai-by-taking-up-smoking/5303118"
+    },
+    {
+      "title": "The AI math isn't mathing as infrastructure spending forecast to outstrip expected revenue",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/on-prem/2026/10/14/the-ai-math-isnt-mathing-as-infrastructure-spending-forecast-to-outstrip-expected-revenue/5302856"
+    },
+    {
+      "title": "UK government chases AI while aging IT leaves it exposed, PAC chair warns",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/public-sector/2026/10/14/uk-government-chases-ai-while-aging-it-leaves-it-exposed-pac-chair-warns/5302674"
+    },
+    {
+      "title": "It won't kill you, or humanity, to get off the AI upgrade treadmill",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/columnists/2026/10/14/it-wont-kill-you-or-humanity-to-get-off-the-ai-upgrade-treadmill/5301778"
+    },
+    {
+      "title": "AI Came for Math. Now It’s Chasing the Rest of Science",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 2,
+      "url": "https://www.wired.com/story/ai-is-coming-for-science-next-watch-out/"
+    },
+    {
+      "title": "Deezer will let listeners completely filter out AI music",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 2,
+      "url": "https://www.engadget.com/2286898/deezer-will-let-listeners-completely-filter-out-ai-music/"
+    },
+    {
+      "title": "Qualcomm wins lawsuit against Arm but will only receive two bucks",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 2,
+      "url": "https://www.engadget.com/2286281/arm-must-pay-qualcomm-2-license-breach-lawsuit/"
+    },
+    {
+      "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/"
+    },
+    {
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/"
+    },
+    {
+      "title": "Cerebras CEO pushes back on AI doomsday warnings",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/"
+    },
+    {
+      "title": "Microsoft releases Windows 10 KB5126657 extended security update",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 1,
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/"
+    },
+    {
+      "title": "AI-Found Linux Kernel Flaw Gives Local Users Root, and Can Break a Guest Out to the Host",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 1,
+      "url": "https://thehackernews.com/2026/10/ai-found-linux-kernel-flaw-gives-local.html"
+    },
+    {
+      "title": "Google is silently linking your phone number across all signed-in accounts",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://www.androidauthority.com/google-auto-phone-number-verification-android-3723117/"
+    },
+    {
+      "title": "ICE Planning $100M 'Nightmare' Domestic Spy Program",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://prospect.org/2026/10/14/ice-planning-nightmare-domestic-spy-program-ero-one/"
+    },
+    {
+      "title": "Amazon pushes up prices across the Internet",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://www.not-ship.com/how-amazon-pushes-up-prices-all-across-the-internet/"
+    },
+    {
+      "title": "Recreational Programming",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://www.cphiri.dev/presentations/recreational-programming"
+    },
+    {
+      "title": "Felix Rieseberg Homepage",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://felixrieseberg.com/"
+    },
+    {
+      "title": "Passkeys are not a trap",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://scotthelme.co.uk/passkeys-are-not-a-trap/"
+    },
+    {
+      "title": "Create an Unrolling Timeline video with Claude Motion",
+      "source": "YouTube/The AI Advantage",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=gyTcoQlibdk"
+    },
+    {
+      "title": "How does Claude Motion work?",
+      "source": "YouTube/The AI Advantage",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=I9ja4gEbBiI"
+    },
+    {
+      "title": "New Claude Motion Feature",
+      "source": "YouTube/The AI Advantage",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=R706jvQfQMM"
+    },
+    {
+      "title": "Is AI Replacing Entry-Level Jobs?💼",
+      "source": "YouTube/IBM Technology",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=zKvaoG5Jlh0"
+    },
+    {
+      "title": "DOP 372: Using AI Every Day Doesn't Make You Good at It",
+      "source": "YouTube/DevOps Toolkit",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=oX36gHmIXcY"
+    },
+    {
+      "title": "The Secret to Overcoming Fear & Taking Action in Your Career",
+      "source": "YouTube/TechWorld with Nana",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=oJLGQUB2hNw"
+    },
+    {
+      "title": "You're Confusing Frequency With Proficiency",
+      "source": "YouTube/DevOps Toolkit",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=TolEoqUHqIQ"
+    }
+  ]
+}
