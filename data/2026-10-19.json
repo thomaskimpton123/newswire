@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-19",
+  "generated": "2026-10-19T06:36:00+11:00",
+  "vibe": "Patch urgency leads the morning: a huge Microsoft release, an actively exploited WAF flaw, and a cloud-backup incident sit alongside fresh scrutiny of AI governance and always-listening devices.",
+  "stats": {"scanned": 34, "surfaced": 12, "videos_watched": 3, "sources": 14},
+  "sections": {
+    "cyber": [
+      {
+        "title": "Microsoft patches 1,413 flaws, including an exploited Windows Shell zero-day",
+        "source": "CrowdStrike",
+        "loc": "CrowdStrike",
+        "url": "https://www.crowdstrike.com/en-us/blog/patch-tuesday-analysis-october-2026/",
+        "score": 9,
+        "badge": "must",
+        "summary": "October's release includes 75 critical flaws and the actively exploited CVE-2026-96951. Preview-pane attack paths, unauthenticated network RCEs, and identity-platform flaws make this a high-priority enterprise patch cycle."
+      },
+      {
+        "title": "SiteGuard WAF command-injection flaw is being exploited in the wild",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+        "score": 9,
+        "badge": "must",
+        "summary": "CVE-2026-106931 can execute commands as root or SYSTEM through SiteGuard's default-enabled statistics feature. Upgrade to 8.00 Update 5 or 7.00 Update 6 for FreeBSD, preserving diagnostic evidence before remediation."
+      },
+      {
+        "title": "ConnectWise suspends cloud backup after Microsoft 365 tenant compromises",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "ConnectWise halted the cloud-backup service while investigating attackers compromising Microsoft 365 tenants. MSPs and customers should watch vendor guidance and review tenant activity and backup integrations."
+      },
+      {
+        "title": "CISA's KEV list flags newly exploited BeyondTrust and Fortinet flaws",
+        "source": "CISA",
+        "loc": "CISA",
+        "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+        "score": 8,
+        "badge": "worth",
+        "summary": "The latest KEV additions include a critical BeyondTrust Remote Support authentication bypass and a Fortinet path-traversal flaw. Internet-facing remote-support and edge appliances deserve an immediate inventory and mitigation check."
+      },
+      {
+        "title": "OpenCode says a security breach affected 1.4% of console users",
+        "source": "Hacker News",
+        "loc": "Hacker News",
+        "url": "https://twitter.com/opencode/status/2111519637049319818",
+        "score": 7,
+        "badge": "worth",
+        "summary": "OpenCode disclosed an incident affecting a small but material slice of console users. Treat the vendor post as the primary disclosure and rotate exposed credentials or tokens if your account falls within the affected cohort."
+      }
+    ],
+    "ai": [
+      {
+        "title": "Anthropic gives an outside AI watchdog employee-like access",
+        "source": "Ars Technica",
+        "loc": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Anthropic is opening unusually deep internal access to an external evaluator, a notable experiment in independent oversight as frontier-lab governance faces growing political pressure."
+      },
+      {
+        "title": "Google open-sources Harness2 for recursive agent workflows",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/18/google-harness2-recursive-agent-harnessing-framework/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Harness2 is an open framework for agents that recursively decompose and execute work. It is worth a technical look for agent orchestration patterns, though the announcement needs hands-on validation before production use."
+      },
+      {
+        "title": "Anthropic's proposed safety bill sets a very high intervention threshold",
+        "source": "Tom's Hardware",
+        "loc": "Tom's Hardware",
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-proposed-ai-safety-bill-only-kicks-in-if-50-deaths-or-usd1-billion-in-damages-are-on-the-line-proposal-would-effectively-make-the-commerce-department-the-only-agency-capable-of-stopping-an-ai-model",
+        "score": 7,
+        "badge": "worth",
+        "summary": "The proposal would centralize model-stop authority and reportedly trigger only at 50 deaths or $1 billion in damages. The thresholds are already driving debate over whether the regime meaningfully constrains frontier risks."
+      },
+      {
+        "title": "Always-listening AI wearables are testing privacy and wiretap law",
+        "source": "CNBC",
+        "loc": "CNBC",
+        "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Amazon, Apple, Meta and startups are pushing ambient transcription into daily life. Even when audio is not retained, continuous interpretation raises unsettled consent and interception questions for users and bystanders."
+      },
+      {
+        "title": "OpenAI says a humanoid robot's body is not the hardest part",
+        "source": "Engadget",
+        "loc": "Engadget",
+        "url": "https://www.engadget.com/2285040/openai-humanoid-robot-sam-altman-statement-real-challenge/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "OpenAI's robotics ambitions are becoming more explicit, with the intelligence and learning stack framed as the central bottleneck rather than mechanical construction. Strategic signal, but short on deployable detail."
+      }
+    ],
+    "it": [
+      {
+        "title": "Websites are increasingly shutting the door on AI agents",
+        "source": "The Verge",
+        "loc": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Publishers and online services are tightening technical and policy barriers against agent traffic. The shift matters for automation builders: browser access, permissions, provenance, and commercial licensing are becoming first-class architecture constraints."
+      }
+    ],
+    "videos": [
+      {
+        "title": "The AI Memory Wall: Why LLMs & AI Accelerators Hit a Bottleneck",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=4b6KpFN7Rio",
+        "score": 8,
+        "badge": "worth",
+        "verdict": "WATCH — a compact, practical explanation of why faster chips do not automatically produce faster inference.",
+        "summary": "Uses the roofline model and arithmetic intensity to distinguish memory-bound decoding from compute-bound prefill. The useful takeaway is operational: estimate workload intensity first, then decide whether batching, bandwidth, or compute is the right optimization lever."
+      }
+    ]
+  },
+  "also": [
+    {"title":"Anthropic says its workforce is becoming less junior and spending more time in meetings","source":"TechCrunch","loc":"TechCrunch","score":4,"url":"https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/"},
+    {"title":"Disney agrees to hire most of Character.AI's workforce","source":"TechCrunch","loc":"TechCrunch","score":4,"url":"https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/"},
+    {"title":"DeepSeek launches search and fetch pricing","source":"Hacker News","loc":"Hacker News","score":4,"url":"https://api-docs.deepseek.com/guides/search/"},
+    {"title":"Hyper-optimizing Kimi K3 in vLLM","source":"vLLM","loc":"vLLM","score":4,"url":"https://vllm.ai/blog/2026-10-16-kimi-k3-megakernel"},
+    {"title":"Kyutai introduces the 2.4B-parameter REKI robot-manipulation model","source":"MarkTechPost","loc":"MarkTechPost","score":4,"url":"https://www.marktechpost.com/2026/10/17/meet-kyutai-reki-the-2-4b-vla-model-bringing-efficient-memory-to-robot-manipulation/"},
+    {"title":"Meta removes wording that raised scraping and AI-training concerns","source":"TechCrunch","loc":"TechCrunch","score":4,"url":"https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"},
+    {"title":"Legal experts say Meta's revised terms still permit broad scraping","source":"Nieman Lab","loc":"Nieman Lab","score":4,"url":"https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/"},
+    {"title":"How far will AI assistants go for an impossible refund?","source":"Vals AI","loc":"Vals AI","score":4,"url":"https://www.vals.ai/blogs/impossible-refund"},
+    {"title":"Zero-training tabular predictions with NVIDIA structured-data models","source":"MarkTechPost","loc":"MarkTechPost","score":3,"url":"https://www.marktechpost.com/2026/10/17/how-to-make-zero-training-tabular-predictions-with-nvidia-structured-data-models/"},
+    {"title":"How AI is changing cybersecurity","source":"YouTube/David Bombal","loc":"YouTube","score":3,"url":"https://www.youtube.com/watch?v=EjG3DtQhXoc"},
+    {"title":"Two hacking tools you need to see","source":"YouTube/David Bombal","loc":"YouTube","score":2,"url":"https://www.youtube.com/watch?v=5tG89vySHZ4"},
+    {"title":"The evolution of the modern foldable phone","source":"Engadget","loc":"Engadget","score":2,"url":"https://www.engadget.com/2286505/how-modern-foldable-phone-evolved-from-royole-flexpai-to-iphone-duo/"},
+    {"title":"How the Fed may be inflating the AI bubble","source":"The Big Newsletter","loc":"The Big Newsletter","score":3,"url":"https://www.thebignewsletter.com/p/how-the-federal-reserve-secretly"},
+    {"title":"RepRapMicron","source":"Hacker News","loc":"Hacker News","score":3,"url":"https://github.com/VikOlliver/RepRapMicron/wiki"},
+    {"title":"Parser combinators","source":"Hacker News","loc":"Hacker News","score":2,"url":"https://t3.at/blog/2026-10-17-parser-combinators/"},
+    {"title":"macOS 15.8.2 reportedly breaks OpenGL","source":"Hacker News","loc":"Hacker News","score":4,"url":"https://developer.apple.com/forums/verify-human/verify.html?next=/forums/thread/850550"},
+    {"title":"Sphinx quizzes developers on AI-written code before shipping","source":"Hacker News","loc":"Hacker News","score":4,"url":"https://sphinx-six-theta.vercel.app/"},
+    {"title":"New York game-ownership bill targets perpetual licensing","source":"Tom's Hardware","loc":"Tom's Hardware","score":4,"url":"https://www.tomshardware.com/video-games/new-york-rep-announces-game-ownership-bill-that-would-require-consumer-ownership-rather-than-sale-of-licenses-would-also-require-publishers-to-keep-the-game-functional-after-support-ends"},
+    {"title":"Documentary criticism revisits the Elizabeth Holmes story","source":"The Profile","loc":"The Profile","score":1,"url":"https://www.readtheprofile.com/p/elizabeth-holmes-documentary-you-can-see-everything"},
+    {"title":"AI safety talks among OpenAI, Anthropic and Google","source":"Reuters","loc":"Reuters","score":3,"url":"https://www.reuters.com/technology/openai-is-working-with-anthropic-google-ai-safety-bloomberg-news-reports-2026-09-15/"},
+    {"title":"Google Cloud growth comparison resurfaces","source":"Shattered","loc":"Shattered","score":3,"url":"https://shattered.io/google-cloud-earnings-aws-azure-2026/"},
+    {"title":"AI and cybersecurity trend roundups","source":"SentinelOne","loc":"SentinelOne","score":2,"url":"https://www.sentinelone.com/cybersecurity-101/data-and-ai/ai-cybersecurity-trends/"}
+  ]
+}
