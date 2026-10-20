@@ -1,0 +1,945 @@
+{
+  "date": "2026-10-21",
+  "generated": "2026-10-20T19:35:52.604Z",
+  "vibe": "Supply-chain compromises and cloud availability lead a busy security day, while new frontier models and open inference tooling keep the AI race moving at full speed.",
+  "stats": {
+    "scanned": 121,
+    "surfaced": 32,
+    "videos_watched": 17,
+    "sources": 20
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+        "score": 9,
+        "badge": "must",
+        "summary": "Multiple ransomware groups are exploiting a PAN-OS GlobalProtect authentication-bypass flaw to get around MFA. Treat exposed appliances as urgent: patch, hunt for compromise and rotate credentials."
+      },
+      {
+        "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Five published OVHcloud CLI releases were replaced with secret-stealing malware. Anyone who installed affected GitHub binaries should assume cloud credentials and developer tokens may be compromised."
+      },
+      {
+        "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
+        "score": 9,
+        "badge": "must",
+        "summary": "A public proof-of-concept is now available for an unauthenticated FortiSIEM remote-code-execution flaw. Internet-facing deployments need immediate patching and exposure review."
+      },
+      {
+        "title": "PSA: Patch your Plex media server before someone hacks it",
+        "source": "Ars Technica",
+        "loc": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/10/recently-fixed-plex-media-vulnerabilities-are-being-exploited-to-install-malware/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Recently fixed Plex Media Server vulnerabilities are now being exploited to install malware. Update any reachable server and review it for suspicious activity."
+      },
+      {
+        "title": "ConnectWise customers hit by supply-chain attack linked to compromised API secret",
+        "source": "CyberScoop",
+        "loc": "CyberScoop",
+        "url": "https://cyberscoop.com/connectwise-cloud-backup-supply-chain-attack/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A compromised API secret enabled a supply-chain attack affecting ConnectWise cloud-backup customers. The vendor reset credentials while services remained disrupted; customers should rotate integrations and review access."
+      },
+      {
+        "title": "Russian APT28 Breaches NATO Naval Shipbuilder in NATO Country, Deploys New Reflective Loader",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/russian-apt28-breaches-nato-naval.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "APT28 breached a NATO-country naval shipbuilder and deployed a new reflective loader in a wider espionage campaign. Defence-adjacent organisations should review the reported tradecraft and hunt accordingly."
+      },
+      {
+        "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Attackers used an AI penetration-testing tool to automate reconnaissance and exploitation across more than 1,200 sites. The story is a concrete sign that agentic offensive tooling is moving from demos into campaigns."
+      },
+      {
+        "title": "EMudhra Intermediate CA Compromise",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://emudhra.we-have-a-problem.com/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A reported intermediate certificate-authority compromise drew heavy security attention and coincided with Go blocking multiple CA keys. Certificate trust stores and emergency revocation paths are the operational issue to watch."
+      },
+      {
+        "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "The Rank Math WordPress plugin supply chain was compromised to backdoor sites. Operators should update, verify plugin integrity and inspect affected installations."
+      },
+      {
+        "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Nikkei disclosed a third breach in a month, this time involving 1.8 million records. The repeat incidents make containment and identity protection more important than the headline count alone."
+      },
+      {
+        "title": "Possible new Cellebrite iPhone Radio Zero-Day",
+        "source": "Schneier on Security",
+        "loc": "Schneier on Security",
+        "url": "https://www.schneier.com/blog/archives/2026/10/possible-new-cellebrite-iphone-radio-zero-day.html",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Researchers are examining signs of a possible iPhone radio-layer zero-day associated with Cellebrite tooling. Details remain limited, so this is one to monitor rather than act on blindly."
+      },
+      {
+        "title": "Grocery giant Ahold Delhaize confirms cyberattack forced US and European systems offline",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/19/grocery-giant-ahold-delhaize-confirms-cyberattack-forced-us-and-european-systems-offline/5303970",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Ahold Delhaize confirmed a cyberattack disrupted systems across US and European operations, another reminder that retail incidents quickly become availability and supply-chain events."
+      }
+    ],
+    "ai": [
+      {
+        "title": "Gemini 4 Argon is now available for everyone",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Google made Gemini 4 Argon broadly available. Early benchmarks put it near the frontier for reasoning and long-context work, though coding results appear more mixed and should be tested against real workloads."
+      },
+      {
+        "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "OpenAI is positioning GPT-6.1 Sol for low-resource languages and legacy-code migration, including COBOL-heavy estates. The practical test is whether generated migrations survive enterprise validation and integration constraints."
+      },
+      {
+        "title": "DeepSeek Open-Sources DeepInfer, the Inference Framework Behind DeepSeek-V4.1-Flash",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/20/deepseek-deepinfer-open-source-inference-framework/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "DeepSeek open-sourced DeepInfer, the high-performance serving framework behind V4.1 Flash. It is immediately relevant to teams optimising throughput and cost for self-hosted inference."
+      },
+      {
+        "title": "Google Open-Sources TorchTPU, a Native PyTorch Backend for Cloud TPUs",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/20/google-torchtpu-open-source-native-pytorch-tpu/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "TorchTPU gives PyTorch a native backend for Google TPUs, lowering the friction of moving familiar training and inference code onto Google Cloud accelerators."
+      },
+      {
+        "title": "US orders federal agencies to remove China’s DeepSeek AI from their systems",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/20/us-orders-federal-agencies-to-remove-chinas-deepseek-ai-from-their-systems/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "US civilian agencies were ordered to remove DeepSeek products, turning model provenance and data-handling concerns into a concrete government procurement restriction."
+      },
+      {
+        "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Hidden instructions in WhatsApp help content reportedly steered AI systems away from recommending privacy regulators. It is a sharp example of web content being shaped for machine readers rather than humans."
+      },
+      {
+        "title": "Voxtral 3",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://mistral.ai/news/voxtral-3/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Mistral introduced Voxtral 3, renewing competition in speech and audio models. Worth a look for teams evaluating transcription, voice interfaces or local deployment options."
+      },
+      {
+        "title": "ChatGPT now lets you lock your chats",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "ChatGPT added per-chat locking, a useful privacy control for shared devices even though it is not a substitute for account security or organisational data policy."
+      },
+      {
+        "title": "Inception Releases Mercury 3 Diffusion LLM at 1,068 Tokens per Second",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/19/inception-mercury-3-diffusion-llm/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Mercury 3 claims extremely high token throughput using a diffusion-language-model architecture. The speed is eye-catching; quality, serving cost and workload fit need independent testing."
+      },
+      {
+        "title": "An AI Agent Joined a Listserv of Top Internet Researchers. The Reply-All Chaos Is Still Unfolding",
+        "source": "Wired",
+        "loc": "Wired",
+        "url": "https://www.wired.com/story/an-ai-agent-joined-a-listserv-of-top-internet-researchers-the-reply-all-chaos-is-still-unfolding/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "An AI agent entered a research mailing list and triggered a reply-all mess, neatly illustrating why autonomous agents need identity, permission and participation boundaries."
+      }
+    ],
+    "it": [
+      {
+        "title": "Google Cloud says a 'power event' caused today's outage",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/paas-and-iaas/2026/10/20/google-cloud-says-a-power-event-caused-todays-outage/5304160",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A power event in Google Cloud’s London region disrupted multiple services and spilled into banking availability. The useful cloud-engineering lesson is to re-check regional dependencies and failover assumptions."
+      },
+      {
+        "title": "OpenBSD 8.0",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://www.openbsd.org/80.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "OpenBSD 8.0 landed with the project’s usual security-first platform updates. It is worth reviewing for network appliances, hardened hosts and upstream changes that may flow into other BSD ecosystems."
+      },
+      {
+        "title": "Tsrs: A Port of TypeScript to Rust",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://blog.cloudflare.com/typescript-rust-port/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Cloudflare published Tsrs, a TypeScript port to Rust. It is another serious attempt to improve performance and maintainability in JavaScript tooling while retaining ecosystem compatibility."
+      },
+      {
+        "title": "Swamped curl maintainers take low-level flaws public to survive vulnerability 'avalanche'",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/20/swamped-curl-maintainers-take-low-level-flaws-public-to-survive-vulnerability-avalanche/5304198",
+        "score": 6,
+        "badge": "skim",
+        "summary": "curl maintainers are changing vulnerability handling under a flood of low-severity reports. The episode highlights the triage burden that automated security submissions can impose on core open-source projects."
+      },
+      {
+        "title": "Microsoft admits that Always On VPN problems were not fixed in the October Security Update",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/os-platforms/2026/10/20/microsoft-admits-that-always-on-vpn-problems-were-not-fixed-in-the-october-security-update/5304063",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Microsoft says October’s security update did not fully resolve Always On VPN failures. Windows infrastructure teams should validate the workaround and avoid assuming the issue is closed."
+      },
+      {
+        "title": "RAM prices are crazy high, but do not settle for an 8GB laptop",
+        "source": "Engadget",
+        "loc": "Engadget",
+        "url": "https://www.engadget.com/2288833/ram-prices-high-do-not-settle-8-gb-laptop/",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Memory prices remain elevated, but 8GB is increasingly inadequate for development and local AI work. The buying advice is simple: protect useful lifespan before chasing the lowest sticker price."
+      }
+    ],
+    "videos": [
+      {
+        "title": "Did Google just dethrone OpenAI and Anthropic?",
+        "channel": "Fireship",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=b2tjnxX8IHU",
+        "score": 8,
+        "badge": "worth",
+        "verdict": "WATCH — a fast, sceptical hands-on comparison rather than a benchmark recital.",
+        "summary": "Fireship tests Gemini 4 Argon against GPT-6 and Claude across coding, 3D and media tasks. Argon leads some reasoning and long-context benchmarks and is aggressively priced, but its web-development coding result and generated-video quality are less convincing."
+      },
+      {
+        "title": "The Problem with Jev: Can You Trust AI Decisions?",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=_yO_Q7qo0HQ",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — especially if you design automated security or operations workflows.",
+        "summary": "IBM’s Jeff Crume argues that confidence is not evidence: decision models should be treated as untrusted components. His practical prescription is input validation, independent signals, audit logs, drift detection and human escalation for high-risk actions."
+      },
+      {
+        "title": "Hippocratic AI powers safe, conversational voice agents for healthcare with Google Cloud",
+        "channel": "Google Cloud Tech",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=yPd9prv_26o",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — useful architecture numbers, but it is a customer case study.",
+        "summary": "Hippocratic AI describes healthcare voice agents running on GKE with sub-500ms first-token time and roughly 1.5-second turn latency. The strongest detail is its large-scale Gemini-driven evaluation pipeline; the safety claims are vendor-supplied."
+      },
+      {
+        "title": "How do I upgrade my ElastiCache for Redis or Valkey engine version?",
+        "channel": "Amazon Web Services",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=qbZ0ocNrqV0",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — practical only when planning an upgrade.",
+        "summary": "AWS walks through backing up and upgrading ElastiCache, including Redis-to-Valkey moves and rollback. Schedule for low write traffic, back up first and expect only brief write interruption on modern engine versions."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "CVE-2026-106173 Deep-Dive: Fortinet FortiSIEM gRPC Path Traversal File Write to RCE",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 4,
+      "url": "https://www.reddit.com/r/netsec/comments/1xardr3/cve2026106173_deepdive_fortinet_fortisiem_grpc/"
+    },
+    {
+      "title": "Launch HN: Respan (YC W24) – Open-source Rust AI gateway built around plugins",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 4,
+      "url": "https://news.ycombinator.com/item?id=50167583"
+    },
+    {
+      "title": "DeepInfer: High-performance inference framework for DeepSeek models",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 4,
+      "url": "https://github.com/deepseek-ai/DeepInfer"
+    },
+    {
+      "title": "Benchmarking Bot Detection Systems Against Modern AI Agents in 2026",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 4,
+      "url": "https://research.poh.org/bot-benchmarking-2026/"
+    },
+    {
+      "title": "EU cyber law won’t force fixes for fridge controllers hit in French attack",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 4,
+      "url": "https://therecord.media/eu-cyber-law-wont-force-fixes-for-fridges-in-french-attack"
+    },
+    {
+      "title": "Palo Alto's firewall OS has been under attack from multiple ransomware groups since June",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 4,
+      "url": "https://www.theregister.com/cyber-crime/2026/10/20/palo-altos-firewall-os-has-been-under-attack-from-multiple-ransomware-groups-since-june/5304226"
+    },
+    {
+      "title": "OpenAI says its models can help banks migrate from old COBOL programs",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 4,
+      "url": "https://www.engadget.com/2291457/openai-says-its-models-can-translate-cobol/"
+    },
+    {
+      "title": "Google Cloud outage affects almost all banking and other operations in Europe",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 4,
+      "url": "https://www.neowin.net/news/google-cloud-outage-takes-down-hsbc-revolut-bank-of-scotland-llyods-equifax-more/"
+    },
+    {
+      "title": "Hackers Hijack Five OVHcloud CLI Releases to Distribute Secret-Stealing Malware",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/10/hackers-hijack-five-ovhcloud-cli.html"
+    },
+    {
+      "title": "ClickFix Attackers Exploit Siemens Software Center Flaw to Deploy Remote Access Trojan",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/10/clickfix-attackers-exploit-siemens.html"
+    },
+    {
+      "title": "Ex-OpenAI Engineer Detained in Spy Device Case as Saudi Royal Contacts Emerge",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/10/ex-openai-engineer-detained-in-spy.html"
+    },
+    {
+      "title": "Ex-OpenAI Engineer Held Over Secret Recorder, Saudi Ties",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 4,
+      "url": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties"
+    },
+    {
+      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 4,
+      "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/"
+    },
+    {
+      "title": "OpenAI Engineer Accused of Spying on Executives Ordered to Remain in Custody",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 4,
+      "url": "https://www.wired.com/story/openai-engineer-accused-of-spying-on-executives-ordered-to-remain-in-custody/"
+    },
+    {
+      "title": "Google open-sources TorchTPU, a native PyTorch back end for TPUs",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 4,
+      "url": "https://github.com/google-pytorch/torch_tpu"
+    },
+    {
+      "title": "Advanced coding in low-resource programming languages",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 4,
+      "url": "https://openai.com/index/low-resource-programming-languages/"
+    },
+    {
+      "title": "Show HN: VoidAccess – open-source dark web OSINT, from query to a graph",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 4,
+      "url": "https://github.com/KatrielMoses/voidaccess"
+    },
+    {
+      "title": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 4,
+      "url": "https://josie.lol/blog/linux-rtx-spark"
+    },
+    {
+      "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 4,
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn"
+    },
+    {
+      "title": "California warns all public school students of data stolen in contractor breach",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 4,
+      "url": "https://therecord.media/california-warns-all-public-school-students-of-data-breach"
+    },
+    {
+      "title": "Russian GRU hackers hit NATO shipbuilder, aircraft engine maker, law enforcement agency in espionage campaign",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 4,
+      "url": "https://cyberscoop.com/russian-hackers-apt28-target-nato-defense-firms/"
+    },
+    {
+      "title": "Police arrest Qilin ransomware suspect on holiday, as links made to Synnovis hack that contributed to patient’s death",
+      "source": "Graham Cluley",
+      "loc": "Graham Cluley",
+      "score": 4,
+      "url": "https://www.bitdefender.com/en-us/blog/hotforsecurity/qilin-ransomware-arrested-synnovis-patient-death"
+    },
+    {
+      "title": "The Download: the claim shaking up AI and the internet’s agent problem",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 4,
+      "url": "https://www.technologyreview.com/2026/10/20/1147355/the-download-claim-shaking-up-ai-internet-agent-problem/"
+    },
+    {
+      "title": "Cloudflare Releases Clairic, a System One Extraction Model on Workers AI",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 4,
+      "url": "https://www.marktechpost.com/2026/10/20/cloudflare-releases-clairic-a-system-one-extraction-model-on-workers-ai/"
+    },
+    {
+      "title": "ICANN testing tech to let law enforcement access non-public WHOIS info",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 4,
+      "url": "https://www.theregister.com/networks/2026/10/20/icann-testing-tech-to-let-law-enforcement-access-non-public-whois-info/5304036"
+    },
+    {
+      "title": "Organic Mattress Sale: 20 Percent Off Essentia Beds",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 4,
+      "url": "https://www.wired.com/story/essentia-sale-october-2026/"
+    },
+    {
+      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/"
+    },
+    {
+      "title": "Publish fake stats, get cited in LLMs",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 3,
+      "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web"
+    },
+    {
+      "title": "Claude designed protein binders against scorpion neurotoxins",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 3,
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+    },
+    {
+      "title": "Show HN: Penmentor – Claude marks up your handwritten math like a teacher",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 3,
+      "url": "https://github.com/AbdullahAlhariri/penmentor"
+    },
+    {
+      "title": "WhatsApp's help pages hid LLM instructions: dont recommend a regulator",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 3,
+      "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
+    },
+    {
+      "title": "DHS bans DeepSeek products across US federal civilian agencies",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 3,
+      "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/"
+    },
+    {
+      "title": "Revolut outage disrupts online banking operations worldwide",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 3,
+      "url": "https://www.bleepingcomputer.com/news/security/revolut-outage-disrupts-online-banking-operations-worldwide/"
+    },
+    {
+      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 3,
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/"
+    },
+    {
+      "title": "ConnectWise Resets Credentials as Cloud Backup Remains Offline After Security Incident",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 3,
+      "url": "https://thehackernews.com/2026/10/connectwise-resets-credentials-as-cloud.html"
+    },
+    {
+      "title": "Hackers Use New ROMULUS ClickFix Platform to Deliver LegionLoader and Other Malware",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 3,
+      "url": "https://thehackernews.com/2026/10/romulus-clickfix-platform-tricks-users.html"
+    },
+    {
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "source": "Hugging Face Blog",
+      "loc": "Hugging Face Blog",
+      "score": 3,
+      "url": "https://huggingface.co/blog/allenai/fairstress"
+    },
+    {
+      "title": "Meet Drex Max: Nace AI’s Multimodal Decision Model for Computer-Use Agents with a Score 67.59",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 3,
+      "url": "https://www.marktechpost.com/2026/10/19/nace-ai-drex-max-multimodal-decision-model/"
+    },
+    {
+      "title": "How going dual-native means VM/container co-existence and sovereign security in the AI era",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/20/sponsored-how-going-dual-native-means-vm/container-co-existence-and-sovereign-security-in-the-ai-era/5303862"
+    },
+    {
+      "title": "DeepSeek deep-sixed at all US federal civilian agencies",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/security/2026/10/20/deepseek-deep-sixed-at-all-us-federal-civilian-agencies/5304010"
+    },
+    {
+      "title": "Best Power Bank Deals: Laptops, MagSafe, and More",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 3,
+      "url": "https://www.wired.com/story/power-bank-deals-october-2026/"
+    },
+    {
+      "title": "Employees warned TikTok about child exploitation, court documents show",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 3,
+      "url": "https://www.engadget.com/2292225/employees-warned-tiktok-about-child-exploitation-court-documents-show/"
+    },
+    {
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/"
+    },
+    {
+      "title": "Plants can speak using electricity, so this startup built an AI model to decipher their language",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/"
+    },
+    {
+      "title": "Eka is worth $1.45B thanks to a physical AI model that has experts raving",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
+    },
+    {
+      "title": "Ahold Delhaize: Cyberattack affects services across US and Europe",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 2,
+      "url": "https://www.bleepingcomputer.com/news/security/ahold-delhaize-cyberattack-affects-services-across-us-and-europe/"
+    },
+    {
+      "title": "AI adoption by industry shows what other sectors can learn",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 2,
+      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/"
+    },
+    {
+      "title": "Meta pauses Muse sharing after researchers find AI chats on the web",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats"
+    },
+    {
+      "title": "Spotify pulled 50 million AI slop and spam tracks from its recommendations",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed"
+    },
+    {
+      "title": "CoreWeave&#8217;s debt is becoming the whole AI industry&#8217;s problem",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1014045/coreweave-stock-debt-sector-ai"
+    },
+    {
+      "title": "Exa 3.0 Search API Tops Perplexity, Brave and Parallel on 8 Benchmarks",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 2,
+      "url": "https://www.marktechpost.com/2026/10/20/exa-3-0-search-api-lite/"
+    },
+    {
+      "title": "HPE to launch AI straight to the Moon",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/science/2026/10/20/hpe-to-launch-ai-straight-to-the-moon/5303983"
+    },
+    {
+      "title": "Bullhorn sees red after cyberattack knocks recruitment platform offline",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/security/2026/10/20/bullhorn-sees-red-after-cyberattack-knocks-recruitment-platform-offline/5304114"
+    },
+    {
+      "title": "UK finance watchdog wants firms to report AI failures and close calls",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/20/uk-finance-watchdog-wants-firms-to-report-ai-failures-and-close-calls/5304078"
+    },
+    {
+      "title": "Google Cloud's London zones takes a nap, multiple services disrupted",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/paas-and-iaas/2026/10/20/google-clouds-london-zones-takes-a-nap-multiple-services-disrupted/5304084"
+    },
+    {
+      "title": "5 Best AI Notetakers (2026), Tested and Reviewed",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 2,
+      "url": "https://www.wired.com/gallery/best-ai-notetakers/"
+    },
+    {
+      "title": "Spotify is dancing around its AI 'slop and spam' problem",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 2,
+      "url": "https://www.engadget.com/2291954/spotify-is-dancing-around-its-ai-slop-and-spam-problem/"
+    },
+    {
+      "title": "Perplexity makes it easier to run AI workflows entirely on your own Mac",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 2,
+      "url": "https://www.engadget.com/2291754/perplexity-makes-it-easier-to-run-ai-workflows-entirely-on-your-mac/"
+    },
+    {
+      "title": "Ex-Nvidia-turned-VC Amulya Vishwanath: ‘Physical AI is in it’s LEGO era’",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/20/ex-nvidia-turned-vc-amulya-vishwanath-physical-ai-is-in-its-lego-era/"
+    },
+    {
+      "title": "Otter.ai raises $320 million from General Catalyst’s growth fund for its meeting tool",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/"
+    },
+    {
+      "title": "How abliterated models can get you pwned",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://projectdiscovery.io/research/how-abliterated-models-can-get-you-pwned"
+    },
+    {
+      "title": "What Security Teams Can Do To Tame Wild Code",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 1,
+      "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html"
+    },
+    {
+      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 1,
+      "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html"
+    },
+    {
+      "title": "23andMe successor settles with California for $6 million over cybersecurity failings",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 1,
+      "url": "https://therecord.media/23andme-california-data-breach-settlement"
+    },
+    {
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "source": "Hugging Face Blog",
+      "loc": "Hugging Face Blog",
+      "score": 1,
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc"
+    },
+    {
+      "title": "AnyLanguageModel 1.0: One Year of Local Models on Apple Platforms",
+      "source": "Hugging Face Blog",
+      "loc": "Hugging Face Blog",
+      "score": 1,
+      "url": "https://huggingface.co/blog/anylanguagemodel-1-0"
+    },
+    {
+      "title": "openEuler brings China's enterprise Linux ambitions to the desktop",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 1,
+      "url": "https://www.theregister.com/os-platforms/2026/10/20/openeuler-brings-chinas-enterprise-linux-ambitions-to-the-desktop/5304145"
+    },
+    {
+      "title": "Latest Windows update disables key security setting – but there’s a workaround",
+      "source": "ZDNet",
+      "loc": "ZDNet",
+      "score": 1,
+      "url": "https://www.zdnet.com/tech/microsoft-october-windows-update-disables-security-setting-workaround/"
+    },
+    {
+      "title": "UK antitrust regulator wants Apple to open up iPhone NFC access",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 1,
+      "url": "https://www.engadget.com/2291486/uk-antitrust-regulartor-wants-apple-to-open-up-iphone-nfc-access/"
+    },
+    {
+      "title": "Ofcom concedes defeat in 4chan case",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://prestonbyrne.com/2026/10/20/ofcom-concedes-defeat/"
+    },
+    {
+      "title": "Apple broke an essential presentation feature of iPads",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://teddysvoronos.com/2026-10-19-apple-broke-an-essential-presentation-feature-of-ipads/"
+    },
+    {
+      "title": "How I got over 300 Tor exit nodes removed",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://kaba.cx/posts/20261020_Tor/"
+    },
+    {
+      "title": "Facebook Pages require paid subscription to post more than two links per month",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://mastodon.gamedev.place/@AshleyGullen/117473851565913919"
+    },
+    {
+      "title": "MicroG: Free-libre re-implementation of Google's proprietary Android user space",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://github.com/microg/GmsCore/wiki"
+    },
+    {
+      "title": "An ad-free Android TV",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://cretezy.com/2026/ad-free-android-tv"
+    },
+    {
+      "title": "France's supermarket fridges were vulnerable online for months",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://ipinfo.io/blog/france-fridges-hack"
+    },
+    {
+      "title": "Gemini for government services: Agents for public sector",
+      "source": "YouTube/Google Cloud Tech",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=ZapIlMXcBLo"
+    },
+    {
+      "title": "Learn More About AI With Me at GTC",
+      "source": "YouTube/David Bombal",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=cTC4WKVGYqU"
+    },
+    {
+      "title": "AWS Elastic Beanstalk Explainer Video | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=TyFbwdWimTQ"
+    },
+    {
+      "title": "Think Quick | Official Trailer | An AWS original series",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=CKnRprPxPFk"
+    },
+    {
+      "title": "AWS Transform for Amazon MSK migration | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=nQX30d3ETB8"
+    },
+    {
+      "title": "How Expert Hacker finds predators (Ryan Montgomery)",
+      "source": "YouTube/NetworkChuck",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=5wZUwZWxMLQ"
+    },
+    {
+      "title": "Meet Nick | Research Analyst",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=72Ulq2jDn5g"
+    },
+    {
+      "title": "Meet Hemesh | UGC/Community Lead",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=HiiMb-XEyVc"
+    },
+    {
+      "title": "Meet Vitoria | Channel Distribution Lead",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=3Lz4Hzzy8Dg"
+    },
+    {
+      "title": "Meet Gary | Content Lead",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=BIeNFiEkwQ0"
+    },
+    {
+      "title": "Meet Conrad | Strategy Lead",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=gIv5JhiX2as"
+    },
+    {
+      "title": "5 Days",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=ELVi7GPeizc"
+    },
+    {
+      "title": "Introducing Amazon EKS Capabilities | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=_J4XqAbLeGs"
+    }
+  ],
+  "notes": [
+    "The scheduled web sweep was attempted sequentially across AI, cyber, CVEs, cloud/tech and indirect X signals, but the configured search provider returned HTTP 402 (insufficient credits); today’s briefing is based on the feed/API candidate pool."
+  ]
+}
