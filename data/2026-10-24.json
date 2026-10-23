@@ -1,0 +1,701 @@
+{
+  "date": "2026-10-24",
+  "generated": "2026-10-23T19:34:51.994174+00:00",
+  "vibe": "A patch-now security morning: PHP, Node.js, GitLab and network gear all demand attention, while agent isolation is becoming a real cloud design discipline.",
+  "stats": {
+    "scanned": 98,
+    "surfaced": 25,
+    "videos_watched": 18,
+    "sources": 29
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "PHP2Shell Exploit Attempts Hit Millions as Attackers Try to Deploy Mirai Malware",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/php2shell-exploit-attempts-hit-millions.html",
+        "score": 9,
+        "badge": "must",
+        "summary": "PHP2Shell scanning has surged into the millions, with attackers trying to turn exposed PHP servers into Mirai bots. Treat the emergency PHP updates as an internet-facing patch-now event; mitigations are only a stopgap."
+      },
+      {
+        "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+        "score": 9,
+        "badge": "must",
+        "summary": "PHP has disclosed a second remote-code-execution risk with no patch yet. Operators should apply the vendor mitigation immediately, reduce exposure, and watch for revised packages."
+      },
+      {
+        "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "HPE has fixed eight maximum-severity flaws in Aruba AOS devices, including remote-code execution and authentication bypasses. Network teams should inventory affected gear and prioritize the vendor updates."
+      },
+      {
+        "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Researchers found exposed attacker infrastructure showing ransomware affiliates using AI agents during intrusions. It is useful operational evidence that agentic tooling is moving from speculation into real offensive workflows."
+      },
+      {
+        "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A crafted Brotli stream can trigger a practical Node.js remote-code-execution chain dubbed Node2Shell. Node operators should check affected releases and update rather than relying on input filtering."
+      },
+      {
+        "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Ruby fixed three regular-expression engine bugs that underpin four critical GitLab RCE vulnerabilities. GitLab administrators should ensure both application and runtime fixes are accounted for."
+      },
+      {
+        "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "The BlackX UEFI bootkit can bypass Secure Boot where systems are patched but revocation data is stale. Windows fleets need firmware and Secure Boot revocation hygiene, not OS updates alone."
+      },
+      {
+        "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+        "source": "Dark Reading",
+        "loc": "Dark Reading",
+        "url": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Microsoft has attributed the ConnectWise supply-chain compromise to Storm-0940. Review ConnectWise exposure, credentials and downstream access, because supply-chain footholds tend to fan out quietly."
+      },
+      {
+        "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A Russia-linked group used a new mesh-network backdoor in a destructive attack against Ukraine. The peer-to-peer design is notable because it makes command infrastructure harder to disrupt and detect."
+      },
+      {
+        "title": "Quest Diagnostics confirms data breach exposed patient records",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Quest Diagnostics says an intrusion exposed patient personal and health information. The sensitivity of medical data makes follow-on phishing and identity abuse the practical risk to watch."
+      },
+      {
+        "title": "Capcom confirms data breach affecting 11.7 million accounts",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Capcom says 11.7 million accounts were exposed and is warning users about phishing. Reused credentials and convincing game-themed lures are the likely near-term fallout."
+      }
+    ],
+    "ai": [
+      {
+        "title": "Google Cloud Launches Agent Compute Engine: A MicroVM per AI Agent",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/22/google-cloud-agent-compute-engine-microvm-ai-agents/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Google Cloud has introduced Agent Compute Engine, isolating each AI agent in its own microVM. The design is directly relevant to cloud engineers wrestling with agent permissions, containment and reproducible execution."
+      },
+      {
+        "title": "LLMs are making formal software verification feasible at a much larger scale",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://www.anthropic.com/research/formal-verification",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Anthropic argues that language models can scale formal software verification by helping translate intent into proofs and specifications. It is a meaningful bridge between AI coding assistance and stronger correctness guarantees."
+      },
+      {
+        "title": "Canva’s first AI image model plans designs before generating them",
+        "source": "The Verge AI",
+        "loc": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Canva's in-house model separates design planning from image generation, aiming for more coherent layouts rather than merely attractive pixels. That planning-first architecture is the interesting part."
+      },
+      {
+        "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Teams is adding context-aware phishing detection that uses AI to assess messages and surrounding signals. It could reduce collaboration-platform phishing, but administrators should treat it as another control rather than a substitute for policy."
+      }
+    ],
+    "it": [
+      {
+        "title": "Torvalds: AI is fine for competent devs, but spare us the 'drive-by' patches",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/columnists/2026/10/23/torvalds-ai-is-fine-for-competent-devs-but-spare-us-the-drive-by-patches/5304357",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Linus Torvalds says AI-assisted contributions can be useful when competent developers remain accountable, while low-effort drive-by patches create review burden. The message is governance and ownership, not blanket rejection."
+      },
+      {
+        "title": "OpenSSL 4.1.0",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://github.com/openssl/openssl/releases/tag/openssl-4.1.0",
+        "score": 7,
+        "badge": "worth",
+        "summary": "OpenSSL 4.1.0 is out. Infrastructure teams should review the release notes and compatibility implications before rolling it through distributions and dependent services."
+      },
+      {
+        "title": "Does Your Model Run on AWS Trainium? Look It Up",
+        "source": "Hugging Face Blog",
+        "loc": "Hugging Face Blog",
+        "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Hugging Face has published a compatibility lookup for models on AWS Trainium. It is a handy planning aid for teams evaluating lower-cost accelerator options without guessing at framework support."
+      },
+      {
+        "title": "The Regression Tests Nobody Writes: Capturing How Software Actually Behaves",
+        "source": "Stack Overflow Blog",
+        "loc": "Stack Overflow Blog",
+        "url": "https://stackoverflow.blog/2026/10/22/the-regression-tests-nobody-writes-capturing-how-software-actually-behaves/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A practical argument for capturing observed production behavior as regression tests, especially when documentation and intended behavior diverge. Useful engineering reading for safer refactors and AI-assisted changes."
+      }
+    ],
+    "videos": [
+      {
+        "title": "The most vulnerable week in internet history...",
+        "channel": "Fireship",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=SMGg7iisHmc",
+        "score": 8,
+        "badge": "worth",
+        "verdict": "WATCH — fast, useful synthesis of the week's patching emergencies.",
+        "summary": "Fireship connects PHP2Shell, a compromised high-download Python package, long-lived GitLab bugs and certificate-authority failures into one sharp infrastructure-risk roundup."
+      },
+      {
+        "title": "MLB uses Gemini on Google Cloud to field technical ballpark network alerts",
+        "channel": "Google Cloud Tech",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=UxBsWJa8dFo",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — short, concrete cloud-operations case study.",
+        "summary": "MLB built a Gemini-based connectivity agent that checks ballpark network faults and opens correctly routed provider tickets, replacing hundreds of manual tickets and saving minutes to an hour per incident."
+      },
+      {
+        "title": "Self-replicating AI, your doctor’s chatbot & agents at dinner",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=WLhh5FeLpy0",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "SKIM — the agent-security opening is the strongest segment.",
+        "summary": "IBM's panel covers research on small models replicating across edge devices, risks from clinical chatbots, and agent-to-agent interaction. The useful takeaway is that local agents enlarge the attack surface even without a data-centre connection."
+      },
+      {
+        "title": "AI Home Security Threat",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=4ivd3zRiuys",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — a concise warning about prompt-injection paths from email into privileged home agents.",
+        "summary": "The immediate risk is not a science-fiction robot revolt but a local agent reading a malicious email, being hijacked, and then acting through insecure smart-home devices."
+      },
+      {
+        "title": "AI and the Holy Organ: Inside Neurosurgery at Johns Hopkins | Amazon Web Services",
+        "channel": "Amazon Web Services",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=1cDvaWDwD00",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — useful healthcare-AI context, but partly AWS showcase.",
+        "summary": "Johns Hopkins clinicians discuss using AI to reduce documentation and coordination load so surgeons can focus on care, while stressing precision and responsibility in high-stakes medicine."
+      },
+      {
+        "title": "The New Industrialists | How SymphonyAI Takes Industrial Intelligence Beyond the Pilot",
+        "channel": "Microsoft Cloud",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=w-k1gsN02ko",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — relevant enterprise pattern, but vendor-heavy.",
+        "summary": "SymphonyAI describes layering industrial context and applications over Microsoft's cloud data and AI stack, with the focus on measurable manufacturing outcomes rather than isolated pilots."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 4,
+      "url": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack"
+    },
+    {
+      "title": "AI Tools Are Generating Massive Attacks for Little Cost",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 4,
+      "url": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost"
+    },
+    {
+      "title": "Agent cloud startup Daytona hits $1B valuation backed by FirstMark and a who’s who of angels",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/10/23/agent-cloud-startup-daytona-hits-1b-valuation-backed-by-firstmark-and-a-whos-who-of-angels/"
+    },
+    {
+      "title": "Ask HN: If the models are so good, why doesn't OpenAI just start 100 companies?",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://news.ycombinator.com/item?id=50200997"
+    },
+    {
+      "title": "Backdoored robot tries its hand at finger chopping and cat cooking",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 4,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/22/backdoored-robot-tries-its-hand-at-finger-chopping-and-cat-cooking/5304870"
+    },
+    {
+      "title": "Crime Stoppers chapter freezes tips after breach breaks anonymity promise",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 4,
+      "url": "https://www.malwarebytes.com/blog/data-breaches/2026/10/crime-stoppers-chapter-freezes-tips-after-breach-breaks-anonymity-promise"
+    },
+    {
+      "title": "Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html"
+    },
+    {
+      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 4,
+      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html"
+    },
+    {
+      "title": "Imperia CMS SiteActive TEMPLATE Unauthenticated SSTI Remote Code Execution (CVE-2026-110355)",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 4,
+      "url": "https://www.reddit.com/r/netsec/comments/1xdfues/imperia_cms_siteactive_template_unauthenticated/"
+    },
+    {
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/"
+    },
+    {
+      "title": "Michigan prof creates Python-like Jac language for AI agents",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 4,
+      "url": "https://www.theregister.com/devops/2026/10/23/michigan-prof-creates-python-like-jac-language-for-ai-agents/5305110"
+    },
+    {
+      "title": "My AI Agent Picks: What I’d Use and Why",
+      "source": "YouTube/The AI Advantage",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=Bd8-geZPwI4"
+    },
+    {
+      "title": "My Favorite Use Case for AI Agents",
+      "source": "YouTube/The AI Advantage",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=kgS10xZhPzI"
+    },
+    {
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 4,
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/"
+    },
+    {
+      "title": "Railway warns devs to rotate secrets after potential breach",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/"
+    },
+    {
+      "title": "Revival Rugs Birthday Sale: 20 Percent Off Sitewide Through Sunday",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 4,
+      "url": "https://www.wired.com/story/revival-rugs-birthday-sale-october-2026/"
+    },
+    {
+      "title": "This Is What Everyone Uses AI Agents For",
+      "source": "YouTube/The AI Advantage",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=nRuMcliU_uo"
+    },
+    {
+      "title": "TinyFish Breaks Down Agentic Search Architecture for Production AI Agents",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 4,
+      "url": "https://www.marktechpost.com/2026/10/23/tinyfish-agentic-search-architecture-deep-research/"
+    },
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "source": "Hugging Face Blog",
+      "loc": "Hugging Face Blog",
+      "score": 4,
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training"
+    },
+    {
+      "title": "Vendor-affiliated AI agent tech gets adopted by friendly, funded foundation",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 4,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/23/vendor-affiliated-ai-agent-tech-gets-adopted-by-friendly-funded-foundation/5304912"
+    },
+    {
+      "title": "You gave your AI agent access, but who is giving it orders?",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/"
+    },
+    {
+      "title": "AI models think humans are a bunch of amoral sheep",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/23/ai-models-think-humans-are-a-bunch-of-amoral-sheep/5305123"
+    },
+    {
+      "title": "Agents fail like engineers, so I review them like engineers",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://blog.greenflagged.dev/posts/agents-fail-like-engineers/"
+    },
+    {
+      "title": "BOFH: I talked to Claude and he says you're an idiot",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/bofh/2026/10/23/bofh-i-talked-to-claude-and-he-says-youre-an-idiot/5304921"
+    },
+    {
+      "title": "Brotli vulnerability affects curl and Git",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://github.com/advisories/GHSA-9v8h-qqgm-4m35"
+    },
+    {
+      "title": "Designing an AI serving harness built to last",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 3,
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/"
+    },
+    {
+      "title": "Docker is weird",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://codeandcake.dev/posts/2026-10-22-docker-is-weird"
+    },
+    {
+      "title": "Knicks sent employees fake offer of championship rings in phishing test: Report",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 3,
+      "url": "https://arstechnica.com/tech-policy/2026/10/knicks-sent-employees-fake-offer-of-championship-rings-in-phishing-test-report/"
+    },
+    {
+      "title": "Meta delays new business terms after publisher pushback on AI scraping",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 3,
+      "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping"
+    },
+    {
+      "title": "Oura sues rival Ultrahuman again, threatening its US smart ring comeback",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/10/22/oura-sues-rival-ultrahuman-again-threatening-its-u-s-smart-ring-comeback/"
+    },
+    {
+      "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://www.thisandthat.chat/enron/"
+    },
+    {
+      "title": "State Bank of India Suffers a Customer PII Data Leak",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 3,
+      "url": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak"
+    },
+    {
+      "title": "The Social Society Helping Women Join the AI Boom",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 3,
+      "url": "https://www.wired.com/story/aged-intelligence-society-interview/"
+    },
+    {
+      "title": "The ‘Exotic Physics’ Behind a Mysterious 1,000-Mile Cloud on Mars",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 3,
+      "url": "https://www.wired.com/story/the-exotic-physics-behind-a-mysterious-1000-mile-cloud-on-mars/"
+    },
+    {
+      "title": "Today, we hacked what we'd set out to hack: the iPhone",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 3,
+      "url": "https://blog.calif.io/p/iphone"
+    },
+    {
+      "title": "UK threatens subsea cable saboteurs with 14 years behind bars",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/networks/2026/10/23/uk-threatens-subsea-cable-saboteurs-with-14-years-behind-bars/5304794"
+    },
+    {
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/"
+    },
+    {
+      "title": "What We Missed: Feds Lasso Texas Laptop Farms",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 3,
+      "url": "https://www.darkreading.com/insider-threats/texas-laptop-farms-north-korean-it-workers"
+    },
+    {
+      "title": "What some of Anthropic’s backers are reportedly worth before its IPO",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/"
+    },
+    {
+      "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 3,
+      "url": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk"
+    },
+    {
+      "title": "You.com Launches Inference Router: 12 Open-Weight Models With 99.9% Uptime SLA",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 3,
+      "url": "https://www.marktechpost.com/2026/10/22/you-com-inference-router-open-weight-models-uptime-sla/"
+    },
+    {
+      "title": "Remove pgrust: the entry is cheating (per-query kernels and result caching)",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://github.com/ClickHouse/ClickBench/pull/2165"
+    },
+    {
+      "title": "Rivian buys world model startup to accelerate self-driving ambitions",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/"
+    },
+    {
+      "title": "Senators say targeted ads are a security risk. Ad groups say the critics are off base.",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 2,
+      "url": "https://cyberscoop.com/targeted-ads-spyware-government-threat/"
+    },
+    {
+      "title": "Still looking for the best AI bot for you?",
+      "source": "YouTube/The AI Advantage",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=iOc6f6Dt10A"
+    },
+    {
+      "title": "Switch 2 security takes a hit as hackers unlock homebrew access",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 2,
+      "url": "https://arstechnica.com/gaming/2026/10/switch-2-jailbreak-gives-hackers-new-ways-to-run-homebrew-and-mod-games/"
+    },
+    {
+      "title": "The Best AI Tool for Research?",
+      "source": "YouTube/The AI Advantage",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=at1DSU0dZkE"
+    },
+    {
+      "title": "Apple Music 404 Not Found",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://music.apple.com/this-url-doesnt-exist"
+    },
+    {
+      "title": "Big Companies Should Lay Off People Every Once in a While",
+      "source": "YouTube/DevOps Toolkit",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=oo9G5uTUFXk"
+    },
+    {
+      "title": "Canadians are running out of time to oppose Bill C-22",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://www.eff.org/deeplinks/2026/10/canadians-are-running-out-time-oppose-dangerous-c-22-surveillance-bill"
+    },
+    {
+      "title": "Disney Raising Prices Days After Confirming Ads Will Now Show Up on Every Tier",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://www.tvfandomlounge.com/disney-plus-price-hike-ads-premium-tier-nielsen-emmys-2026/"
+    },
+    {
+      "title": "How One NZ went from two system upgrades a year to 518 | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=HNd7fm2ki4I"
+    },
+    {
+      "title": "How United Way cut crisis call wait times from 11 minutes to under 2 | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=yPoI06m7AAM"
+    },
+    {
+      "title": "How does Fable 5.1 hide messages in images?",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images"
+    },
+    {
+      "title": "Investor-owned utilities charge 23% more for electricity than public providers",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://www.kadoa.com/energy-prices/insights/investor-owned-utilities"
+    },
+    {
+      "title": "Jank – The native Clojure dialect with seamless C++ interop",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://jank-lang.org/"
+    },
+    {
+      "title": "Kimi K3.1 Pro and K3.1 Pro Highspeed",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://www.kimi.ai/blog/kimi-k3-1-pro"
+    },
+    {
+      "title": "Local Wikipedia: Wikipedia, but only for things a half hour walk from you",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://edjefferson.com/localwiki/"
+    },
+    {
+      "title": "Moments that Matter: Reimagining Customer Experience | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=3tq9kTueReM"
+    },
+    {
+      "title": "My San Diego Vlog: Inside Everbowl HQ & Founder Life",
+      "source": "YouTube/TechWorld with Nana",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=Ec9AkIoecNI"
+    },
+    {
+      "title": "The #1 Danger Isn't Roblox",
+      "source": "YouTube/NetworkChuck",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=ijxeoYzLfRk"
+    },
+    {
+      "title": "The foolishness of \"natural language programming\" (1978)",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html"
+    },
+    {
+      "title": "Your Phone Can Connect to a Fake Cell Tower",
+      "source": "YouTube/David Bombal",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=KU2UONdNl1Y"
+    }
+  ]
+}
