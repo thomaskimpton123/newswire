@@ -1,0 +1,846 @@
+{
+  "date": "2026-10-29",
+  "generated": "2026-10-28T19:37:22.000886+00:00",
+  "vibe": "Patch first: Tailscale, Node2Shell and pre-boot server flaws lead a busy security day, while Gemini 4 Carbon and agent tooling push AI deeper into defence and cloud operations.",
+  "stats": {
+    "scanned": 115,
+    "surfaced": 37,
+    "videos_watched": 13,
+    "sources": 24
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Tailscale patches SSH flaws that could let compromised devices gain root on other servers",
+        "source": "The Hacker News",
+        "loc": "Tailscale",
+        "url": "https://thehackernews.com/2026/10/tailscale-patches-ssh-flaws-that-could.html",
+        "score": 10,
+        "badge": "must",
+        "summary": "Tailscale has shipped fixes for SSH weaknesses that could allow an already-compromised device to gain root on other machines. Because Tom’s infrastructure uses Tailscale, verify every client and server is on the remediated release now."
+      },
+      {
+        "title": "CISA warns attackers are exploiting critical Node2Shell flaw",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-now-exploiting-critical-node2shell-flaw/",
+        "score": 9,
+        "badge": "must",
+        "summary": "CISA says the critical Node2Shell vulnerability is now being exploited. Inventory exposed Node-based services, apply the vendor fix immediately and review logs for exploitation rather than treating this as a routine patch."
+      },
+      {
+        "title": "UEFI PXE code-execution flaw threatens a vast share of servers",
+        "source": "HackerNews",
+        "loc": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth/",
+        "score": 9,
+        "badge": "must",
+        "summary": "A network-boot vulnerability in widely used EDK2 UEFI firmware can enable code execution before the operating system loads. Check server and appliance vendors for firmware updates, particularly anywhere PXE is enabled or reachable."
+      },
+      {
+        "title": "Adobe Commerce PolyShell campaign breaches hundreds of stores",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/adobe-commerce-polyshell-attacks-breach.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A PolyShell campaign is compromising hundreds of Adobe Commerce stores, while related Brotli-based exploit traffic is emerging. Commerce operators should patch, inspect web roots and extensions, and rotate exposed application credentials."
+      },
+      {
+        "title": "Attackers target critical Oracle E-Business Suite RCE days after patch",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/hackers-target-critical-oracle-e.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Attackers began probing a critical Oracle E-Business Suite remote-code-execution flaw almost immediately after the fix landed. Patch internet-facing EBS systems urgently and hunt for suspicious activity around the affected components."
+      },
+      {
+        "title": "Chrome and Firefox updates fix serious security flaws",
+        "source": "Malwarebytes Labs",
+        "loc": "Malwarebytes Labs",
+        "url": "https://www.malwarebytes.com/blog/ai/2026/10/chrome-and-firefox-updates-fix-serious-security-flaws-install-them-now",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Both Chrome and Firefox have shipped fixes for serious vulnerabilities. Update browsers across managed and personal systems promptly; browser flaws remain one of the shortest paths from content to endpoint compromise."
+      },
+      {
+        "title": "ShinyHunters’ PeopleSoft zero-day was a chain of three flaws",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/shinyhunters-exploited-oracle.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "The Oracle PeopleSoft zero-day used by ShinyHunters was actually a three-vulnerability chain. Organizations running PeopleSoft should treat the patch as urgent and investigate identity, web and database logs for chained exploitation."
+      },
+      {
+        "title": "Volt Typhoon hid four zero-day campaigns behind “Silent Train” infrastructure",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/volt-typhoon-used-covert-silent-train.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Reporting from two outlets links Volt Typhoon to four zero-day exploitation campaigns concealed behind a covert “Silent Train” network. The tradecraft reinforces the need to monitor edge infrastructure for subtle, long-lived access rather than only known malware."
+      },
+      {
+        "title": "Apple’s Git still trusts compromised eMudhra certificates",
+        "source": "HackerNews",
+        "loc": "HackerNews",
+        "url": "https://emudhra.we-have-a-problem.com/apple.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A new test indicates Apple’s bundled Git still trusts compromised eMudhra certificates even after wider distrust actions. On macOS build systems, verify certificate behavior and avoid assuming the operating-system update covered every developer toolchain."
+      },
+      {
+        "title": "PHP2Shell campaign roots 25 servers and breaches a US government-linked network",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A PHP2Shell campaign reportedly rooted 25 servers and reached a US government-affiliated network. Verify PHP versions and exposure, patch affected stacks, and hunt for post-exploitation persistence."
+      },
+      {
+        "title": "123 Reg discloses customer-data breach from an “AI cyberattack”",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/cyber-crime/2026/10/28/123-reg-discloses-ai-cyberattack-on-customer-data-suspects-china-nexus/5305936",
+        "score": 6,
+        "badge": "skim",
+        "summary": "UK hosting provider 123 Reg disclosed an intrusion affecting customer data and attributed it to an AI-enabled campaign with a suspected China nexus. The attribution deserves caution, but hosting-account credentials and downstream sites should be reviewed."
+      },
+      {
+        "title": "Sony ISP subsidiary breach exposes 2.5 million customer records",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/sony-isp-subsidiary-data-breach-exposes-25-million-customer-records/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A Sony internet-provider subsidiary says a breach exposed data belonging to 2.5 million customers. The scale makes it material, though direct action depends on whether you are among the affected customers."
+      },
+      {
+        "title": "UK considers making software companies liable for cyber breaches",
+        "source": "The Record",
+        "loc": "The Record",
+        "url": "https://therecord.media/uk-budget-proposal-software-companies-liable-cyber-breaches",
+        "score": 6,
+        "badge": "skim",
+        "summary": "The UK is considering greater software-vendor liability for breaches. If adopted, it would materially shift incentives around secure development, patch support and contractual risk."
+      },
+      {
+        "title": "UNM Health ransomware attack disrupts patient care and surgeries",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/unm-health-ransomware-attack-disrupts-patient-care-surgeries/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A ransomware incident at UNM Health disrupted patient care and surgical operations. It is another concrete reminder that resilience plans must cover clinical continuity, not just data restoration."
+      },
+      {
+        "title": "What million-request-per-second HTTP/2 floods look like in XDP counters",
+        "source": "Reddit r/netsec",
+        "loc": "Reddit r/netsec",
+        "url": "https://www.reddit.com/r/netsec/comments/1xhnqhh/where_a_millionrequestasecond_http2_flood_goes/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A field report traces two real HTTP/2 floods through XDP drop counters at roughly a million requests per second. It is useful operational evidence for capacity planning, kernel-level filtering and validating that mitigation happens before expensive application work."
+      }
+    ],
+    "ai": [
+      {
+        "title": "Google launches Gemini 4 Carbon for cyber defence and coding",
+        "source": "HackerNews",
+        "loc": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Google introduced Gemini 4 Carbon as a frontier model focused on cyber defence and coding. The claimed capability jump is significant enough to warrant independent security and software-engineering evals before any production adoption."
+      },
+      {
+        "title": "Anthropic’s unreleased model chains flaws into working cross-platform exploits",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/anthropics-unreleased-ai-model-chains.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Researchers say an unreleased Anthropic model autonomously chained vulnerabilities into working exploits for Chrome, Safari, Windows and Linux. It is a major capability signal—and a warning that patch latency matters more as model-driven exploit development improves."
+      },
+      {
+        "title": "Anthropic adds enterprise tools to measure what AI spending delivers",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Anthropic launched enterprise controls for tracking usage, cost and business outcomes from Claude deployments. The useful shift is from seat counts and demos toward measurable workflow value, although vendor-defined ROI still needs independent validation."
+      },
+      {
+        "title": "Cursor releases an Agent SDK",
+        "source": "HackerNews",
+        "loc": "Cursor",
+        "url": "https://cursor.com/blog/agent-sdk",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Cursor’s Agent SDK turns its coding-agent runtime into a programmable building block. It is relevant to anyone embedding software agents into CI, repository maintenance or internal developer platforms, but needs careful permission and sandbox design."
+      },
+      {
+        "title": "Google opens Gemini and Search capabilities to more apps",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/28/as-ai-agents-reshape-the-web-google-opens-gemini-and-search-to-more-apps/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Google is exposing more Gemini and Search capability to third-party applications as agents reshape how the web is queried. For builders, the important questions are grounding quality, permissions, pricing and dependence on Google’s retrieval layer."
+      },
+      {
+        "title": "Nvidia releases open multilingual transcription models you can prompt and adapt",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/28/voice-ai-in-vogue-nvidia-releases-new-open-transcription-model/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Nvidia released Nemotron 3.5 Transcribe and Granary v2 for adaptable multilingual speech recognition. Open weights and promptable transcription make this worth evaluating for local media pipelines, accessibility and private speech workloads."
+      },
+      {
+        "title": "Google’s Sleep framework gives LLMs a path to retain knowledge over time",
+        "source": "HackerNews",
+        "loc": "Google Research",
+        "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Google researchers propose a “Sleep” framework for continual learning and retained knowledge. It is early research, but relevant to long-lived agents that need to consolidate experience without simply growing context forever."
+      },
+      {
+        "title": "LEANN compresses a 201 GB RAG index to 6 GB",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/27/leann-vector-index-mlsys-2026/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "LEANN is an open-source vector-index design reported to shrink a 60-million-chunk RAG index from 201 GB to 6 GB. If the results reproduce, it could materially reduce local retrieval storage and deployment costs."
+      },
+      {
+        "title": "MiniMax open-sources the MCode stack and 15 internal coding-agent skills",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/28/minimax-open-sources-mcode-stack-agent-skills/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "MiniMax published MCode plus 15 skills used by its own coding team. The practical value is less the model claim than the reusable workflow patterns, which are worth inspecting before importing into trusted environments."
+      },
+      {
+        "title": "Opera proposes a browser standard for running AI locally",
+        "source": "ZDNet",
+        "loc": "ZDNet",
+        "url": "https://www.zdnet.com/innovation/opera-webai-local-ai-browser/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Opera is moving model execution into the browser through a proposed local-AI web interface. The idea could improve privacy and offline capability, but browser permissions and model-download security will decide whether it is genuinely safer."
+      },
+      {
+        "title": "Survival LLM runs an assistant and emergency library entirely on your computer",
+        "source": "HackerNews",
+        "loc": "Survival LLM",
+        "url": "https://www.brangus.io/survival-llm",
+        "score": 5,
+        "badge": "skim",
+        "summary": "Survival LLM packages a local assistant with an offline emergency reference library. It is a niche project, but a useful example of resilient, private inference that does not depend on cloud access."
+      }
+    ],
+    "it": [
+      {
+        "title": "Cisco open-sources a detector for AI agents on hacking sprees",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/28/cisco-open-sources-tool-for-detecting-ai-agents-on-hacking-sprees/5305867",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Cisco released an open-source tool intended to spot autonomous agents carrying out offensive activity. Defenders should treat it as an experimental signal source, but the project is a practical response to machine-speed attack workflows."
+      },
+      {
+        "title": "Oracle partners with Google to offer TPUs to cloud AI customers",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/10/27/big-red-gets-cozy-with-google-to-offer-tpus-to-ai-customers/5305846",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Oracle is adding access to Google TPUs for AI customers, broadening accelerator choice beyond Nvidia GPUs. For cloud architects, the move increases portability options while creating another price/performance path to benchmark."
+      },
+      {
+        "title": "Amazon tells developers to rein in runaway AI-token use",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/ai-and-ml/2026/10/28/amazon-tells-tokenmaxxing-devs-to-slow-their-ai-roll/5306090",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Amazon is warning developers about excessive token consumption in AI-assisted work. The lesson is familiar but important: agent productivity must be measured against inference cost, latency and review overhead—not code volume."
+      },
+      {
+        "title": "US approves Amazon Leo’s $11.5 billion Globalstar acquisition",
+        "source": "HackerNews",
+        "loc": "Reuters",
+        "url": "https://www.reuters.com/business/media-telecom/us-agency-approves-amazon-leos-115-billion-acquisition-globalstar-2026-10-27/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "US regulators approved Amazon Leo’s $11.5 billion acquisition of Globalstar. The deal materially strengthens Amazon’s satellite-connectivity position and its ability to integrate orbital networks with AWS services."
+      }
+    ],
+    "videos": [
+      {
+        "title": "The PHP bug threatening the web. Plus, who's auditing AI?",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=VoSQZBguB1A",
+        "score": 8,
+        "badge": "worth",
+        "verdict": "WATCH — timely PHP patch guidance plus useful AI-audit and Tor lessons",
+        "summary": "IBM’s panel covers serious PHP vulnerabilities, Anthropic’s use of external model evaluators and the hijacking of 333 Tor exit nodes. The PHP inventory-and-upgrade guidance is immediately actionable, with enough expert context to justify the runtime."
+      },
+      {
+        "title": "Deepseek's New AI Has A Secret",
+        "channel": "Two Minute Papers",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=pryCaGv8wuo",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — useful benchmark and pricing context, with speculation clearly labelled",
+        "summary": "DeepSeek 4.1 Flash 1017 appears substantially better at coding and terminal work while remaining cheap and openly downloadable. Higher token use narrows the headline cost advantage, and the self-feedback explanation remains an unverified hypothesis."
+      },
+      {
+        "title": "DOP 374: Does AI Make Companies More Productive?",
+        "channel": "DevOps Toolkit",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=6G9kZ8ffLvw",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — strong distinction between individual and company-wide AI productivity",
+        "summary": "DevOps Paradox argues that 20–50% individual gains have not yet compounded into enterprise-wide output, then examines inference economics, data centres and energy. The strategic observations are useful, though the long discussion is speculative and diffuse."
+      },
+      {
+        "title": "Did the AI bubble just pop?",
+        "channel": "Fireship",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=nEaJMdM1djM",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — useful framing of neocloud leverage and AI-infrastructure fragility",
+        "summary": "Fireship surveys circular Nvidia financing, CoreWeave debt risk and the huge compute obligations surrounding frontier labs. It is a sharp overview, but the sensational style and uncited financial claims call for caution."
+      },
+      {
+        "title": "Openreach drives towards a greener, more connected future with Gemini and BigQuery",
+        "channel": "Google Cloud Tech",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=Cv5gMYnPYwU",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — concrete Google Cloud telecom use cases, but light on implementation detail",
+        "summary": "Openreach describes putting fleet telematics in BigQuery, using geospatial analysis for EV routing and fibre planning, and building an ADK agent to modernise legacy workloads. The use cases are relevant, though the polished customer story omits costs and hard outcome data."
+      },
+      {
+        "title": "Amazon SageMaker Unified Studio CI/CD CLI Demo | Amazon Web Services",
+        "channel": "Amazon Web Services",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=CuDq4eNjN1Y",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — only if SageMaker CI/CD is directly relevant; no transcript was available",
+        "summary": "The metadata indicates a CLI demonstration for CI/CD in Amazon SageMaker Unified Studio. Technical depth and practical value could not be verified because YouTube supplied no transcript."
+      },
+      {
+        "title": "The end of proprietary software & user lock-in, and the biggest opportunity for Linux",
+        "channel": "Low Level",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=g1htBFMQUL4",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — provocative Linux thesis, but highly speculative",
+        "summary": "The video argues AI-assisted cloning could erode proprietary application and file-format lock-in, creating an opening for Linux. It also acknowledges security, copyright, licensing and ecosystem risks, so treat it as a thought experiment rather than a forecast."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "Most AI Today Is Single Player",
+      "source": "YouTube/DevOps Toolkit",
+      "loc": "YouTube",
+      "score": 4,
+      "url": "https://www.youtube.com/watch?v=aDdko7VDP_8"
+    },
+    {
+      "title": "OpenAI now lets you text your Dot agent",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 4,
+      "url": "https://www.engadget.com/2300235/openai-now-lets-you-text-your-dot-agent/"
+    },
+    {
+      "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 4,
+      "url": "https://www.reddit.com/r/netsec/comments/1xhqj0w/seo_poisoning_campaign_targets_deepseek_users/"
+    },
+    {
+      "title": "AWS GameDay: Boo-Unicorn Rentals, a Terrifyingly Good Time!",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 3,
+      "url": "https://www.youtube.com/watch?v=yZLZNfiFCwA"
+    },
+    {
+      "title": "Anthropic IPO warns its AI could blackmail people, become sentient, end humanity",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 3,
+      "url": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/"
+    },
+    {
+      "title": "Before you file that AI bug report, OpenAI has some advice",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 3,
+      "url": "https://cyberscoop.com/openai-ai-generated-bug-reports/"
+    },
+    {
+      "title": "ElectroNG is now open source. ElectronJS Security Scanner.",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 3,
+      "url": "https://www.reddit.com/r/netsec/comments/1xhhv2k/electrong_is_now_open_source_electronjs_security/"
+    },
+    {
+      "title": "InfraTrust report warns of exploited flaws in critical network infrastructure",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 3,
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-report-warns-of-exploited-flaws-in-critical-network-infrastructure/"
+    },
+    {
+      "title": "Japan's GMO urges customers to shut down PCs amid ransomware threat",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 3,
+      "url": "https://www.bleepingcomputer.com/news/security/japans-gmo-urges-customers-to-shut-down-pcs-amid-ransomware-threat/"
+    },
+    {
+      "title": "Neocloud thinks AI agents - not meatbags - will be its main customers",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 3,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/28/neocloud-thinks-ai-agents-not-meatbags-will-be-its-main-customers/5305496"
+    },
+    {
+      "title": "OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 3,
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/"
+    },
+    {
+      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/"
+    },
+    {
+      "title": "Polymathic AI and Princeton Researchers Release FlashMap, a Flow Map Drafter for 6.14x Faster LLM Decoding",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 3,
+      "url": "https://www.marktechpost.com/2026/10/28/flashmap-flow-map-speculative-decoding/"
+    },
+    {
+      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "source": "The Verge AI",
+      "loc": "The Verge",
+      "score": 3,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
+    },
+    {
+      "title": "\"No human at the helm\": Delaware plan would let AI agents run entire businesses",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 2,
+      "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
+    },
+    {
+      "title": "Adobe Fixes 8 Critical Campaign Classic Flaws Allowing Code Execution and Security Bypass",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 2,
+      "url": "https://thehackernews.com/2026/10/adobe-fixes-8-critical-campaign-classic.html"
+    },
+    {
+      "title": "All the security risks Anthropic is worried about before its IPO",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 2,
+      "url": "https://cyberscoop.com/anthropic-ipo-filing-cybersecurity-risks/"
+    },
+    {
+      "title": "American Organizations Under Attack: Skyw4lker Device Code Phishing Campaign Exposed",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 2,
+      "url": "https://thehackernews.com/2026/10/american-organizations-under-attack.html"
+    },
+    {
+      "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 2,
+      "url": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/"
+    },
+    {
+      "title": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 2,
+      "url": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials"
+    },
+    {
+      "title": "Banks are blocking AI agents from customer accounts",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 2,
+      "url": "https://www.malwarebytes.com/blog/ai/2026/10/banks-are-blocking-ai-agents-from-customer-accounts"
+    },
+    {
+      "title": "Cache Me If You Can: XSS in Cloudflare's /cdn-cgi/image/",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 2,
+      "url": "https://www.reddit.com/r/netsec/comments/1xhqdx6/cache_me_if_you_can_xss_in_cloudflares_cdncgiimage/"
+    },
+    {
+      "title": "Dayjob: Tax – evaluating AI agents on 50 professional tax assignments",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://surgehq.ai/blog/dayjob-tax"
+    },
+    {
+      "title": "Early progress on accelerating drug development with Claude",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://www.anthropic.com/research/early-progress-drug-development"
+    },
+    {
+      "title": "Energy Frontier: Powering what comes next",
+      "source": "YouTube/Microsoft Cloud",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=2-oAGIHqpfA"
+    },
+    {
+      "title": "Engage Humans and AI Simultaneously with Ace by Knotch on Google Cloud",
+      "source": "YouTube/Google Cloud Tech",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=DCEdDAx7cg0"
+    },
+    {
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa"
+    },
+    {
+      "title": "External Teams Chats Anchor 15-Minute Malware Delivery",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 2,
+      "url": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path"
+    },
+    {
+      "title": "Fake PS5 emulators on GitHub are spreading password-stealing malware",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 2,
+      "url": "https://www.engadget.com/2299912/fake-ps5-emulators-on-github-are-spreading-password-stealing-malware/"
+    },
+    {
+      "title": "How to Stop Overthinking and Break the Mental Loop",
+      "source": "YouTube/TechWorld with Nana",
+      "loc": "YouTube",
+      "score": 2,
+      "url": "https://www.youtube.com/watch?v=uuK_RUQ8h1I"
+    },
+    {
+      "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 2,
+      "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/"
+    },
+    {
+      "title": "I got RCE on the sandboxes of Instinct and Muse!",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 2,
+      "url": "https://www.reddit.com/r/netsec/comments/1xhpdn3/i_got_rce_on_the_sandboxes_of_instinct_and_muse/"
+    },
+    {
+      "title": "Liquid AI Releases LFM3: 6 Open-Weight 2B-Class Multimodal Models",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 2,
+      "url": "https://www.marktechpost.com/2026/10/27/liquid-ai-lfm3-open-weight-2b-multimodal-models/"
+    },
+    {
+      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 2,
+      "url": "https://www.bleepingcomputer.com/news/security/nefilim-and-hive-ransomware-affiliate-gets-70-months-in-prison/"
+    },
+    {
+      "title": "Show HN: Popkern – open-source CAD kernel with G2 corner blends, browser IDE",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 2,
+      "url": "https://popkern.dev/"
+    },
+    {
+      "title": "VCs will make billions on Anthropic’s IPO, but Amazon is set to make much (much) more",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/27/vcs-will-make-billions-on-anthropics-ipo-but-amazon-is-set-to-make-much-much-more/"
+    },
+    {
+      "title": "3 Frameworks to Protect CISOs & Orgs Against AI Liability",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 1,
+      "url": "https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability"
+    },
+    {
+      "title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 1,
+      "url": "https://www.wired.com/story/ai-emergency-alerts-coming-humans-not-ready/"
+    },
+    {
+      "title": "AI Meets Minecraft",
+      "source": "YouTube/John Hammond",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=VjesGKMKqxo"
+    },
+    {
+      "title": "AI execs may be too out of touch to build for the general public",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/10/28/ai-execs-may-be-too-out-of-touch-to-build-for-the-general-public/"
+    },
+    {
+      "title": "AI slows growth for Infosys and keeps it afloat at the same time",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 1,
+      "url": "https://www.theregister.com/channel/2026/10/28/ai-slows-growth-for-infosys-and-keeps-it-afloat-at-the-same-time/5305879"
+    },
+    {
+      "title": "Amazon’s new Echo Studio gives Alexa+ an AI camera to see inside your home",
+      "source": "ZDNet",
+      "loc": "ZDNet",
+      "score": 1,
+      "url": "https://www.zdnet.com/home-and-office/amazon-echo-studio-home-camera-2026-privacy-concerns/"
+    },
+    {
+      "title": "An attacker can crash a Godot game server using DTLS with an unauthenticated UDP datagram",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 1,
+      "url": "https://www.reddit.com/r/netsec/comments/1xhxfh0/an_attacker_can_crash_a_godot_game_server_using/"
+    },
+    {
+      "title": "European digital rights nonprofit noyb sues Scale AI for ‘invasive’ worker surveillance",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 1,
+      "url": "https://therecord.media/noyb-sues-scale-ai-for-worker-surveillance"
+    },
+    {
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 1,
+      "url": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/"
+    },
+    {
+      "title": "Lawsuit against Ex-Overstock CEO tied to 2020 election film falls apart over question of ‘actual malice’",
+      "source": "CyberScoop",
+      "loc": "CyberScoop",
+      "score": 1,
+      "url": "https://cyberscoop.com/patrick-byrne-dominion-defamation-lawsuit-actual-malice/"
+    },
+    {
+      "title": "Macmillan Staff Say the Publisher Threw a Party for a Workplace AI Assistant That Was Later Killed",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 1,
+      "url": "https://www.wired.com/story/macmillan-staff-say-the-publisher-threw-a-party-for-a-workplace-ai-assistant-that-was-later-killed/"
+    },
+    {
+      "title": "Meet Google DeepMind’s Genie 4: Real-Time World Model With Native Audio",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 1,
+      "url": "https://www.marktechpost.com/2026/10/28/google-deepmind-genie-4-world-model/"
+    },
+    {
+      "title": "Meta quietly launched an ‘AI pet journal’ app",
+      "source": "The Verge AI",
+      "loc": "The Verge",
+      "score": 1,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020410/meta-launched-ai-pet-journal-app-waddle-world"
+    },
+    {
+      "title": "Microsoft and Epic Games Suddenly Agree That AI Is Theft",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://kotaku.com/now-that-the-shoe-is-on-the-other-foot-microsoft-and-epic-games-suddenly-agree-that-ai-is-theft-2000749316"
+    },
+    {
+      "title": "Moldova investigates possible foreign involvement in major government cyberattack",
+      "source": "The Record",
+      "loc": "The Record",
+      "score": 1,
+      "url": "https://therecord.media/moldova-investigates-possible-foreign-involvement-cyberattacks"
+    },
+    {
+      "title": "New York governor signs AI chatbot child safety law",
+      "source": "Engadget",
+      "loc": "Engadget",
+      "score": 1,
+      "url": "https://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law/"
+    },
+    {
+      "title": "Pairing industrial AI autonomy and human control",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 1,
+      "url": "https://www.technologyreview.com/2026/10/28/1147637/pairing-industrial-ai-autonomy-and-human-control/"
+    },
+    {
+      "title": "Raspberry Pi Zero 3W and Pi 4 Model A spotted in device trees",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 1,
+      "url": "https://bret.dk/raspberry-pi-zero-3-w-pi-4-model-a/"
+    },
+    {
+      "title": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 1,
+      "url": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack"
+    },
+    {
+      "title": "Should AI Decide Your Court Case? This Judge Says Yes",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 1,
+      "url": "https://www.wired.com/story/geoffrey-vos-uk-judge-ai-legal-profession-challenges/"
+    },
+    {
+      "title": "South Korea’s financial industry hit by fresh wave of cyberattacks",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/10/28/south-koreas-financial-industry-hit-by-fresh-wave-of-cyberattacks/"
+    },
+    {
+      "title": "The Download: dead startups fueling AI and interspecies communication",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 1,
+      "url": "https://www.technologyreview.com/2026/10/28/1147767/the-download-dead-startups-fueling-ai-interspecies-communication/"
+    },
+    {
+      "title": "Wazuh and AI for Enhanced SOC Workflows",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 1,
+      "url": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html"
+    },
+    {
+      "title": "xAI is buying out homeowners who promise not to sue over data center noise",
+      "source": "The Verge AI",
+      "loc": "The Verge",
+      "score": 1,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit"
+    },
+    {
+      "title": "CNC Stone Carving",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://carmelitegothic.com/cnc-stone-carving/"
+    },
+    {
+      "title": "Emacs Turns 50",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://www.technologyreview.com/2026/10/20/1145399/emacs-turns-50/"
+    },
+    {
+      "title": "Evidence of a spying operation by ICE against left-wing social movements",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://www.wired.com/story/ice-is-running-one-of-the-largest-anti-left-surveillance-operations-in-us-history/"
+    },
+    {
+      "title": "Four Months of Zig",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://gracefulliberty.com/articles/four-months-of-zig/"
+    },
+    {
+      "title": "Git for the US Code",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://lexifina.com/blog/git-for-the-us-code"
+    },
+    {
+      "title": "Kentucky man becomes the first humanist granted religious exemption from AI",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://religionnews.com/2026/10/26/in-a-first-a-humanist-granted-a-religious-exemption-from-using-ai/"
+    },
+    {
+      "title": "MacBook Pro with PROLED XDR Display and Touch",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://www.apple.com/macbook-pro/proled-xdr-display/"
+    },
+    {
+      "title": "Tailscale SSH: Investigation and remediation update",
+      "source": "HackerNews",
+      "loc": "HackerNews",
+      "score": 0,
+      "url": "https://tailscale.com/ssh-investigation-update"
+    }
+  ]
+}
