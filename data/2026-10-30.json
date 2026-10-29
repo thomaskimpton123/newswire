@@ -1,0 +1,903 @@
+{
+  "date": "2026-10-30",
+  "generated": "2026-10-29T19:33:11.552883+00:00",
+  "vibe": "Patch-heavy morning: Cisco and Linux demand attention while frontier models push deeper into both coding and cybersecurity.",
+  "stats": {
+    "scanned": 134,
+    "surfaced": 36,
+    "videos_watched": 10,
+    "sources": 19
+  },
+  "sections": {
+    "cyber": [
+      {
+        "title": "Hackers exploit Cisco SD-WAN flaw to deploy custom KeyDrift malware",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-cisco-sd-wan-flaw-to-deploy-custom-keydrift-malware/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Attackers are exploiting a Cisco SD-WAN weakness to install KeyDrift malware designed to steal encryption material. Treat this as an incident-hunting item, not merely a routine patch notice."
+      },
+      {
+        "title": "New Cisco firewall zero-day exploited to crash SSL VPN devices",
+        "source": "BleepingComputer",
+        "loc": "BleepingComputer",
+        "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-firewall-zero-day-exploited-to-crash-ssl-vpn-devices/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Cisco patched an actively exploited ASA/FTD SSL VPN denial-of-service zero-day. Internet-facing VPN gateways deserve an immediate advisory/configuration check and prompt update."
+      },
+      {
+        "title": "Attackers Exploit PHP2Shell Flaws in Internet-Exposed Palo Alto Networks Management Interfaces",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/attackers-exploit-php2shell-flaws-in.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "PHP2Shell chaining is being used against exposed Palo Alto management interfaces, with related Linux exploitation now on CISA's radar. Remove management planes from the public internet and patch the full dependency chain."
+      },
+      {
+        "title": "China-Linked Hackers Exploited VMware ESX Zero-Day to Reduce Audit Trail Visibility",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited-vmware.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A China-linked group reportedly used an ESX zero-day to suppress or reduce audit visibility. VMware estates should review vendor guidance and hunt for logging gaps or suspicious host-level activity."
+      },
+      {
+        "title": "GitLab Security Incident: Attempted Exploitation of CVE-2026-97229",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://alpinelinux.org/posts/GitLab-security-incident-CVE-2026-97229.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Alpine Linux says an attacker attempted to exploit a CVSS 10 GitLab flaw left exposed by its Ruby stack. The incident is a sharp reminder to verify dependency-level remediation, not just the headline product version."
+      },
+      {
+        "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A critical TCP flaw affects major Linux distributions. Cloud and server operators should check distribution advisories and prioritize patched kernels where the vulnerable networking path is exposed."
+      },
+      {
+        "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
+        "source": "Dark Reading",
+        "loc": "Dark Reading",
+        "url": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A third-party AI relay is reported to weaken or disable coding-agent sandbox protections. Avoid untrusted relays and verify that local execution isolation remains enforced end-to-end."
+      },
+      {
+        "title": "26,400 Valid Cloud and AI Credentials Found Exposed in Public Gitee Repositories",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/26400-valid-cloud-and-ai-credentials.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Researchers found more than 26,000 valid cloud and AI credentials in public repositories. Rotate exposed keys, strengthen secret scanning, and apply least-privilege limits to model and cloud tokens."
+      },
+      {
+        "title": "Attackers turn GitHub issues into supply chain campaign against 61 public repos in less than an hour",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/security/2026/10/29/attackers-turn-github-issues-into-supply-chain-campaign-against-61-public-repos-in-less-than-an-hour/5306153",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Attackers abused GitHub issues to launch a rapid supply-chain campaign across 61 repositories. Maintainers should treat issue content, workflows and automation-triggered input as hostile."
+      },
+      {
+        "title": "Claude Model Builds Exploits Across Major Browsers & OSes",
+        "source": "Dark Reading",
+        "loc": "Dark Reading",
+        "url": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Claude was reportedly able to construct exploit chains across major browsers and operating systems. It is a meaningful capability signal for both defensive automation and lower-cost offensive research."
+      },
+      {
+        "title": "EMBRACE: How We Hacked the Browsers Embedded in Top Five Desktop AI Assistants · Forever Secur",
+        "source": "Reddit r/netsec",
+        "loc": "Reddit r/netsec",
+        "url": "https://www.reddit.com/r/netsec/comments/1xilm92/embrace_how_we_hacked_the_browsers_embedded_in/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Researchers compromised browser components embedded in five desktop AI assistants. The work underlines that agent apps inherit a full browser attack surface plus privileged local integrations."
+      },
+      {
+        "title": "Firefox and Chrome patch 200+ security flaws combined – update both ASAP",
+        "source": "ZDNet",
+        "loc": "ZDNet",
+        "url": "https://www.zdnet.com/tech/firefox-chrome-browsers-patch-200-security-flaws-update-asap/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Chrome and Firefox shipped an unusually large combined security-fix batch. Browser fleets should be forced onto current builds rather than waiting for leisurely user-driven updates."
+      },
+      {
+        "title": "Massive leak exposes 41,000 DHS workers and undercover ICE agents",
+        "source": "Ars Technica",
+        "loc": "Ars Technica",
+        "url": "https://arstechnica.com/security/2026/10/massive-leak-exposes-41000-dhs-workers-and-undercover-ice-agents/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A major personnel leak exposed details tied to roughly 41,000 US Homeland Security workers, including undercover personnel. The scale makes identity abuse and targeted phishing likely follow-on risks."
+      },
+      {
+        "title": "TeamViewer RCE Vulnerability (CVE-2026-11585)",
+        "source": "Reddit r/netsec",
+        "loc": "Reddit r/netsec",
+        "url": "https://www.reddit.com/r/netsec/comments/1xikzuw/teamviewer_rce_vulnerability_cve202611585/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A newly discussed TeamViewer remote-code-execution flaw warrants checking the vendor advisory and installed versions. Confidence is lower because the collected lead is a community post, but the product's remote-access role raises the stakes."
+      },
+      {
+        "title": "Telegram Android Flaw Lets Attackers Run Code When Users Answer Voice Calls",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/telegram-android-flaw-lets-attackers.html",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A Telegram Android flaw reportedly enables code execution when a malicious voice call is answered. Android users should update Telegram before taking unsolicited calls."
+      },
+      {
+        "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Fake AI desktop apps are using signed executables to look trustworthy while installing cryptominers. Download model clients only from verified vendor channels."
+      }
+    ],
+    "ai": [
+      {
+        "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+        "source": "The Hacker News",
+        "loc": "The Hacker News",
+        "url": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+        "score": 9,
+        "badge": "must",
+        "summary": "Google's Gemini 4 Carbon is posting leading coding and cyber results, including vulnerability discovery, exploitation and patching benchmarks. The important story is the convergence of frontier coding agents and automated security research."
+      },
+      {
+        "title": "We're releasing the weights of Mistral Large 4",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://mistral.ai/news/mistral-large-4-oss/",
+        "score": 9,
+        "badge": "must",
+        "summary": "Mistral released weights for its trillion-parameter Large 4 model, with coding and cybersecurity positioned as core strengths. This is a major open-weight release worth testing against closed coding agents."
+      },
+      {
+        "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+        "source": "Wired",
+        "loc": "Wired",
+        "url": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "A defense contractor reportedly connected a personal AI agent to a secure Pentagon environment. It is an object lesson in why agent identity, authorization and audit controls must precede broad deployment."
+      },
+      {
+        "title": "Claude Code regularly sends each background agent’s transcript to its model",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://gist.github.com/flamerix-ai/c3905705cc4205e5de3011fa2e74efce",
+        "score": 7,
+        "badge": "worth",
+        "summary": "A widely discussed analysis says Claude Code background agents repeatedly send their transcripts back to the model. The practical concern is context cost, data exposure and how much supposedly isolated sub-agent activity is actually shared."
+      },
+      {
+        "title": "Infini-AI-Lab Releases Hermit, an Open-Source Harness Adapter Framework for AI Agents",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/29/infini-ai-lab-hermit-harness-adapter-framework/",
+        "score": 7,
+        "badge": "worth",
+        "summary": "Hermit is an open-source adapter layer intended to make agent harnesses portable across model providers and runtimes. Useful for teams trying to avoid locking orchestration logic to one coding-agent stack."
+      },
+      {
+        "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Deepgram is acquiring Daily, maker of the Pipecat voice-agent framework, consolidating speech infrastructure and real-time agent tooling under one roof."
+      },
+      {
+        "title": "NVIDIA Releases Nemotron 3.5 Transcribe: An Open 30B MoE Model for 40-Language Transcription with ~4B Active Parameters",
+        "source": "MarkTechPost",
+        "loc": "MarkTechPost",
+        "url": "https://www.marktechpost.com/2026/10/28/nvidia-nemotron-3-5-transcribe-open-speech-llm/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "NVIDIA's open Nemotron 3.5 Transcribe uses a 30B mixture-of-experts design with about 4B active parameters and support for 40 languages, an interesting option for self-hosted multilingual speech workloads."
+      },
+      {
+        "title": "Qwenputer: A functioning, deterministic RISC-V CPU inside Qwen3.5",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://divagr.com/blog/qwenputer",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A striking experiment demonstrates a deterministic RISC-V CPU represented inside Qwen3.5. It is more research curiosity than deployment pattern, but a strong signal of novel uses for model state and reasoning."
+      },
+      {
+        "title": "We urgently need to monitor AI agents’ actions in real time",
+        "source": "MIT Technology Review",
+        "loc": "MIT Technology Review",
+        "url": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "MIT Technology Review argues for real-time observation of agent actions rather than relying on after-the-fact logs. That maps directly to production needs: policy enforcement, tool tracing and rapid intervention."
+      },
+      {
+        "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+        "source": "The Verge AI",
+        "loc": "The Verge AI",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Gemini can now generate and edit Google Docs files directly from chat, moving the assistant closer to an action layer inside Workspace rather than a separate drafting tool."
+      }
+    ],
+    "it": [
+      {
+        "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+        "source": "TechCrunch",
+        "loc": "TechCrunch",
+        "url": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+        "score": 8,
+        "badge": "worth",
+        "summary": "Microsoft disclosed Azure revenue in absolute dollars—$33.2 billion—giving cloud engineers and market watchers a much clearer view of the platform's real scale."
+      },
+      {
+        "title": "Oracle wants to bill you for every AI task, not just every seat",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/applications/2026/10/29/oracle-wants-to-bill-you-for-every-ai-task-not-just-every-seat/5306403",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Oracle is moving AI pricing toward per-task consumption instead of per-seat licensing. Enterprises should model unit economics and guardrails before agent workloads quietly turn into an unbounded meter."
+      },
+      {
+        "title": "Pi Durable on Cloudflare – Earendil",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://earendil.com/posts/pi-durable-on-cloudflare/",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A practical write-up explores durable Pi-style agent execution on Cloudflare. It is worth a skim for patterns around long-running stateful agents on edge/serverless infrastructure."
+      },
+      {
+        "title": "StackOverflow now gets fewer than 1000 questions a month",
+        "source": "HackerNews",
+        "loc": "Hacker News",
+        "url": "https://data.stackexchange.com/stackoverflow/query/1926661#graph?t=1",
+        "score": 6,
+        "badge": "skim",
+        "summary": "A Hacker News discussion points to Stack Overflow falling below 1,000 questions a month—a stark marker of how developer support has shifted toward AI assistants and private communities."
+      },
+      {
+        "title": "Systemd adds support for Rust",
+        "source": "The Register",
+        "loc": "The Register",
+        "url": "https://www.theregister.com/os-platforms/2026/10/29/systemd-adds-support-for-rust/5306264",
+        "score": 6,
+        "badge": "skim",
+        "summary": "Systemd is adding Rust support, bringing memory-safe components into a foundational Linux project. Expect a gradual adoption path rather than an overnight rewrite."
+      }
+    ],
+    "videos": [
+      {
+        "title": "KeyBank improves infra provisioning by 90% with Google Cloud; shrinks manual coding work with Gemini",
+        "channel": "Google Cloud Tech",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=jiKWyig4q2s",
+        "score": 8,
+        "badge": "worth",
+        "verdict": "WORTH — a concise, concrete regulated-cloud case study",
+        "summary": "KeyBank says GKE, Compute Engine and Google Cloud VMware Engine cut compliant environment provisioning from weeks to minutes, while a Gemini-assisted legacy-code migration fell from 600+ hours to under 13. Vendor-produced, but unusually specific."
+      },
+      {
+        "title": "DOE’s National Laboratory of the Rockies accelerates materials discovery with Google AI",
+        "channel": "Google Cloud Tech",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=frBkhuCcWzc",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — credible human-in-the-loop agent case study",
+        "summary": "A DOE lab describes grounding Gemini Enterprise in manuals and prior results, requiring researcher approval before instrument actions, and cutting calibration from over 90 minutes to about 13 while preserving image quality."
+      },
+      {
+        "title": "What Is Quantization? How AI Models Get Smaller & Faster",
+        "channel": "IBM Technology",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=mmns33BsBcY",
+        "score": 7,
+        "badge": "worth",
+        "verdict": "WATCH — clear fundamentals with useful production context",
+        "summary": "IBM explains weight precision, memory math and why quantization makes large models practical on constrained GPUs and edge devices. Strong primer; experienced practitioners can skim the worked examples."
+      },
+      {
+        "title": "The New Industrialists | How Aras Connects PLM Across the Digital Thread",
+        "channel": "Microsoft Cloud",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=O7WGTr8gR_g",
+        "score": 6,
+        "badge": "skim",
+        "verdict": "SKIM — focus on the ‘wrap and extend’ architecture sections",
+        "summary": "Microsoft and Aras discuss connecting legacy product-lifecycle systems through a digital thread instead of rip-and-replace modernization. The useful idea is wrapping existing systems so AI applications can consume governed product context."
+      },
+      {
+        "title": "Code entirely in your browser window 💻",
+        "channel": "Google Cloud Tech",
+        "source": "YouTube",
+        "loc": "YouTube",
+        "url": "https://www.youtube.com/watch?v=wFipyWf0bD8",
+        "score": 5,
+        "badge": "skim",
+        "verdict": "SKIM — short Cloud Shell/Gemini demo",
+        "summary": "A quick beginner-friendly demonstration of using Google Cloud Shell's browser editor and Gemini to generate and preview a small web app without local setup."
+      }
+    ]
+  },
+  "also": [
+    {
+      "title": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 4,
+      "url": "https://www.theverge.com/gadgets/1021405/akai-open-source-mpc-sample-key"
+    },
+    {
+      "title": "Axis Camera Station Deep-Dive: Unauth RCE to Decrypting Every Camera Credential (CVE-2025-30026/30023 + CVE-2026-63286)",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 4,
+      "url": "https://www.reddit.com/r/netsec/comments/1xiekai/axis_camera_station_deepdive_unauth_rce_to/"
+    },
+    {
+      "title": "Go Minimal—the Ridge Wallet is 20 Percent Off Right Now",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 4,
+      "url": "https://www.wired.com/story/ridge-wallet-deal-october-2026/"
+    },
+    {
+      "title": "Polymarket suspends trading after third-party breach leads to user losses",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://www.coindesk.com/markets/2026/10/29/polymarket-suspends-trading-after-third-party-breach-leads-to-user-losses"
+    },
+    {
+      "title": "TightVNC Viewer Pre-auth RCE",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 4,
+      "url": "https://www.reddit.com/r/netsec/comments/1xil17j/tightvnc_viewer_preauth_rce/"
+    },
+    {
+      "title": "Turning the Valve - Exploiting RCE and LPE in the Steam Platform",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 4,
+      "url": "https://www.reddit.com/r/netsec/comments/1xi11fq/turning_the_valve_exploiting_rce_and_lpe_in_the/"
+    },
+    {
+      "title": "Two unpatched zero-day vulnerabilities in NTE allow for full account takeover",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 4,
+      "url": "https://hunio.org/security/nte-account-takeover/"
+    },
+    {
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 3,
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/"
+    },
+    {
+      "title": "Stopping Remote Code Execution with Sandboxes, CVE-2026-115995: Rust Zip",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 3,
+      "url": "https://www.reddit.com/r/netsec/comments/1xiohqc/stopping_remote_code_execution_with_sandboxes/"
+    },
+    {
+      "title": "The Rise of the Threat Operator: How AI Will Redefine Security Operations and Careers",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 3,
+      "url": "https://thehackernews.com/2026/10/the-rise-of-threat-operator-how-ai-will.html"
+    },
+    {
+      "title": "3 Ways AI Agents Already Operate in Your Browser",
+      "source": "BleepingComputer",
+      "loc": "BleepingComputer",
+      "score": 2,
+      "url": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/"
+    },
+    {
+      "title": "Anthropic engineer declares the coding interview dead",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/28/anthropic-engineer-declares-the-coding-interview-dead/5306115"
+    },
+    {
+      "title": "Anthropic is asking Wall Street to believe in AGI",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview"
+    },
+    {
+      "title": "Anthropic’s business plan: Build God or die trying",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 2,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive"
+    },
+    {
+      "title": "Apple’s touchscreen MacBook Pro pushes laptop pricing to a new extreme",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/28/apples-touchscreen-macbook-pro-pushes-laptop-pricing-to-a-new-extreme/"
+    },
+    {
+      "title": "AssemblyAI Ships AssemblyAI-TTS-1: A $15 per 1M Character Text-to-Speech API for Voice Agents",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 2,
+      "url": "https://www.marktechpost.com/2026/10/29/assemblyai-tts-1-text-to-speech-api-voice-agents/"
+    },
+    {
+      "title": "Built to bend: Postgres’s inventor and a steward on what AI really needs",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/databases/2026/10/29/partner-content-built-to-bend-postgress-inventor-and-a-steward-on-what-ai-really-needs/5305957"
+    },
+    {
+      "title": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
+      "source": "SANS Internet Storm Center",
+      "loc": "SANS Internet Storm Center",
+      "score": 2,
+      "url": "https://isc.sans.edu/diary/rss/33470"
+    },
+    {
+      "title": "Ex-Palantir execs launch Dream with $17M from a16z to build AI world models for construction",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/29/ex-palantir-execs-launch-dream-with-17m-from-a16z-to-build-ai-world-models-for-construction/"
+    },
+    {
+      "title": "Launch HN: Simantic (YC F26) – Firmware Simulation for AI Agents",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://news.ycombinator.com/item?id=50291116"
+    },
+    {
+      "title": "LibreOffice's 'no AI' stance meets LLM-assisted code",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 2,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/29/libreoffices-no-ai-stance-meets-llm-assisted-code/5306084"
+    },
+    {
+      "title": "LLM Voice",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html"
+    },
+    {
+      "title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/"
+    },
+    {
+      "title": "Show HN: phpClaw – AI agent runtime for PHP with tools, memory and guards",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 2,
+      "url": "https://github.com/phpclaw-php/phpclaw-monorepo"
+    },
+    {
+      "title": "Smashing Security podcast #490: How Jared Kushner’s iPhone was allegedly hacked twice",
+      "source": "Graham Cluley",
+      "loc": "Graham Cluley",
+      "score": 2,
+      "url": "https://grahamcluley.com/smashing-security-podcast-490/"
+    },
+    {
+      "title": "Stop sharing your passwords with AI agents, Bank of America warns customers",
+      "source": "ZDNet",
+      "loc": "ZDNet",
+      "score": 2,
+      "url": "https://www.zdnet.com/innovation/bank-of-america-customers-no-sharing-passwords-ai-agents/"
+    },
+    {
+      "title": "The Download: AI agent tracking and climate feedback loops",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 2,
+      "url": "https://www.technologyreview.com/2026/10/29/1147830/the-download-monitoring-ai-agents-climate-feedback-loops/"
+    },
+    {
+      "title": "Threat Modeling With 4 Simple Questions on a White Board",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 2,
+      "url": "https://www.darkreading.com/cyber-risk/threat-modeling-4-simple-questions"
+    },
+    {
+      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 2,
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/"
+    },
+    {
+      "title": "Webinar: How to Build AI Threat Readiness Into Your Security Operations",
+      "source": "The Hacker News",
+      "loc": "The Hacker News",
+      "score": 2,
+      "url": "https://thehackernews.com/2026/08/learn-how-to-build-security-operations.html"
+    },
+    {
+      "title": "XML Signature Wrapping authentication bypass in Moldova's MPass SAML NuGet library, fixed in 10.0.4 (CVE requested, CAN-2026-2041077)",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 2,
+      "url": "https://www.reddit.com/r/netsec/comments/1xi65vs/xml_signature_wrapping_authentication_bypass_in/"
+    },
+    {
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 1,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity"
+    },
+    {
+      "title": "Agent identity startup Mintive lands Cowboy Ventures, Coatue, angels Jeff Dean, Andrej Karpathy",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/10/29/agent-identity-startup-mintive-lands-cowboy-ventures-coatue-angels-jeff-dean-andrej-karpathy/"
+    },
+    {
+      "title": "AI Contributions to GHC",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://serokell.io/blog/ai-contributions-to-ghc"
+    },
+    {
+      "title": "AI Didn't Cut My Edits. It Raised My Quality",
+      "source": "YouTube/DevOps Toolkit",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=P2FASNOxH6A"
+    },
+    {
+      "title": "AI has come for Arizona’s water",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 1,
+      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc"
+    },
+    {
+      "title": "An AI Breakthrough Has Made Decades of Computer Science Research ‘Irrelevant’",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 1,
+      "url": "https://www.wired.com/story/ai-made-decades-of-computer-science-research-irrelevant/"
+    },
+    {
+      "title": "AWS is how fans get closer to the world's game | Amazon Web Services",
+      "source": "YouTube/Amazon Web Services",
+      "loc": "YouTube",
+      "score": 1,
+      "url": "https://www.youtube.com/watch?v=UiibmlbYpAQ"
+    },
+    {
+      "title": "Belgium's tax agency confirms cyberattack, pulls services offline",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 1,
+      "url": "https://www.theregister.com/security/2026/10/29/belgiums-tax-agency-confirms-cyberattack-pulls-services-offline/5306409"
+    },
+    {
+      "title": "Block Unveils Dessa, a Full-Duplex Speech Model Trained Only on Speech",
+      "source": "MarkTechPost",
+      "loc": "MarkTechPost",
+      "score": 1,
+      "url": "https://www.marktechpost.com/2026/10/29/block-dessa-full-duplex-speech-model/"
+    },
+    {
+      "title": "Building a multiplayer game world with autonomous Fable-class models",
+      "source": "Simon Willison",
+      "loc": "Simon Willison",
+      "score": 1,
+      "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/"
+    },
+    {
+      "title": "BYOD cyberattack diverts ambulances and cancels classes at University of New Mexico health center",
+      "source": "Graham Cluley",
+      "loc": "Graham Cluley",
+      "score": 1,
+      "url": "https://www.fortra.com/blog/byod-cyberattack-diverts-ambulances-and-cancels-classes-university-new-mexico-health-center"
+    },
+    {
+      "title": "Creating AI value with enterprise context",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 1,
+      "url": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/"
+    },
+    {
+      "title": "GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub",
+      "source": "Dark Reading",
+      "loc": "Dark Reading",
+      "score": 1,
+      "url": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github"
+    },
+    {
+      "title": "Google admits AI search makes less money, but it's fixing that with more ads",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 1,
+      "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/"
+    },
+    {
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/"
+    },
+    {
+      "title": "Google struggling to make AI Mode searches pay",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 1,
+      "url": "https://www.theregister.com/ai-and-ml/2026/10/29/google-struggling-to-make-ai-mode-searches-pay/5306181"
+    },
+    {
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "source": "Hugging Face Blog",
+      "loc": "Hugging Face Blog",
+      "score": 1,
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+    },
+    {
+      "title": "Have an older iPhone or iPad? Apple has a security update for you",
+      "source": "Malwarebytes Labs",
+      "loc": "Malwarebytes Labs",
+      "score": 1,
+      "url": "https://www.malwarebytes.com/blog/bugs/2026/10/have-an-older-iphone-or-ipad-apple-has-a-security-update-for-you"
+    },
+    {
+      "title": "I Gave My Blood to the AI Death Clock",
+      "source": "Wired",
+      "loc": "Wired",
+      "score": 1,
+      "url": "https://www.wired.com/story/i-gave-an-ai-death-clock-my-blood/"
+    },
+    {
+      "title": "I Used AI to Fake a Scientific Paper. Here's What Happened",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://spectrum.ieee.org/ai-generated-scientific-papers"
+    },
+    {
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "source": "Hugging Face Blog",
+      "loc": "Hugging Face Blog",
+      "score": 1,
+      "url": "https://huggingface.co/blog/anydecisionmodel"
+    },
+    {
+      "title": "Kalshi and its co-founders face felony charges for violating Utah gambling laws",
+      "source": "Ars Technica",
+      "loc": "Ars Technica",
+      "score": 1,
+      "url": "https://arstechnica.com/tech-policy/2026/10/trump-admin-sues-utah-to-save-kalshi-from-the-states-total-ban-on-gambling/"
+    },
+    {
+      "title": "Linux Kernel TIPC DoS: named_distribute() NULL Dereference, Race Analysis, and Remote Triggering",
+      "source": "Reddit r/netsec",
+      "loc": "Reddit r/netsec",
+      "score": 1,
+      "url": "https://www.reddit.com/r/netsec/comments/1xienwv/linux_kernel_tipc_dos_named_distribute_null/"
+    },
+    {
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/"
+    },
+    {
+      "title": "Microsoft’s AI future has fewer jobs",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 1,
+      "url": "https://www.theverge.com/tech/1022023/microsoft-exit-offer-layoffs-notepad"
+    },
+    {
+      "title": "MIT professor says AI is taking over your brain",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://www.bostonglobe.com/2026/10/23/opinion/ai-impact-cognitive-ability-eric-so/"
+    },
+    {
+      "title": "Oracle celebrates end of Cybersecurity Awareness Month with quadruple trouble",
+      "source": "The Register",
+      "loc": "The Register",
+      "score": 1,
+      "url": "https://www.theregister.com/security/2026/10/28/oracle-celebrates-end-of-cybersecurity-awareness-month-with-quadruple-trouble/5306121"
+    },
+    {
+      "title": "Our climate models have a big, dangerous blind spot",
+      "source": "MIT Technology Review",
+      "loc": "MIT Technology Review",
+      "score": 1,
+      "url": "https://www.technologyreview.com/2026/10/29/1147735/climate-models-blind-spot/"
+    },
+    {
+      "title": "SuperMe raises $20M for its network of AI expert profiles",
+      "source": "TechCrunch",
+      "loc": "TechCrunch",
+      "score": 1,
+      "url": "https://techcrunch.com/2026/10/29/superme-raises-20m-for-its-network-of-ai-expert-profiles/"
+    },
+    {
+      "title": "The NYT Cooking app is testing AI recipe modifications",
+      "source": "The Verge AI",
+      "loc": "The Verge AI",
+      "score": 1,
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool"
+    },
+    {
+      "title": "Why are good developers so wary of agentic development?",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html"
+    },
+    {
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 1,
+      "url": "https://trakkr.ai/trakkr-research/zombie-stats"
+    },
+    {
+      "title": "A Health Update",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://furbo.org/2026/10/28/a-health-update/"
+    },
+    {
+      "title": "Build a Halloween app in minutes! 🎃",
+      "source": "YouTube/Google Cloud Tech",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=PyhqGHuduHA"
+    },
+    {
+      "title": "DoorDash to acquire Instacart",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://about.doordash.com/en-us/news/doordash-to-acquire-instacart"
+    },
+    {
+      "title": "Forging a Microsoft Edge Full Chain with Logic Bugs Only",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://blog.orange.tw/posts/2026-10-the-last-proof-of-human-craft-browser-full-chain/"
+    },
+    {
+      "title": "Formlabs Studio 1 $699 Resin Printer",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://formlabs.com/products/form-studio-1-basic-founders-edition/"
+    },
+    {
+      "title": "Google Search is now less than half of Alphabet’s revenue",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://www.kadoa.com/companies/insights/google-search-below-half"
+    },
+    {
+      "title": "H.264 Is Magic (2016)",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://sidbala.com/h-264-is-magic/"
+    },
+    {
+      "title": "Hack a Water Tower! & Two Big Announcements",
+      "source": "YouTube/John Hammond",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=o8LWS7XiW84"
+    },
+    {
+      "title": "How Google determines the names for bodies of water in Google Earth (2008)",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://publicpolicy.googleblog.com/2008/04/how-google-determines-names-for-bodies.html"
+    },
+    {
+      "title": "I went to Mexico to test-drive the cars Americans can’t buy",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://www.washingtonpost.com/climate-environment/2026/10/27/i-saw-future-driving-mexico-its-off-limits-americans/"
+    },
+    {
+      "title": "If IPv4 were land",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://iptrust.co/blog/if-ipv4-were-land"
+    },
+    {
+      "title": "The US added a record 20.2 GWh of battery storage in just 3 months",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://electrek.co/2026/08/31/the-us-added-a-record-20-2-gwh-of-battery-storage-in-just-3-months/"
+    },
+    {
+      "title": "What Is Shady AI?",
+      "source": "YouTube/David Bombal",
+      "loc": "YouTube",
+      "score": 0,
+      "url": "https://www.youtube.com/watch?v=P6id_a9lAeI"
+    },
+    {
+      "title": "Zero click, silent, remote Android DoS",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://smsofdeath.com/"
+    },
+    {
+      "title": "‘You Are Done’: The letter sent to King by the F.B.I (2014)",
+      "source": "HackerNews",
+      "loc": "Hacker News",
+      "score": 0,
+      "url": "https://www.nytimes.com/2014/11/16/magazine/what-an-uncensored-letter-to-mlk-reveals.html"
+    }
+  ]
+}
